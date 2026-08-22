@@ -9,6 +9,28 @@ Our goal is to mutually develop a practical framework and execution model that s
 
 The Manchester AI Guild brings together founders, practitioners, researchers, and ecosystem partners to unlock AI value safely and at speed. We focus on practical delivery and clear governance so teams can move from discussion to implementation with confidence.
 
+### Mission statement draft
+
+The Manchester AI Guild exists to help Greater Manchester and the wider North West turn AI from a buzzword into practical value for people and organisations that need it most. We support SMEs, founders, public-sector teams, and regional partners that want to adopt AI but lack the expertise, confidence, or resources to do so safely and effectively.
+
+We create a trusted space for practical collaboration: identifying valuable use cases, understanding the risk and governance implications, connecting people to the right expertise, and helping organisations move from experimentation to measurable outcomes.
+
+Our role is not to replace existing capabilities, but to connect them. We aim to help members and partners identify where AI can create real operational value, where it should not be used, and how to implement it responsibly.
+
+### What we offer
+
+- Practical support to identify valuable AI use cases
+- Guidance on risk, governance, and implementation trade-offs
+- Access to trusted expertise and delivery partners
+- A route to shared learning, better decisions, and practical pilot delivery
+- A sustainable operating model that connects social value with real delivery capacity
+
+### Charter direction
+
+The Guild is designed to create value for SMEs and organisations across Greater Manchester and the North West that want to adopt AI but do not yet have a clear path. We will offer practical support to help them understand the opportunity, assess real-world constraints, and implement solutions with confidence.
+
+We also recognise that members and contributors need a sustainable operating model. Where appropriate, the Guild may act as a channel for public funding, grant support, or collaborative commissioning so that trusted members can deliver services to SMEs while the Guild remains rooted in its social mission.
+
 ## Strategic context
 
 Recent AI advances have created broad opportunity across products, operations, and productivity. They have also introduced new categories of risk, including hallucinations, prompt injection, compliance uncertainty, and uneven controls.  
