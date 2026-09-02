@@ -60,7 +60,7 @@ Many organisations already have technology governance processes, but AI introduc
 
 ## Participants and ecosystem
 
-See [participants-and-ecosystem.md](./participants-and-ecosystem.md) for the full list of attendees, contributors, and meetup/ecosystem entities.
+See [participants-and-ecosystem.md](./docs/participants-and-ecosystem.md) for the full list of attendees, contributors, and meetup/ecosystem entities.
 
 ## Getting involved
 
