@@ -6,7 +6,7 @@ Source: `src/data/meetingData.ts` (`ATTENDEES`, `ECOSYSTEM_RESOURCES`)
 
 | Name | Role | Organisation | Status |
 |---|---|---|---|
-| Edwin Luther | AI Consultancy MD & Practically AI Co-Host | AI Consultancy | confirmed |
+| Edwin Luther | AI Consultancy MD & Practically AI Co-Host | edwinluther.io | confirmed |
 | Adrian Quayle | Partner (UK, Ireland, N. Europe) & UK General Manager | Quantaleap / pliXos | organiser |
 | Rick (Richard) | Enterprise Software Architect & Meetup Founder | BrightHR / .NET North | confirmed |
 | Tom Parkes | AI & Tech Recruitment Specialist / Managing Partner | SF Technology / SF Group | confirmed |
@@ -24,10 +24,6 @@ Source: `src/data/meetingData.ts` (`ATTENDEES`, `ECOSYSTEM_RESOURCES`)
 | Kirsten Osborn | TBC | TBC | confirmed - active member |
 | Nick Evans | TBC | TBC | confirmed - active member |
 | Phininder Balaghan | TBC | TBC | confirmed - active member |
-| Carl | Director | Xpro Ltd | declined |
-| Claire Connor | Enterprise AI & Cloud Specialist | ANS Group | declined |
-| John O'Neill | Managing Director | Traverse Automation | declined |
-| Sarah | Founder & Operations Specialist | Virtual Assist Manchester | declined |
 
 ## Meetup and ecosystem entities
 
