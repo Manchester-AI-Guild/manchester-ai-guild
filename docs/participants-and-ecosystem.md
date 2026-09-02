@@ -19,6 +19,11 @@ Source: `src/data/meetingData.ts` (`ATTENDEES`, `ECOSYSTEM_RESOURCES`)
 | Phil Davies | Technology Consultant & Enterprise Architect | Regional Advisory / Public Sector IT | confirmed |
 | David O'Donnell | Founder & AI Systems Architect | mocxy.ai | confirmed |
 | Marek Kurczynski | Senior Consultant / Applied AI Engineer | Independent / Applied AI | confirmed |
+| Trevor Roberts | TBC | TBC | confirmed - active member |
+| Simon Ellis | Head of AI Transformation & Enterprise Architecture | Pets at Home (previously Boots/WBA) | confirmed - active member |
+| Kirsten Osborn | TBC | TBC | confirmed - active member |
+| Nick Evans | TBC | TBC | confirmed - active member |
+| Phininder Balaghan | TBC | TBC | confirmed - active member |
 | Carl | Director | Xpro Ltd | declined |
 | Claire Connor | Enterprise AI & Cloud Specialist | ANS Group | declined |
 | John O'Neill | Managing Director | Traverse Automation | declined |
