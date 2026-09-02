@@ -31,6 +31,8 @@ The Guild is designed to create value for SMEs and organisations across Greater 
 
 We also recognise that members and contributors need a sustainable operating model. Where appropriate, the Guild may act as a channel for public funding, grant support, or collaborative commissioning so that trusted members can deliver services to SMEs while the Guild remains rooted in its social mission.
 
+**Charter status:** the Guild charter and purpose statement are actively being drafted by the working group, building on the mission direction above. Detailed governance and structural decisions are being worked through in private before a finalised, agreed version is published here.
+
 ## Strategic context
 
 Recent AI advances have created broad opportunity across products, operations, and productivity. They have also introduced new categories of risk, including hallucinations, prompt injection, compliance uncertainty, and uneven controls.  
