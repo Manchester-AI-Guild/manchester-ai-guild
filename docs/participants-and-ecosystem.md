@@ -13,8 +13,9 @@ Proposed at the 28 Aug meeting and reviewed again at the 4 Sept Council Meeting.
 | Edwin Luther | Governance & Ethics | Founding Council Member |
 | Simon Ellis | Engagement & Projects Lead | Founding Council Member |
 | Fernando Torres | Community Lead & Events | Founding Council Member |
-| â€” | Treasurer | Open / TBC |
-| â€” | Marketing & Communications | Open / TBC |
+| Trevor Roberts | AI Readiness Assessment Lead | Founding Council Member |
+| — | Treasurer | Open / TBC |
+| — | Marketing & Communications | Open / TBC |
 
 ## Individuals (Attendees)
 
@@ -33,7 +34,7 @@ Proposed at the 28 Aug meeting and reviewed again at the 4 Sept Council Meeting.
 | Phil Davies | Technology Consultant & Enterprise Architect | Regional Advisory / Public Sector IT | confirmed |
 | David O'Donnell | Founder & AI Systems Architect | mocxy.ai | confirmed |
 | Marek Kurczynski | Senior Consultant / Applied AI Engineer | Independent / Applied AI | confirmed |
-| Trevor Roberts | TBC | TBC | confirmed - active member |
+| Trevor Roberts | Programme & Portfolio Management / Delivery Assurance | Dull Industries | confirmed - active member |
 | Simon Ellis | Head of AI Transformation & Enterprise Architecture | Pets at Home (previously Boots/WBA) | confirmed - active member |
 
 ## Meetup and ecosystem entities
