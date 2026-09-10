@@ -69,6 +69,11 @@ See [participants-and-ecosystem.md](./docs/participants-and-ecosystem.md) for th
 3. Contribute practical artefacts (templates, controls, checklists, implementation examples).
 4. Participate in session cadence and action reviews.
 
+## Connect
+
+- Website: [www.manchesteraiguild.org](https://www.manchesteraiguild.org/)
+- LinkedIn: [Manchester AI Guild](https://www.linkedin.com/company/manchester-ai-guild)
+
 ## FAQ
 
 ### Are you building foundation models?
