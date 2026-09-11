@@ -32,6 +32,11 @@ Manchester AI Guild exists to help founders, operators, researchers, and institu
 - Open issues and milestones: <https://github.com/Manchester-AI-Guild/manchester-ai-guild/issues>
 - Repository README (full charter narrative): <https://github.com/Manchester-AI-Guild/manchester-ai-guild>
 
+## Connect
+
+- Website: <https://www.manchesteraiguild.org/>
+- LinkedIn: <https://www.linkedin.com/company/manchester-ai-guild>
+
 ## Frequently asked questions
 
 ### Are you building foundation models?

@@ -47,3 +47,7 @@ Proposed at the 28 Aug meeting and reviewed again at the 4 Sept Council Meeting.
 | Turing Innovation Catalyst (TIC) Greater Manchester | Innovation Hub | TIC Greater Manchester | https://www.ticgm.org/ |
 | GM Business Growth Hub & GMCA Innovation | Public Sector / Regional | GM Growth Hub Advisory Team | https://www.businessgrowthhub.com/ |
 | Manchester Digital | Innovation Hub | Manchester Digital Council | https://www.manchesterdigital.com/ |
+
+---
+
+Connect: [Website](https://www.manchesteraiguild.org/) · [LinkedIn](https://www.linkedin.com/company/manchester-ai-guild)
