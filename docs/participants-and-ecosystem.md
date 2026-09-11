@@ -14,8 +14,8 @@ Proposed at the 28 Aug meeting and reviewed again at the 4 Sept Council Meeting.
 | Simon Ellis | Engagement & Projects Lead |
 | Fernando Torres | Community Lead & Events |
 | Trevor Roberts | AI Readiness Assessment Lead |
-| — | Treasurer (Open / TBC) |
-| — | Marketing & Communications (Open / TBC) |
+| TBC | Treasurer (Open / TBC) |
+| TBC | Marketing & Communications (Open / TBC) |
 
 ## Founding Council Members
 
@@ -51,3 +51,4 @@ Proposed at the 28 Aug meeting and reviewed again at the 4 Sept Council Meeting.
 ---
 
 Connect: [Website](https://www.manchesteraiguild.org/) · [LinkedIn](https://www.linkedin.com/company/manchester-ai-guild)
+
