@@ -26,7 +26,7 @@ Manchester AI Guild exists to help founders, operators, researchers, and institu
 
 - Full attendee directory: [participants-and-ecosystem.md](./participants-and-ecosystem.md)
 - Operating model and funding approach: [operating-model.md](./operating-model.md)
-- Source includes all individuals and meetup/ecosystem entities captured from the founding session.
+- The directory lists consenting members and the meetup/ecosystem entities from the founding session (see the listing policy on that page).
 
 ## Project operations
 
