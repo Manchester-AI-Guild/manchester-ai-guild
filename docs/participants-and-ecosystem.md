@@ -1,6 +1,8 @@
 # Participants and Ecosystem Directory
 
-Source: `src/data/meetingData.ts` (`ATTENDEES`, `ECOSYSTEM_RESOURCES`)
+Source: the Guild's private operations records (invite list and Council minutes), maintained by the Guild Council. Last reconciled 16 September 2026.
+
+**Listing policy (decided 16 September 2026).** This directory lists people who have consented to be named publicly. It is complete for consenting members as of the date above. Of the 24 people invited to the founding meeting, 14 appear here and 10 do not; 3 people listed here joined after that meeting. Anyone not listed can be added on request by contacting the Guild Council; nobody is added without their consent. This closes the "complete directory" request in issue #3: the Guild does not publish names of people who have not agreed to be named.
 
 ## Guild Council
 
