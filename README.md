@@ -9,11 +9,26 @@ Our goal is to mutually develop a practical framework and execution model that s
 
 The Manchester AI Guild brings together founders, practitioners, researchers, and ecosystem partners to unlock AI value safely and at speed. We focus on practical delivery and clear governance so teams can move from discussion to implementation with confidence.
 
-### Mission statement draft
+### Purpose statement
 
-The Manchester AI Guild exists to help Greater Manchester and the wider North West turn AI from a buzzword into practical value for people and organisations that need it most. We support SMEs, founders, public-sector teams, and regional partners that want to adopt AI but lack the expertise, confidence, or resources to do so safely and effectively.
+Agreed by the Guild Council on 11 September 2026 and published on the Guild's LinkedIn page.
 
-We create a trusted space for practical collaboration: identifying valuable use cases, understanding the risk and governance implications, connecting people to the right expertise, and helping organisations move from experimentation to measurable outcomes.
+The Manchester AI Guild is a not-for-profit built to make AI work for good in Manchester and the UK.
+
+We grow people, strengthen solution providers and connect the Manchester ecosystem to drive lasting change through the responsible adoption of AI.
+
+We have two clear ambitions:
+
+1. Help SMEs and Enterprises adopt AI to drive growth, improve efficiency and solve real business problems.
+2. Bring business, academia, government and the AI community together to build the next generation of AI capability, solutions and talent needed to support that growth.
+
+Build capability. Create opportunity. Grow prosperity. Love people.
+
+Make Manchester a place where AI is not just talked about, it gets done.
+
+### Who we serve
+
+We support SMEs, founders, public-sector teams and regional partners that want to adopt AI but lack the expertise, confidence or resources to do so safely and effectively. We create a trusted space for practical collaboration: identifying valuable use cases, understanding the risk and governance implications, connecting people to the right expertise, and helping organisations move from experimentation to measurable outcomes.
 
 Our role is not to replace existing capabilities, but to connect them. We aim to help members and partners identify where AI can create real operational value, where it should not be used, and how to implement it responsibly.
 
@@ -31,7 +46,7 @@ The Guild is designed to create value for SMEs and organisations across Greater 
 
 We also recognise that members and contributors need a sustainable operating model. Where appropriate, the Guild may act as a channel for public funding, grant support, or collaborative commissioning so that trusted members can deliver services to SMEs while the Guild remains rooted in its social mission.
 
-**Charter status:** the Guild charter and purpose statement are actively being drafted by the working group, building on the mission direction above. Detailed governance and structural decisions are being worked through in private before a finalised, agreed version is published here.
+**Charter status:** the purpose statement above is agreed. The Guild charter is still being drafted by the working group, building on it. Detailed governance and structural decisions are being worked through in private before a finalised, agreed version is published here.
 
 ## Strategic context
 
