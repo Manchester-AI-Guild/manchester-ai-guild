@@ -1,1 +1,314 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><title>Manchester AI Guild</title><style>body{font-family:Arial,Helvetica,sans-serif;max-width:960px;margin:0 auto;padding:32px;line-height:1.6;color:#0f172a;background:#f8fafc}h1,h2{color:#0f172a}.badge{display:inline-block;padding:4px 10px;border-radius:999px;background:#dbeafe;color:#1d4ed8;font-weight:700;font-size:12px;margin-right:8px}.card{background:#fff;border:1px solid #cbd5e1;border-radius:12px;padding:20px;margin:16px 0}a{color:#1d4ed8}</style></head><body><span class="badge">Manchester AI Guild</span><span class="badge">Governance & Delivery</span><h1>Manchester AI Guild</h1><p>Our goal is to mutually develop a practical governance framework and execution model that supports the on-boarding, development, and running of AI-based solutions across Manchester-region organisations in a safe, trustworthy, and commercially valuable way.</p><div class="card"><h2>Why now</h2><p>Recent advances in AI are creating major opportunity across products, operations, and productivity. They are also introducing new risk categories including hallucinations, prompt injection, compliance uncertainty, and governance drift.</p></div><div class="card"><h2>Current proposed approach</h2><ul><li><strong>Focus on a subset of the problem:</strong> prioritize high-value vertical slices and deliver practical value early.</li><li><strong>Leverage existing frameworks:</strong> build on existing governance and technology risk controls.</li><li><strong>Threat modelling and controls:</strong> identify concrete mitigations for realistic architectures.</li><li><strong>Action-owner delivery:</strong> convert discussion outputs into accountable projects and milestones.</li></ul></div><div class="card"><h2>Participants and ecosystem</h2><p>See the full roster: <a href="./participants-and-ecosystem.md">participants-and-ecosystem.md</a></p><p>Repository: <a href="https://github.com/Manchester-AI-Guild/manchester-ai-guild">github.com/Manchester-AI-Guild/manchester-ai-guild</a></p></div><div class="card"><h2>Connect</h2><p>Website: <a href="https://www.manchesteraiguild.org/">www.manchesteraiguild.org</a></p><p>LinkedIn: <a href="https://www.linkedin.com/company/manchester-ai-guild">Manchester AI Guild</a></p></div></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+<!--
+  Manchester AI Guild public microsite. Static, single page, no build step.
+  Content refreshed 17 September 2026 from the Council's own strategy and workstream records.
+
+  Design brief (oviscale-design, build lane)
+  Subject: the Guild's public front door on GitHub Pages. Mode: Read.
+  Refine, not replace: same single-page structure; the placeholder Arial/blue look is replaced by the Guild identity.
+  Colour: navy #0E1E27 (ground, ink), gold #E8B923 (accent), cream #F4F2EA (light ground), lavender #E4D9F7 (academia tag only).
+  Type: Zilla Slab 600/700 for headings (Google Fonts), Satoshi 400/500/700 for body (Fontshare). No font files in this repo.
+  Layout: navy hero -> cream reading column (72ch) -> wider grid for Council and workstreams -> events table -> footer.
+  Signature: the Manchester story set large in slab serif on navy with a single gold rule.
+  Reference board: Guild deck "Building the AI Ecosystem in Manchester" (navy/gold slides); the assets repo README (mark, lockup, type notes);
+  civic institution sites that pair a slab serif with a plain sans (Science and Industry Museum, University of Manchester) for tone, not copied.
+-->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Manchester AI Guild</title>
+<meta name="description" content="The Manchester AI Guild helps businesses adopt AI safely and grows the city's AI ecosystem across business and academia. Council, workstreams, programmes and upcoming public events.">
+<meta property="og:title" content="Manchester AI Guild">
+<meta property="og:description" content="Helping Manchester businesses adopt AI safely, and growing the ecosystem so Manchester is an AI-first city.">
+<meta property="og:image" content="https://avatars.githubusercontent.com/u/319570462?v=4">
+<meta property="og:type" content="website">
+<link rel="icon" href="https://avatars.githubusercontent.com/u/319570462?v=4">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@600;700&display=swap">
+<link rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&display=swap">
+<style>
+  :root{
+    --navy:#0E1E27; --gold:#E8B923; --cream:#F4F2EA; --lavender:#E4D9F7; --lavender-ink:#4A3B6B;
+    --bg:var(--cream); --surface:#FBFAF6; --border:#D9D4C4; --ink:var(--navy); --ink-2:#4B5560;
+    --accent:var(--gold); --accent-ink:#7A5C00; --link:#0F4C81; --hero-bg:var(--navy); --hero-ink:#FFFFFF; --hero-muted:#C9D1D8;
+    --font-heading:"Zilla Slab","Noto Serif",Georgia,serif; --font-body:"Satoshi","Avenir Next",system-ui,sans-serif;
+    --s1:4px;--s2:8px;--s3:12px;--s4:16px;--s6:24px;--s8:32px;--s12:48px;--s16:64px;--s24:96px;
+    --measure:72ch; --wide:1120px;
+    color-scheme:light dark;
+  }
+  @media (prefers-color-scheme:dark){
+    :root:not([data-theme="light"]){
+      --bg:#0B171E; --surface:#12232C; --border:#2A3A44; --ink:#F4F2EA; --ink-2:#B9C2C9;
+      --accent-ink:#E8B923; --link:#8FC7FF; --hero-bg:#0E1E27; --lavender:#3A2F55; --lavender-ink:#E4D9F7;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#0B171E; --surface:#12232C; --border:#2A3A44; --ink:#F4F2EA; --ink-2:#B9C2C9;
+    --accent-ink:#E8B923; --link:#8FC7FF; --hero-bg:#0E1E27; --lavender:#3A2F55; --lavender-ink:#E4D9F7;
+  }
+  *,*::before,*::after{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font-body);font-size:1.0625rem;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+  ::selection{background:var(--gold);color:var(--navy)}
+  a{color:var(--link);text-decoration-thickness:1px;text-underline-offset:0.18em}
+  a:hover{text-decoration-thickness:2px}
+  :focus-visible{outline:3px solid var(--gold);outline-offset:3px;border-radius:2px}
+  h1,h2,h3{font-family:var(--font-heading);font-weight:700;line-height:1.15;margin:0 0 var(--s4);letter-spacing:-0.01em}
+  h1{font-size:clamp(2.25rem,5vw,3.75rem);letter-spacing:-0.02em}
+  h2{font-size:clamp(1.75rem,3vw,2.375rem);margin-top:0}
+  h3{font-size:1.25rem;font-weight:600}
+  p{margin:0 0 var(--s4)}
+  .wrap{width:100%;max-width:var(--wide);margin:0 auto;padding:0 var(--s4)}
+  .measure{max-width:var(--measure)}
+  .skip{position:absolute;left:var(--s4);top:-60px;background:var(--gold);color:var(--navy);padding:var(--s2) var(--s4);font-weight:700;z-index:10}
+  .skip:focus{top:var(--s4)}
+
+  header.top{background:var(--hero-bg);color:var(--hero-ink)}
+  .nav{display:flex;align-items:center;gap:var(--s4);padding:var(--s4) 0;flex-wrap:wrap}
+  .nav .brand{display:flex;align-items:center;gap:var(--s3);color:var(--hero-ink);text-decoration:none;font-family:var(--font-heading);font-weight:700;font-size:1.25rem;margin-right:auto}
+  .nav .brand img{width:44px;height:44px;border-radius:50%;background:#fff}
+  .nav ul{list-style:none;margin:0;padding:0;display:flex;gap:var(--s2) var(--s4);flex-wrap:wrap}
+  .nav ul a{color:var(--hero-muted);text-decoration:none;padding:var(--s2) 0;display:inline-block;min-height:24px}
+  .nav ul a:hover{color:var(--hero-ink);text-decoration:underline}
+  .hero{padding:var(--s12) 0 var(--s16)}
+  .hero h1{color:var(--hero-ink);max-width:18ch}
+  .hero .lede{font-size:1.25rem;color:var(--hero-muted);max-width:60ch;margin-bottom:var(--s8)}
+  .hero .rule{width:96px;height:4px;background:var(--gold);margin:var(--s6) 0}
+  .objectives{display:grid;gap:var(--s6);grid-template-columns:repeat(auto-fit,minmax(280px,1fr));margin-top:var(--s8)}
+  .objectives div{border-top:1px solid rgba(255,255,255,.25);padding-top:var(--s4)}
+  .objectives h2{color:var(--gold);font-size:1.125rem;font-weight:600;margin-bottom:var(--s2);letter-spacing:0}
+  .objectives p{color:var(--hero-ink);margin:0}
+
+  main section{padding:var(--s16) 0}
+  main section + section{border-top:1px solid var(--border)}
+  .story{background:var(--hero-bg);color:var(--hero-ink);padding:var(--s24) 0}
+  .story h2{color:var(--gold)}
+  .story p{font-family:var(--font-heading);font-weight:600;font-size:clamp(1.25rem,2.2vw,1.625rem);line-height:1.4;letter-spacing:0.005em;max-width:38ch;color:var(--hero-ink)}
+  .story p.plain{font-family:var(--font-body);font-weight:400;font-size:1.0625rem;line-height:1.6;color:var(--hero-muted);max-width:66ch;margin-top:var(--s8)}
+
+  .council{display:grid;gap:var(--s4) var(--s6);grid-template-columns:repeat(auto-fill,minmax(240px,1fr));margin-top:var(--s8);list-style:none;padding:0}
+  .council li{display:flex;gap:var(--s3);align-items:flex-start;padding:var(--s3) 0;border-top:1px solid var(--border)}
+  .council .init{flex:none;width:44px;height:44px;border-radius:50%;background:var(--navy);color:var(--gold);font-family:var(--font-heading);font-weight:700;display:grid;place-items:center;font-size:.95rem}
+  .council .name{font-weight:700;display:block}
+  .council .role{color:var(--ink-2);font-size:.95rem;display:block}
+  .council a{font-size:.95rem}
+
+  .groups{display:grid;gap:var(--s8);margin-top:var(--s8)}
+  .group h3{font-size:1.5rem;font-weight:700;margin-bottom:var(--s1)}
+  .group > p{color:var(--ink-2);margin-bottom:var(--s4);max-width:var(--measure)}
+  .ws{list-style:none;margin:0;padding:0;display:grid;gap:var(--s3);grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}
+  .ws li{background:var(--surface);border:1px solid var(--border);padding:var(--s4);border-radius:6px}
+  .ws b{display:block;font-family:var(--font-heading);font-size:1.125rem;font-weight:600;margin-bottom:var(--s1)}
+  .ws p{margin:0 0 var(--s2)}
+  .ws small{color:var(--ink-2);font-size:.875rem}
+  .tag{display:inline-block;background:var(--lavender);color:var(--lavender-ink);font-size:.8rem;font-weight:500;padding:2px 8px;border-radius:999px;margin-left:var(--s1);font-family:var(--font-body)}
+
+  .prog{display:grid;gap:var(--s8);grid-template-columns:repeat(auto-fit,minmax(250px,1fr));margin-top:var(--s8)}
+  .prog h3{font-size:1.375rem}
+  .foundations{list-style:none;padding:0;margin:var(--s4) 0 0;display:grid;gap:var(--s2)}
+  .foundations li{display:grid;grid-template-columns:2.25rem 1fr;gap:var(--s3);align-items:baseline}
+  .foundations li span{font-family:var(--font-heading);font-weight:700;color:var(--accent-ink)}
+
+  .events{width:100%;border-collapse:collapse;margin-top:var(--s8);font-size:.95rem;font-variant-numeric:tabular-nums}
+  .events th,.events td{text-align:left;padding:var(--s3) var(--s2);border-bottom:1px solid var(--border);vertical-align:top}
+  .events th{font-family:var(--font-heading);font-weight:600;font-size:1rem;border-bottom:2px solid var(--ink)}
+  .events td:first-child{white-space:nowrap;color:var(--ink-2)}
+  @media (max-width:640px){
+    .events thead{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+    .events tr{display:block;padding:var(--s3) 0;border-bottom:1px solid var(--border)}
+    .events td{display:block;border:0;padding:2px 0}
+    .events td:first-child{font-weight:700;color:var(--ink)}
+  }
+  .cta{display:flex;gap:var(--s4);flex-wrap:wrap;margin-top:var(--s6)}
+  .btn{display:inline-block;padding:var(--s3) var(--s6);border-radius:6px;font-weight:700;text-decoration:none;min-height:44px;line-height:1.35}
+  .btn.primary{background:var(--gold);color:var(--navy)}
+  .btn.primary:hover{background:#F2C230}
+  .btn.secondary{border:2px solid var(--ink);color:var(--ink)}
+  .docs{margin-top:var(--s6)}
+  footer{border-top:1px solid var(--border);padding:var(--s8) 0;color:var(--ink-2);font-size:.95rem}
+  footer p{margin:0 0 var(--s2)}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="top">
+  <div class="wrap">
+    <nav class="nav" aria-label="Site">
+      <a class="brand" href="#top"><img src="https://avatars.githubusercontent.com/u/319570462?v=4" alt="" width="44" height="44">Manchester AI Guild</a>
+      <ul>
+        <li><a href="#story">The Manchester story</a></li>
+        <li><a href="#council">Council</a></li>
+        <li><a href="#workstreams">Workstreams</a></li>
+        <li><a href="#programmes">Programmes</a></li>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#involved">Get involved</a></li>
+      </ul>
+    </nav>
+    <div class="hero" id="top">
+      <h1>Making AI work for good in Manchester</h1>
+      <div class="rule" aria-hidden="true"></div>
+      <p class="lede">The Manchester AI Guild is a not-for-profit, forming as a Community Interest Company. We help businesses adopt AI safely and usefully, and we connect the people, companies, universities and public bodies that make Manchester an AI city.</p>
+      <div class="objectives">
+        <div>
+          <h2>Objective one</h2>
+          <p>Help businesses adopt AI safely: start with strategy and governance, then data, technology and people, so the result lasts.</p>
+        </div>
+        <div>
+          <h2>Objective two</h2>
+          <p>Grow the ecosystem, academia and business together, so that Manchester is recognised globally as an AI-first city.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <section class="story" id="story" aria-labelledby="story-h">
+    <div class="wrap">
+      <h2 id="story-h">The Manchester story</h2>
+      <p>Manchester was the world's first industrial city. The atom was split here, the first stored program ran here in 1948, and graphene was isolated here. The University counts 26 Nobel laureates among its people.</p>
+      <p class="plain">That record is not yet turning into the growth it should. Of the fifty companies in Tech Nation's Future Fifty 2026, one is headquartered in Manchester. Start-ups grow here without the city noticing; small businesses do not know the university's door is open to them; AI projects start with tools rather than readiness, and governance fails before the technology does. Each of these is a gap in connection, not in talent or capital, and connecting people is what a guild is for. The Guild's job is to be the layer between the universities, the funders and the businesses that make up most of the city's economy.</p>
+    </div>
+  </section>
+
+  <section id="council" aria-labelledby="council-h">
+    <div class="wrap">
+      <h2 id="council-h">Council</h2>
+      <p class="measure">The Guild is run by a volunteer Council. Members are listed with their public profiles where they have chosen to share one.</p>
+      <ul class="council">
+        <li><span class="init" aria-hidden="true">AQ</span><div><span class="name">Adrian Quayle</span><span class="role">President</span></div></li>
+        <li><span class="init" aria-hidden="true">MH</span><div><span class="name">Mihran Hovnanian</span><span class="role">Acting Chairman &amp; Secretary</span></div></li>
+        <li><span class="init" aria-hidden="true">EL</span><div><span class="name">Edwin Luther</span><span class="role">Council &mdash; Governance &amp; Ethics</span></div></li>
+        <li><span class="init" aria-hidden="true">MK</span><div><span class="name">Marek Kurczynski</span><span class="role">Council &mdash; Website</span></div></li>
+        <li><span class="init" aria-hidden="true">FT</span><div><span class="name">Fernando Torres</span><span class="role">Council &mdash; Community &amp; Events</span></div></li>
+        <li><span class="init" aria-hidden="true">TR</span><div><span class="name">Trevor Roberts</span><span class="role">Council &mdash; AI Readiness</span></div></li>
+        <li><span class="init" aria-hidden="true">TP</span><div><span class="name">Tom Parsons</span><span class="role">Council member &middot; The Big Echo</span><a href="https://www.linkedin.com/in/tmprsn/">LinkedIn profile</a></div></li>
+        <li><span class="init" aria-hidden="true">RC</span><div><span class="name">Rufus Curnow</span><span class="role">Council member &middot; The Red Giant</span><a href="https://theredgiant.co.uk/">theredgiant.co.uk</a></div></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="workstreams" aria-labelledby="ws-h">
+    <div class="wrap">
+      <h2 id="ws-h">Workstreams</h2>
+      <p class="measure">Twelve workstreams in four groups, consolidated by the Council in September 2026. Each has one goal. Where a Council member leads it, their first name is shown; the rest are open for owners.</p>
+      <div class="groups">
+        <div class="group">
+          <h3>1. Design and digital assets</h3>
+          <p>One digital estate: visual identity, the public web presence, matching tools and open data.</p>
+          <ul class="ws">
+            <li><b>Brand and visual identity</b><p>One consistent Guild identity: palette, logo files and a brand kit anyone in the Guild can use.</p><small>Owner to be confirmed</small></li>
+            <li><b>Platform and portals</b><p>A join page, an AI readiness assessment and a matching platform that connects founders with practitioners.</p><small>Edwin, Mihran, Marek</small></li>
+            <li><b>Open data and sovereign knowledge</b><p>A definitive Manchester knowledge bank and a free, nightly-refreshed calendar of the city's AI and tech events; then a first locally trained model.</p><small>Edwin; further owners welcome</small></li>
+          </ul>
+        </div>
+        <div class="group">
+          <h3>2. Operations and governance</h3>
+          <p>The Guild's own compliance framework, baseline cyber hygiene, funding and risk management.</p>
+          <ul class="ws">
+            <li><b>Compliance, cyber and risk stack</b><p>A published policy set aligned to ICO and GOV.UK guidance, a governance stack members can reuse, and a cyber-hygiene partnership.</p><small>Edwin; further owners welcome</small></li>
+            <li><b>Commercial and entity structure</b><p>Sustainable funding for the Community Interest Company through membership tiers, sponsorship and grants.</p><small>Owner to be confirmed</small></li>
+          </ul>
+        </div>
+        <div class="group">
+          <h3>3. Social media and content</h3>
+          <p>The Guild's public voice: audio, writing, video and live storytelling.</p>
+          <ul class="ws">
+            <li><b>Broadcast and editorial</b><p>A relaunched founder podcast, a series on getting the most from AI tools, and a pipeline of Guild speakers.</p><small>Owner to be confirmed</small></li>
+            <li><b>SME storytelling</b><p>Verified, consent-led stories of local small businesses adopting AI, starting with a storytelling night.</p><small>Edwin</small></li>
+          </ul>
+        </div>
+        <div class="group">
+          <h3>4. External engagement by sector</h3>
+          <p>Outreach organised by who we are talking to, so each partnership gets the right output.</p>
+          <ul class="ws">
+            <li><b>Public sector and policy</b><p>A structured contact plan with Greater Manchester's civic organisations, leading to written partnerships.</p><small>Owner to be confirmed</small></li>
+            <li><b>SMEs, commerce and trade</b><p>A flagship US/UK AI policy panel and hands-on AI Cookbook workshops for small and medium-sized businesses.</p><small>Owner to be confirmed</small></li>
+            <li><b>Investment and capital</b><p>A launch event, monthly ecosystem meetings and an investor education evening that connects member companies with regional funders.</p><small>Edwin; further owners welcome</small></li>
+            <li><b>Academia and professional services <span class="tag">academia</span></b><p>Working relationships with innovation hubs, and peer-reviewed reports on AI adoption by industry, starting with a Law pilot.</p><small>Edwin, Adrian</small></li>
+            <li><b>Community, inclusion and third sector</b><p>Partnerships with under-represented founders and community coding groups, so the ecosystem includes everyone building in it.</p><small>Edwin, Fernando, Adrian, Tom</small></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="programmes" aria-labelledby="prog-h">
+    <div class="wrap">
+      <h2 id="prog-h">Programmes</h2>
+      <div class="prog">
+        <div>
+          <h3>The Manchester Way</h3>
+          <p>The Guild's working method for adopting AI. Five foundations, in order; each carries one honest question, and whichever a business answers worst is where the first effort goes.</p>
+          <ol class="foundations">
+            <li><span>I</span><div><b>Strategy and process.</b> Can you say in one sentence what you want AI to do?</div></li>
+            <li><span>II</span><div><b>Governance, compliance and IT.</b> Do you know what is allowed in, and who decides?</div></li>
+            <li><span>III</span><div><b>Data.</b> Can someone else find the records this task needs?</div></li>
+            <li><span>IV</span><div><b>Technology and integration.</b> Can the result reach the work without rekeying?</div></li>
+            <li><span>V</span><div><b>People and knowledge.</b> Does someone own it, and is the knowledge shared?</div></li>
+          </ol>
+        </div>
+        <div>
+          <h3>The AI Cookbook</h3>
+          <p>A short, plain-English guide to the Manchester Way: the five foundations, the questions to ask, and what good looks like at each stage. It underpins the Guild's workshops, the first of which ran at Venture Caf&eacute; Manchester in September 2026. The Cookbook is being published through the <a href="https://www.manchesteraiguild.org/">main Guild site</a>.</p>
+        </div>
+        <div>
+          <h3>Matching Marketplace</h3>
+          <p>Proposed by Fernando Torres: use events to build both sides of a Guild marketplace. Practical, free workshops with chambers, trade bodies and growth hubs surface small businesses with a real problem to solve; open provider meetups and a closed provider roundtable build a pool of AI providers vetted against Guild standards. The Guild then matches a qualified business with a vetted provider, both working to the common Manchester Way.</p>
+        </div>
+        <div>
+          <h3>Manchester Way knowledge graph</h3>
+          <p>A city-wide engagement piece that captures Manchester's knowledge: local books, papers and human-verified stories from every generation, built on the Guild's directory of the ecosystem. The graph will be published so the city can query it, build on it and trust it, and it becomes the corpus for small, locally trained models with deep Manchester knowledge.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="events" aria-labelledby="events-h">
+    <div class="wrap">
+      <h2 id="events-h">Upcoming public events</h2>
+      <p class="measure">A selection of AI events in Manchester over the next 60 days, taken from public Meetup, Eventbrite and Luma listings on 17 September 2026. Each is run by the organiser named, not by the Guild; check the link for tickets and changes.</p>
+      <table class="events">
+        <thead><tr><th scope="col">Date</th><th scope="col">Event</th><th scope="col">Organiser</th></tr></thead>
+        <tbody>
+          <tr><td><time datetime="2026-09-22">22 Sep</time></td><td><a href="https://www.meetup.com/mindstone-manchester-ai-meetup/events/315958224/">Mindstone Manchester September AI Meetup</a></td><td>Mindstone Manchester AI Meetup</td></tr>
+          <tr><td><time datetime="2026-09-23">23 Sep</time></td><td><a href="https://www.eventbrite.co.uk/e/ai-cyber-and-the-future-of-business-manchester-tickets-1989653046823">AI, Cyber and the Future of Business, Manchester</a></td><td>Be the Business</td></tr>
+          <tr><td><time datetime="2026-09-24">24 Sep</time></td><td><a href="https://www.meetup.com/pydata-manchester/events/316512300/">PyDataMCR September</a></td><td>PyData Manchester</td></tr>
+          <tr><td><time datetime="2026-09-25">25 Sep</time></td><td><a href="https://www.eventbrite.co.uk/e/nwsmart50-safe-ai-for-manufacturing-smes-tickets-1999079484552">NWSmart5.0: Safe AI for Manufacturing SMEs</a></td><td>Centre for Sustainable Innovation</td></tr>
+          <tr><td><time datetime="2026-09-30">30 Sep</time></td><td><a href="https://www.meetup.com/manchester-ai/events/316455346/">Shipping AI That Actually Works</a></td><td>Manchester AI</td></tr>
+          <tr><td><time datetime="2026-09-30">30 Sep</time></td><td><a href="https://www.eventbrite.co.uk/e/mlopswtf-by-fuzzy-labs-meetup-11-30th-sept-tickets-1997828711456">MLOps.WTF Meetup #11</a></td><td>Fuzzy Labs</td></tr>
+          <tr><td><time datetime="2026-10-01">1 Oct</time></td><td><a href="https://www.meetup.com/bet365technologymeetupgroup/events/316453890/">Threats, Tech, and Truths: Real-World Security in the Age of AI</a></td><td>bet365 Technology Meet Up Group</td></tr>
+          <tr><td><time datetime="2026-10-08">8 Oct</time></td><td><a href="https://www.eventbrite.co.uk/e/business-in-the-age-of-ai-technology-transformation-what-comes-next-tickets-1998949333266">Business in the Age of AI: Technology, Transformation and What Comes Next</a></td><td>NetMonkeys</td></tr>
+          <tr><td><time datetime="2026-10-09">9 Oct</time></td><td><a href="https://www.eventbrite.co.uk/e/introduction-to-ai-tools-for-your-business-tickets-2000560715955">Introduction to AI Tools for Your Business</a></td><td>Business &amp; IP Centre Greater Manchester</td></tr>
+          <tr><td><time datetime="2026-10-16">16 Oct</time></td><td><a href="https://www.eventbrite.co.uk/e/green-circles-manchester-ai-hackathon-supported-by-barclays-tickets-1996447720876">Green Circles Manchester AI Hackathon</a></td><td>Green Circles</td></tr>
+          <tr><td><time datetime="2026-10-19">19 Oct</time></td><td><a href="https://www.eventbrite.co.uk/e/the-inaugural-manchester-turing-lecture-prof-sir-bashir-m-al-hashimi-tickets-1997848766441">The Inaugural Manchester Turing Lecture: Prof Sir Bashir M. Al-Hashimi</a></td><td>Digital Futures</td></tr>
+          <tr><td><time datetime="2026-10-22">22 Oct</time></td><td><a href="https://www.meetup.com/practically-ai-applied-ai-for-software-engineers-manchester/events/315615691/">Practically AI: Graph Engineering and Inclusion Debt</a></td><td>Practically AI, Manchester</td></tr>
+          <tr><td><time datetime="2026-11-10">10 Nov</time></td><td><a href="https://www.eventbrite.co.uk/e/ai-for-equity-who-is-it-actually-built-for-tickets-2000640564785">AI for Equity: who is it actually built for?</a></td><td>Portico Library</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="involved" aria-labelledby="inv-h">
+    <div class="wrap">
+      <h2 id="inv-h">How to get involved</h2>
+      <p class="measure">The Guild is for businesses, entrepreneurs, professionals, educational institutions and community organisations in Greater Manchester and the wider North West, and for anyone whose work or community can benefit from AI adopted responsibly. A membership sign-up page (<code>/join</code>) is on its way; until then, follow the Guild and get in touch through the main site.</p>
+      <div class="cta">
+        <a class="btn primary" href="https://www.manchesteraiguild.org/">Visit manchesteraiguild.org</a>
+        <a class="btn secondary" href="https://www.linkedin.com/company/manchester-ai-guild">Follow on LinkedIn</a>
+      </div>
+      <p class="measure docs">Working documents for this repository: <a href="https://github.com/Manchester-AI-Guild/manchester-ai-guild/blob/main/docs/participants-and-ecosystem.md">participants and ecosystem</a>, <a href="https://github.com/Manchester-AI-Guild/manchester-ai-guild/blob/main/docs/operating-model.md">operating model</a>, <a href="https://github.com/Manchester-AI-Guild/manchester-ai-guild">repository</a>.</p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>&copy; Manchester AI Guild 2026 &middot; Council-owned &middot; Some content prepared with AI assistance and verified by the Council.</p>
+  </div>
+</footer>
+</body>
+</html>
