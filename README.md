@@ -89,6 +89,13 @@ See [participants-and-ecosystem.md](./docs/participants-and-ecosystem.md) for th
 - Website: [www.manchesteraiguild.org](https://www.manchesteraiguild.org/)
 - LinkedIn: [Manchester AI Guild](https://www.linkedin.com/company/manchester-ai-guild)
 
+## Repository
+
+- Purpose: the Guild's public home on GitHub: mission, purpose statement, operating model, participants and the docs microsite (`docs/`, published by the Deploy GitHub Pages workflow).
+- Owner: Edwin Luther (Council Chair)
+- Policies index: [website `docs/policies/README.md`](https://github.com/Manchester-AI-Guild/website/blob/main/docs/policies/README.md)
+- Only `main` exists; changes go through pull requests and the `secret-scan` check.
+
 ## FAQ
 
 ### Are you building foundation models?
