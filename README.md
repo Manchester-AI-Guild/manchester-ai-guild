@@ -134,7 +134,7 @@ The Guild Council was proposed at the 28 August meeting and reviewed again at th
 
 ## 📜 Policies
 
-Draft Guild policies (code of conduct, privacy notice, responsible AI use and others) are kept in the website repository's policy register: [`docs/policies/README.md`](https://github.com/Manchester-AI-Guild/website/blob/main/docs/policies/README.md). Their status is **Draft, awaiting Council 10 Oct 2026**. The Code of Conduct that applies across all Guild repositories is at [`.github/CODE_OF_CONDUCT.md`](https://github.com/Manchester-AI-Guild/.github/blob/main/CODE_OF_CONDUCT.md).
+Draft Guild policies (code of conduct, privacy notice, responsible AI use and others) are kept in the website repository's policy register: [`docs/policies/README.md`](https://github.com/Manchester-AI-Guild/website/blob/main/docs/policies/README.md) (private repository, members only). Their status is **Draft, awaiting Council 10 Oct 2026**. The Code of Conduct that applies across all Guild repositories is at [`.github/CODE_OF_CONDUCT.md`](https://github.com/Manchester-AI-Guild/.github/blob/main/CODE_OF_CONDUCT.md).
 
 ## 🤝 Getting involved
 
@@ -159,7 +159,7 @@ Draft Guild policies (code of conduct, privacy notice, responsible AI use and ot
 
 - Purpose: the Guild's public home on GitHub: mission, purpose statement, operating model, participants and the docs microsite (`docs/`, published by the Deploy GitHub Pages workflow).
 - Owner: Edwin Luther — Council, Governance & Ethics
-- Policies index: [website `docs/policies/README.md`](https://github.com/Manchester-AI-Guild/website/blob/main/docs/policies/README.md)
+- Policies index: [website `docs/policies/README.md`](https://github.com/Manchester-AI-Guild/website/blob/main/docs/policies/README.md) (private repository, members only)
 - Only `main` exists; changes go through pull requests and the `secret-scan` check.
 
 ## ❓ FAQ
