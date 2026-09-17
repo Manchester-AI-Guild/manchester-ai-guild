@@ -158,7 +158,7 @@ Draft Guild policies (code of conduct, privacy notice, responsible AI use and ot
 ## 📁 Repository
 
 - Purpose: the Guild's public home on GitHub: mission, purpose statement, operating model, participants and the docs microsite (`docs/`, published by the Deploy GitHub Pages workflow).
-- Owner: Edwin Luther (Council Chair)
+- Owner: Edwin Luther — Council, Governance & Ethics
 - Policies index: [website `docs/policies/README.md`](https://github.com/Manchester-AI-Guild/website/blob/main/docs/policies/README.md)
 - Only `main` exists; changes go through pull requests and the `secret-scan` check.
 
