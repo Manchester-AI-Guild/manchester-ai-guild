@@ -1,0 +1,54 @@
+{
+  "milestone": {
+    "title": "Inaugural Guild Setup",
+    "description": "Bootstrapping Manchester AI Guild GitHub presence, governance artifacts, and launch-ready project tracking.",
+    "due_on": "2026-09-10T23:59:59Z"
+  },
+  "labels": [
+    { "name": "governance", "color": "1D4ED8", "description": "Responsible AI and governance framework work" },
+    { "name": "launch", "color": "D97706", "description": "Launch planning and public rollout tasks" },
+    { "name": "community", "color": "059669", "description": "Community and meetup engagement work" },
+    { "name": "operations", "color": "334155", "description": "Operational and organisational setup tasks" },
+    { "name": "documentation", "color": "7C3AED", "description": "Documentation and communication tasks" },
+    { "name": "attendee-directory", "color": "BE123C", "description": "Attendee and ecosystem roster tasks" }
+  ],
+  "issues": [
+    {
+      "title": "Create organisation profile README in FINOS-style structure",
+      "body": "Create the `.github/profile/README.md` for Manchester AI Guild with sections for mission, focus areas, working model, repos, participation channels, and contribution path.",
+      "labels": ["operations", "documentation"],
+      "assignees": []
+    },
+    {
+      "title": "Publish core repository README in governance-first format",
+      "body": "Set repository `README.md` for `manchester-ai-guild` using the governance-first narrative and FAQ structure.",
+      "labels": ["documentation", "governance"],
+      "assignees": []
+    },
+    {
+      "title": "Add complete attendee and ecosystem directory to docs",
+      "body": "Publish all individuals and meetup/ecosystem entities from the session dataset with no omissions.",
+      "labels": ["attendee-directory", "documentation"],
+      "assignees": []
+    },
+    {
+      "title": "Enable GitHub Pages and publish Manchester AI Guild landing page",
+      "body": "Configure Pages via GitHub Actions and deploy `/docs` as the initial public landing site.",
+      "labels": ["launch", "operations"],
+      "assignees": []
+    },
+    {
+      "title": "Seed project board with governance, launch, community, and operations streams",
+      "body": "Create project board columns and seed initial issues with labels and milestone assignment.",
+      "labels": ["operations", "governance", "community"],
+      "assignees": []
+    },
+    {
+      "title": "Define branch protection, CODEOWNERS, and repository security baseline",
+      "body": "Apply baseline controls on `main`: PR review requirements, status checks, Dependabot, and secret scanning.",
+      "labels": ["operations", "governance"],
+      "assignees": []
+    }
+  ]
+}
+
