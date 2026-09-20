@@ -119,18 +119,21 @@ See [participants-and-ecosystem.md](./docs/participants-and-ecosystem.md) for th
 
 ## 🏛️ Council and owners
 
-The Guild Council was proposed at the 28 August meeting and reviewed again at the 4 September Council meeting. All roles below are progressing without objection; Treasurer remains the one open gap. Founding Council members are listed in [participants-and-ecosystem.md](./docs/participants-and-ecosystem.md).
+The Guild Council was proposed at the 28 August meeting and reviewed again at the 4 September Council meeting. Founding Council members and consenting participants are listed in [participants-and-ecosystem.md](./docs/participants-and-ecosystem.md).
 
 | Name | Council role |
 |---|---|
 | Adrian Quayle | President |
-| Mihran Hovnanian | Acting Chairman & Secretary |
+| Mihran Hovnanian | Chairman & Secretary |
 | Edwin Luther | Governance & Ethics; owner of this repository |
 | Simon Ellis | Engagement & Projects Lead |
 | Fernando Torres | Community Lead & Events |
-| Trevor Roberts | AI Readiness Assessment Lead |
-| TBC | Treasurer (open) |
-| TBC | Marketing & Communications (open) |
+| Rufus Curnow | Marketing & Communications Lead |
+| Marek Kurczynski | Website & Platform |
+| Trevor Roberts | Council member |
+| Tom Parson | Council member |
+| Treasurer | Seat open |
+| Data Protection Lead | To be appointed |
 
 ## 📜 Policies
 
