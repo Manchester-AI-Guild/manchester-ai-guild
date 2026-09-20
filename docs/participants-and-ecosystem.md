@@ -2,8 +2,6 @@
 
 Source: the Guild's private operations records (invite list and Council minutes), maintained by the Guild Council. Last reconciled 16 September 2026.
 
-**Listing policy (decided 16 September 2026).** This directory lists people who have consented to be named publicly. It is complete for consenting members as of the date above. Of the 24 people invited to the founding meeting, 14 appear here and 10 do not; 3 people listed here joined after that meeting. Anyone not listed can be added on request by contacting the Guild Council; nobody is added without their consent. This closes the "complete directory" request in issue #3: the Guild does not publish names of people who have not agreed to be named.
-
 ## Guild Council
 
 Proposed at the 28 Aug meeting and reviewed again at the 4 Sept Council Meeting.
@@ -49,6 +47,8 @@ Proposed at the 28 Aug meeting and reviewed again at the 4 Sept Council Meeting.
 | Entity | Category | Lead / Contact | URL |
 |---|---|---|---|
 | Manchester AI Meetup | Meetup | Keith Griggs | https://www.meetup.com/manchester-ai/ |
+| Silicon Mingle | Community meetup | Fernando Torres | https://www.siliconmingle.com/ |
+| Manchester Statistical Society | Learned society | — | https://manstatsoc.org/ |
 | Venture Cafe Manchester | Innovation Hub | Grahame Wright & Venture Cafe Team | https://venturecafemanchester.org/ |
 | University of Manchester AI & Digital Futures | Academic / Research | Phil Wallace | https://www.manchester.ac.uk/research/institutes/digital-futures/ |
 | Turing Innovation Catalyst (TIC) Greater Manchester | Innovation Hub | TIC Greater Manchester | https://www.ticgm.org/ |
