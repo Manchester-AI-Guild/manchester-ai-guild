@@ -18,7 +18,7 @@ Proposed at the 28 Aug meeting and reviewed again at the 4 Sept Council Meeting.
 | Rufus Curnow | Marketing & Communications Lead |
 | Marek Kurczynski | Website & Platform |
 | Trevor Roberts | Council member |
-| Tom Parson | Innovation Facilitator & Educator / Founder Big Echo | Big Echo / Circles MCR / Huddle Digital | Council Member (joined September 2026) |
+| Tom Parson | Council member |
 | Treasurer | Seat open |
 | Data Protection Lead | To be appointed |
 
