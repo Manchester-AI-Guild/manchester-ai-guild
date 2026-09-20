@@ -6,18 +6,21 @@ Source: the Guild's private operations records (invite list and Council minutes)
 
 ## Guild Council
 
-Proposed at the 28 Aug meeting and reviewed again at the 4 Sept Council Meeting. All roles below are progressing without objection; Treasurer remains the one open gap.
+Proposed at the 28 Aug meeting and reviewed again at the 4 Sept Council Meeting.
 
 | Name | Council Title |
 |---|---|
 | Adrian Quayle | President |
-| Mihran Hovnanian | Acting Chairman & Secretary |
+| Mihran Hovnanian | Chairman & Secretary |
 | Edwin Luther | Governance & Ethics |
 | Simon Ellis | Engagement & Projects Lead |
 | Fernando Torres | Community Lead & Events |
-| Trevor Roberts | AI Readiness Assessment Lead |
-| TBC | Treasurer (Open / TBC) |
-| TBC | Marketing & Communications (Open / TBC) |
+| Rufus Curnow | Marketing & Communications Lead |
+| Marek Kurczynski | Website & Platform |
+| Trevor Roberts | Council member |
+| Tom Parson | Innovation Facilitator & Educator / Founder Big Echo | Big Echo / Circles MCR / Huddle Digital | Council Member (joined September 2026) |
+| Treasurer | Seat open |
+| Data Protection Lead | To be appointed |
 
 ## Founding Council Members
 
@@ -34,7 +37,9 @@ Proposed at the 28 Aug meeting and reviewed again at the 4 Sept Council Meeting.
 | Phil Edwards | HealthTech Founder & AI Consultant | Healthcare AI Advisory | Founding Council Member |
 | Phil Wallace | Innovation Manager & AI Manchester Lead | University of Manchester (Digital Futures) | Founding Council Member |
 | Rick (Richard) | Enterprise Software Architect & Meetup Founder | BrightHR / .NET North | Founding Council Member |
+| Rufus Curnow | Marketing & Communications Lead | The Red Giant | Council Member (joined September 2026) |
 | Simon Ellis | Head of AI Transformation & Enterprise Architecture | Pets at Home (previously Boots/WBA) | Founding Council Member |
+| Tom Parson | Innovation Facilitator & Educator / Founder Big Echo | Big Echo / Circles MCR / Huddle Digital | Council Member (joined September 2026) |
 | Tom Parkes | AI & Tech Recruitment Specialist / Managing Partner | SF Technology / SF Group | Founding Council Member |
 | Trevor Roberts | Programme & Portfolio Management / Delivery Assurance | Dull Industries | Founding Council Member |
 | Zahir (Zaheer) | Chief Product & AI Officer | Suffragator.org / Civic AI Advisory | Founding Council Member |
