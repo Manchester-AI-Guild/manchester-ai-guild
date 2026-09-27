@@ -10,7 +10,7 @@
   Refine, not replace: same single-page structure; the placeholder Arial/blue look is replaced by the Guild identity.
   Colour: navy #0E1E27 (ground, ink), gold #E8B923 (accent), cream #F4F2EA (light ground), lavender #E4D9F7 (academia tag only).
   Type: Zilla Slab 600/700 for headings (Google Fonts), Satoshi 400/500/700 for body (Fontshare). No font files in this repo.
-  Layout: navy hero -> cream reading column (72ch) -> wider grid for Council and workstreams -> events table -> footer.
+  Layout: navy hero -> cream reading column (72ch) -> Council grid -> Programmes with the Manchester AI Way supernova band -> who we serve -> footer.
   Signature: the Manchester story set large in slab serif on navy with a single gold rule.
   Reference board: Guild deck "Building the AI Ecosystem in Manchester" (navy/gold slides); the assets repo README (mark, lockup, type notes);
   civic institution sites that pair a slab serif with a plain sans (Science and Industry Museum, University of Manchester) for tone, not copied.
@@ -18,7 +18,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Manchester AI Guild</title>
-<meta name="description" content="The Manchester AI Guild helps businesses adopt AI safely and grows the city's AI ecosystem across business and academia. Council, workstreams, programmes and upcoming public events.">
+<meta name="description" content="The Manchester AI Guild helps businesses adopt AI safely and grows the city's AI ecosystem across business and academia. Our method, the Manchester Way and the AI Cookbook, the Council, and who we serve.">
 <meta property="og:title" content="Manchester AI Guild">
 <meta property="og:description" content="Helping Manchester businesses adopt AI safely, and growing the ecosystem so Manchester is an AI-first city.">
 <meta property="og:image" content="https://avatars.githubusercontent.com/u/319570462?v=4">
@@ -40,12 +40,12 @@
   @media (prefers-color-scheme:dark){
     :root:not([data-theme="light"]){
       --bg:#0B171E; --surface:#12232C; --border:#2A3A44; --ink:#F4F2EA; --ink-2:#B9C2C9;
-      --accent-ink:#E8B923; --link:#8FC7FF; --hero-bg:#0E1E27; --lavender:#3A2F55; --lavender-ink:#E4D9F7;
+      --accent-ink:#f2c52f; --link:#8FC7FF; --hero-bg:#0f1e24; --lavender:#3A2F55; --lavender-ink:#E4D9F7;
     }
   }
   :root[data-theme="dark"]{
     --bg:#0B171E; --surface:#12232C; --border:#2A3A44; --ink:#F4F2EA; --ink-2:#B9C2C9;
-    --accent-ink:#E8B923; --link:#8FC7FF; --hero-bg:#0E1E27; --lavender:#3A2F55; --lavender-ink:#E4D9F7;
+    --accent-ink:#f2c52f; --link:#8FC7FF; --hero-bg:#0f1e24; --lavender:#3A2F55; --lavender-ink:#E4D9F7;
   }
   *,*::before,*::after{box-sizing:border-box}
   html{scroll-behavior:smooth}
@@ -129,6 +129,21 @@
   .docs{margin-top:var(--s6)}
   footer{border-top:1px solid var(--border);padding:var(--s8) 0;color:var(--ink-2);font-size:.95rem}
   footer p{margin:0 0 var(--s2)}
+
+  /* Manchester AI Way — supernova band */
+  .supernova{margin:var(--s8) 0 0}
+  .supernova .cap{color:var(--ink-2);font-size:.9rem;text-transform:uppercase;letter-spacing:.08em;margin-bottom:var(--s3)}
+  .band{display:flex;flex-wrap:wrap;align-items:stretch;gap:var(--s2)}
+  .band .stage{flex:1 1 140px;background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:var(--s3) var(--s4);position:relative}
+  .band .stage b{display:block;font-family:var(--font-heading);color:var(--accent-ink);font-size:.85rem;letter-spacing:.04em}
+  .band .stage span{display:block;font-family:var(--font-heading);font-weight:700;font-size:1rem;margin-top:2px}
+  .band .core{flex:1 1 140px;background:var(--navy);color:#fff;border:1px solid var(--navy);border-radius:8px;padding:var(--s3) var(--s4);display:grid;align-content:center}
+  .band .core b{display:block;color:var(--gold);font-family:var(--font-heading);font-size:.85rem;letter-spacing:.04em}
+  .band .core span{display:block;font-family:var(--font-heading);font-weight:700;font-size:1.05rem;margin-top:2px}
+  .serve{display:grid;gap:var(--s4);grid-template-columns:repeat(auto-fit,minmax(220px,1fr));margin-top:var(--s8)}
+  .serve div{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:var(--s4)}
+  .serve h3{margin:0 0 var(--s1)}
+  .serve p{margin:0;color:var(--ink-2);font-size:.98rem}
 </style>
 </head>
 <body>
@@ -140,16 +155,15 @@
       <ul>
         <li><a href="#story">The Manchester story</a></li>
         <li><a href="#council">Council</a></li>
-        <li><a href="#workstreams">Workstreams</a></li>
         <li><a href="#programmes">Programmes</a></li>
-        <li><a href="#events">Events</a></li>
+        <li><a href="#community">Who we serve</a></li>
         <li><a href="#involved">Get involved</a></li>
       </ul>
     </nav>
     <div class="hero" id="top">
       <h1>Making AI work for good in Manchester</h1>
       <div class="rule" aria-hidden="true"></div>
-      <p class="lede">The Manchester AI Guild is a not-for-profit, incorporating as a private limited company. We help businesses adopt AI safely and usefully, and we connect the people, companies, universities and public bodies that make Manchester an AI city.</p>
+      <p class="lede">The Manchester AI Guild is a private limited company. We help businesses adopt AI safely and usefully, and we connect the people, companies, universities and public bodies that make Manchester an AI city.</p>
       <div class="objectives">
         <div>
           <h2>Objective one</h2>
@@ -191,54 +205,21 @@
     </div>
   </section>
 
-  <section id="workstreams" aria-labelledby="ws-h">
-    <div class="wrap">
-      <h2 id="ws-h">Workstreams</h2>
-      <p class="measure">Twelve workstreams in four groups, consolidated by the Council in September 2026. Each has one goal. Where a Council member leads it, their first name is shown; the rest are open for owners.</p>
-      <div class="groups">
-        <div class="group">
-          <h3>1. Design and digital assets</h3>
-          <p>One digital estate: visual identity, the public web presence, matching tools and open data.</p>
-          <ul class="ws">
-            <li><b>Brand and visual identity</b><p>One consistent Guild identity: palette, logo files and a brand kit anyone in the Guild can use.</p><small>Owner to be confirmed</small></li>
-            <li><b>Platform and portals</b><p>A join page, an AI readiness assessment and a matching platform that connects founders with practitioners.</p><small>Edwin, Mihran, Marek</small></li>
-            <li><b>Open data and sovereign knowledge</b><p>A definitive Manchester knowledge bank and a free, nightly-refreshed calendar of the city's AI and tech events; then a first locally trained model.</p><small>Edwin; further owners welcome</small></li>
-          </ul>
-        </div>
-        <div class="group">
-          <h3>2. Operations and governance</h3>
-          <p>The Guild's own compliance framework, baseline cyber hygiene, funding and risk management.</p>
-          <ul class="ws">
-            <li><b>Compliance, cyber and risk stack</b><p>A published policy set aligned to ICO and GOV.UK guidance, a governance stack members can reuse, and a cyber-hygiene partnership.</p><small>Edwin; further owners welcome</small></li>
-            <li><b>Commercial and entity structure</b><p>Sustainable funding for the Guild through membership, sponsorship and grants.</p><small>Owner to be confirmed</small></li>
-          </ul>
-        </div>
-        <div class="group">
-          <h3>3. Social media and content</h3>
-          <p>The Guild's public voice: audio, writing, video and live storytelling.</p>
-          <ul class="ws">
-            <li><b>Broadcast and editorial</b><p>A relaunched founder podcast, a series on getting the most from AI tools, and a pipeline of Guild speakers.</p><small>Owner to be confirmed</small></li>
-            <li><b>SME storytelling</b><p>Verified, consent-led stories of local small businesses adopting AI, starting with a storytelling night.</p><small>Edwin</small></li>
-          </ul>
-        </div>
-        <div class="group">
-          <h3>4. External engagement by sector</h3>
-          <p>Outreach organised by who we are talking to, so each partnership gets the right output.</p>
-          <ul class="ws">
-            <li><b>Public sector and policy</b><p>A structured contact plan with Greater Manchester's civic organisations, leading to written partnerships.</p><small>Owner to be confirmed</small></li>
-            <li><b>SMEs, commerce and trade</b><p>A flagship US/UK AI policy panel and hands-on AI Cookbook workshops for small and medium-sized businesses.</p><small>Owner to be confirmed</small></li>
-            <li><b>Investment and capital</b><p>A launch event, monthly ecosystem meetings and an investor education evening that connects member companies with regional funders.</p><small>Edwin; further owners welcome</small></li>
-            <li><b>Academia and professional services <span class="tag">academia</span></b><p>Working relationships with innovation hubs, and peer-reviewed reports on AI adoption by industry, starting with a Law pilot.</p><small>Edwin, Adrian</small></li>
-            <li><b>Community, inclusion and third sector</b><p>Partnerships with under-represented founders and community coding groups, so the ecosystem includes everyone building in it.</p><small>Edwin, Fernando, Adrian, Tom</small></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <section id="programmes" aria-labelledby="prog-h">
     <div class="wrap">
       <h2 id="prog-h">Programmes</h2>
+      <p class="measure">Everything the Guild does runs on one method: the Manchester Way, set out in plain English in the AI Cookbook. It is our central methodology, and every programme below points back to it.</p>
+      <div class="supernova">
+        <p class="cap">The Manchester AI Way &middot; five foundations, in order, building to the AI Supernova</p>
+        <div class="band">
+          <div class="stage"><b>I</b><span>Strategy &amp; process</span></div>
+          <div class="stage"><b>II</b><span>Governance &amp; IT</span></div>
+          <div class="stage"><b>III</b><span>Data</span></div>
+          <div class="stage"><b>IV</b><span>Technology</span></div>
+          <div class="stage"><b>V</b><span>People &amp; knowledge</span></div>
+          <div class="core"><b>Result</b><span>AI Supernova</span></div>
+        </div>
+      </div>
       <div class="prog">
         <div>
           <h3>The Manchester Way</h3>
@@ -259,36 +240,21 @@
           <h3>Matching Marketplace</h3>
           <p>Proposed by Fernando Torres: use events to build both sides of a Guild marketplace. Practical, free workshops with chambers, trade bodies and growth hubs surface small businesses with a real problem to solve; open provider meetups and a closed provider roundtable build a pool of AI providers vetted against Guild standards. The Guild then matches a qualified business with a vetted provider, both working to the common Manchester Way.</p>
         </div>
-        <div>
-          <h3>Manchester Way knowledge graph</h3>
-          <p>A city-wide engagement piece that captures Manchester's knowledge: local books, papers and human-verified stories from every generation, built on the Guild's directory of the ecosystem. The graph will be published so the city can query it, build on it and trust it, and it becomes the corpus for small, locally trained models with deep Manchester knowledge.</p>
-        </div>
       </div>
     </div>
   </section>
 
-  <section id="events" aria-labelledby="events-h">
+  <section id="community" aria-labelledby="community-h">
     <div class="wrap">
-      <h2 id="events-h">Upcoming public events</h2>
-      <p class="measure">A selection of AI events in Manchester over the next 60 days, taken from public Meetup, Eventbrite and Luma listings on 17 September 2026. Each is run by the organiser named, not by the Guild; check the link for tickets and changes.</p>
-      <table class="events">
-        <thead><tr><th scope="col">Date</th><th scope="col">Event</th><th scope="col">Organiser</th></tr></thead>
-        <tbody>
-          <tr><td><time datetime="2026-09-22">22 Sep</time></td><td><a href="https://www.meetup.com/mindstone-manchester-ai-meetup/events/315958224/">Mindstone Manchester September AI Meetup</a></td><td>Mindstone Manchester AI Meetup</td></tr>
-          <tr><td><time datetime="2026-09-23">23 Sep</time></td><td><a href="https://www.eventbrite.co.uk/e/ai-cyber-and-the-future-of-business-manchester-tickets-1989653046823">AI, Cyber and the Future of Business, Manchester</a></td><td>Be the Business</td></tr>
-          <tr><td><time datetime="2026-09-24">24 Sep</time></td><td><a href="https://www.meetup.com/pydata-manchester/events/316512300/">PyDataMCR September</a></td><td>PyData Manchester</td></tr>
-          <tr><td><time datetime="2026-09-25">25 Sep</time></td><td><a href="https://www.eventbrite.co.uk/e/nwsmart50-safe-ai-for-manufacturing-smes-tickets-1999079484552">NWSmart5.0: Safe AI for Manufacturing SMEs</a></td><td>Centre for Sustainable Innovation</td></tr>
-          <tr><td><time datetime="2026-09-30">30 Sep</time></td><td><a href="https://www.meetup.com/manchester-ai/events/316455346/">Shipping AI That Actually Works</a></td><td>Manchester AI</td></tr>
-          <tr><td><time datetime="2026-09-30">30 Sep</time></td><td><a href="https://www.eventbrite.co.uk/e/mlopswtf-by-fuzzy-labs-meetup-11-30th-sept-tickets-1997828711456">MLOps.WTF Meetup #11</a></td><td>Fuzzy Labs</td></tr>
-          <tr><td><time datetime="2026-10-01">1 Oct</time></td><td><a href="https://www.meetup.com/bet365technologymeetupgroup/events/316453890/">Threats, Tech, and Truths: Real-World Security in the Age of AI</a></td><td>bet365 Technology Meet Up Group</td></tr>
-          <tr><td><time datetime="2026-10-08">8 Oct</time></td><td><a href="https://www.eventbrite.co.uk/e/business-in-the-age-of-ai-technology-transformation-what-comes-next-tickets-1998949333266">Business in the Age of AI: Technology, Transformation and What Comes Next</a></td><td>NetMonkeys</td></tr>
-          <tr><td><time datetime="2026-10-09">9 Oct</time></td><td><a href="https://www.eventbrite.co.uk/e/introduction-to-ai-tools-for-your-business-tickets-2000560715955">Introduction to AI Tools for Your Business</a></td><td>Business &amp; IP Centre Greater Manchester</td></tr>
-          <tr><td><time datetime="2026-10-16">16 Oct</time></td><td><a href="https://www.eventbrite.co.uk/e/green-circles-manchester-ai-hackathon-supported-by-barclays-tickets-1996447720876">Green Circles Manchester AI Hackathon</a></td><td>Green Circles</td></tr>
-          <tr><td><time datetime="2026-10-19">19 Oct</time></td><td><a href="https://www.eventbrite.co.uk/e/the-inaugural-manchester-turing-lecture-prof-sir-bashir-m-al-hashimi-tickets-1997848766441">The Inaugural Manchester Turing Lecture: Prof Sir Bashir M. Al-Hashimi</a></td><td>Digital Futures</td></tr>
-          <tr><td><time datetime="2026-10-22">22 Oct</time></td><td><a href="https://www.meetup.com/practically-ai-applied-ai-for-software-engineers-manchester/events/315615691/">Practically AI: Graph Engineering and Inclusion Debt</a></td><td>Practically AI, Manchester</td></tr>
-          <tr><td><time datetime="2026-11-10">10 Nov</time></td><td><a href="https://www.eventbrite.co.uk/e/ai-for-equity-who-is-it-actually-built-for-tickets-2000640564785">AI for Equity: who is it actually built for?</a></td><td>Portico Library</td></tr>
-        </tbody>
-      </table>
+      <h2 id="community-h">Who we serve</h2>
+      <p class="measure">The Guild connects the people and organisations that make Manchester an AI city, and helps each of them adopt AI the Manchester Way.</p>
+      <div class="serve">
+        <div><h3>Businesses and SMEs</h3><p>Small and medium-sized businesses that want to adopt AI safely, starting with readiness rather than tools.</p></div>
+        <div><h3>Founders and entrepreneurs</h3><p>People building AI products and companies in Greater Manchester who need connections, peers and a route to funders.</p></div>
+        <div><h3>Professionals and practitioners</h3><p>Developers, data and governance specialists who want to share knowledge and work to a common standard.</p></div>
+        <div><h3>Universities and academia</h3><p>Researchers and innovation hubs turning Manchester's research strength into adoption across the city.</p></div>
+        <div><h3>Public and community bodies</h3><p>Civic organisations and community groups making sure the ecosystem includes everyone building in it.</p></div>
+      </div>
     </div>
   </section>
 
@@ -297,10 +263,10 @@
       <h2 id="inv-h">How to get involved</h2>
       <p class="measure">The Guild is for businesses, entrepreneurs, professionals, educational institutions and community organisations in Greater Manchester and the wider North West, and for anyone whose work or community can benefit from AI adopted responsibly. A membership sign-up page (<code>/join</code>) is on its way; until then, follow the Guild and get in touch through the main site.</p>
       <div class="cta">
-        <a class="btn primary" href="https://www.manchesteraiguild.org/">Visit manchesteraiguild.org</a>
-        <a class="btn secondary" href="https://www.linkedin.com/company/manchester-ai-guild">Follow on LinkedIn</a>
+        <a class="btn primary" href="https://www.manchesteraiguild.org/">👉 Visit manchesteraiguild.org</a>
+        <a class="btn secondary" href="https://www.linkedin.com/company/manchester-ai-guild">👉 Follow us on LinkedIn</a>
       </div>
-      <p class="measure docs">Working documents for this repository: <a href="https://github.com/Manchester-AI-Guild/manchester-ai-guild/blob/main/docs/participants-and-ecosystem.md">participants and ecosystem</a>, <a href="https://github.com/Manchester-AI-Guild/manchester-ai-guild/blob/main/docs/operating-model.md">operating model</a>, <a href="https://github.com/Manchester-AI-Guild/manchester-ai-guild">repository</a>.</p>
+      <p class="measure docs">Our public home on GitHub: <a href="https://github.com/Manchester-AI-Guild">github.com/Manchester-AI-Guild</a>.</p>
     </div>
   </section>
 </main>
