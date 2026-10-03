@@ -38,7 +38,7 @@ Our goal is to mutually develop a practical framework and execution model that s
 |---|---|---|
 | 🎯 | This README | Mission, purpose statement, who we serve, what we offer, charter direction, FAQ |
 | 🧭 | [`docs/operating-model.md`](docs/operating-model.md) | How the Guild runs: working groups, cadence, ownership |
-| 👥 | [`docs/participants-and-ecosystem.md`](docs/participants-and-ecosystem.md) | Guild Senior Leadership Team (SLT), founding SLT members, consenting participants and ecosystem entities |
+| 👥 | [`docs/participants-and-ecosystem.md`](docs/participants-and-ecosystem.md) | Guild Senior Leadership Team (SLT), founding members, consenting participants and ecosystem entities |
 | 🔒 | [`docs/security-maintenance.md`](docs/security-maintenance.md), [`SECURITY.md`](SECURITY.md) | Security maintenance notes and how to report a vulnerability |
 | 🌐 | [`docs/index.md`](docs/index.md), [`docs/index.html`](docs/index.html) | The docs microsite, published by the Deploy GitHub Pages workflow to [manchester-ai-guild.github.io/manchester-ai-guild](https://manchester-ai-guild.github.io/manchester-ai-guild/) |
 | 📝 | [`CONTRIBUTING.md`](CONTRIBUTING.md), [`.github/`](.github/) | Contributing guide, issue template (`guild-task`), pull request template, CODEOWNERS |
@@ -119,12 +119,12 @@ See [participants-and-ecosystem.md](./docs/participants-and-ecosystem.md) for th
 
 ## 🏛️ Senior Leadership Team (SLT)
 
-The Guild Senior Leadership Team (SLT) was proposed at the 28 August meeting and reviewed again at the 4 September SLT meeting. Founding SLT members and consenting participants are listed in [participants-and-ecosystem.md](./docs/participants-and-ecosystem.md).
+The Guild Senior Leadership Team (SLT) was proposed at the 28 August meeting and reviewed again at the 4 September SLT meeting. Founding members and consenting participants are listed in [participants-and-ecosystem.md](./docs/participants-and-ecosystem.md).
 
 | Name | SLT Role |
 |---|---|
-| Adrian Quayle | President & Director |
-| Mihran Hovnanian | Chairman, Secretary & Director |
+| Adrian Quayle | President |
+| Mihran Hovnanian | Chairman & Secretary |
 | Edwin Luther | Governance & Ethics (interim Compliance); owner of this repository |
 | Simon Ellis | Engagement & Projects Lead |
 | Fernando Torres | Community Lead & Events |
