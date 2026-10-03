@@ -48,7 +48,7 @@ Proposed at the 28 Aug meeting and reviewed again at the 4 Sept SLT Meeting.
 |---|---|---|---|
 | Manchester AI Meetup | Meetup | Keith Griggs | https://www.meetup.com/manchester-ai/ |
 | Silicon Mingle | Community meetup | Fernando Torres | https://www.siliconmingle.com/ |
-| Manchester Statistical Society | Learned society | — | https://manstatsoc.org/ |
+| Manchester Statistical Society | Professional society | Adrian Quayle | https://manstatsoc.org/ |
 | Venture Cafe Manchester | Innovation Hub | Grahame Wright & Venture Cafe Team | https://venturecafemanchester.org/ |
 | University of Manchester AI & Digital Futures | Academic / Research | Phil Wallace | https://www.manchester.ac.uk/research/institutes/digital-futures/ |
 | Turing Innovation Catalyst (TIC) Greater Manchester | Innovation Hub | TIC Greater Manchester | https://www.ticgm.org/ |
