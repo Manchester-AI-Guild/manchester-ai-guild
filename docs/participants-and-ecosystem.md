@@ -8,9 +8,9 @@ Proposed at the 28 Aug meeting and reviewed again at the 4 Sept SLT Meeting.
 
 | Name | SLT Role |
 |---|---|
-| Adrian Quayle | President & Director |
-| Mihran Hovnanian | Chairman, Secretary & Director |
-| Edwin Luther | Governance & Ethics (interim Compliance) |
+| Adrian Quayle | President |
+| Mihran Hovnanian | Chairman & Secretary |
+| Edwin Luther | Governance, Risk & Compliance |
 | Simon Ellis | Engagement & Projects Lead |
 | Fernando Torres | Community Lead & Events |
 | Rufus Curnow | Marketing & Communications Lead |
