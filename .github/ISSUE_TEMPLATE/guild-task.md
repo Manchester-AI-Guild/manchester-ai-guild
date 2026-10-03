@@ -18,4 +18,4 @@ assignees: []
 - Combined-plan workstream: <A–N>
 
 ## Decision needed?
-<!-- If the Council must decide something first, state the exact decision and add the decision-needed label. -->
+<!-- If the Senior Leadership Team (SLT) must decide something first, state the exact decision and add the decision-needed label. -->
