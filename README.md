@@ -125,7 +125,7 @@ The Guild Senior Leadership Team (SLT) was proposed at the 28 August meeting and
 |---|---|
 | Adrian Quayle | President |
 | Mihran Hovnanian | Chairman & Secretary |
-| Edwin Luther | Governance & Ethics (interim Compliance); owner of this repository |
+| Edwin Luther | Governance, Risk & Compliance; owner of this repository |
 | Simon Ellis | Engagement & Projects Lead |
 | Fernando Torres | Community Lead & Events |
 | Rufus Curnow | Marketing & Communications Lead |
@@ -161,7 +161,7 @@ Draft Guild policies (code of conduct, privacy notice, responsible AI use and ot
 ## 📁 Repository
 
 - Purpose: the Guild's public home on GitHub: mission, purpose statement, operating model, participants and the docs microsite (`docs/`, published by the Deploy GitHub Pages workflow).
-- Owner: Edwin Luther — SLT, Governance & Ethics
+- Owner: Edwin Luther, Governance, Risk & Compliance
 - Policies index: [website `docs/policies/README.md`](https://github.com/Manchester-AI-Guild/website/blob/main/docs/policies/README.md) (private repository, members only)
 - Only `main` exists; changes go through pull requests and the `secret-scan` check.
 
