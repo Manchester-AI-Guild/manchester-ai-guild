@@ -20,7 +20,7 @@
   <a href="https://github.com/Manchester-AI-Guild/manchester-ai-guild/actions/workflows/pages.yml"><img src="https://github.com/Manchester-AI-Guild/manchester-ai-guild/actions/workflows/pages.yml/badge.svg" alt="Deploy GitHub Pages"></a>
   <a href="#"><img src="https://img.shields.io/badge/Project-Active-2563EB" alt="Project Status - Active"></a>
   <a href="http://creativecommons.org/licenses/by/4.0/"><img src="https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey" alt="License - CC BY 4.0"></a>
-  <img src="https://img.shields.io/badge/Council--owned-Manchester%20AI%20Guild-F2C230" alt="Council-owned">
+  <img src="https://img.shields.io/badge/Guild--owned-Manchester%20AI%20Guild%20Ltd-F2C230" alt="Guild-owned">
   <img src="https://img.shields.io/badge/Branch-main%20only-2563EB" alt="main only">
 </p>
 
@@ -38,7 +38,7 @@ Our goal is to mutually develop a practical framework and execution model that s
 |---|---|---|
 | 🎯 | This README | Mission, purpose statement, who we serve, what we offer, charter direction, FAQ |
 | 🧭 | [`docs/operating-model.md`](docs/operating-model.md) | How the Guild runs: working groups, cadence, ownership |
-| 👥 | [`docs/participants-and-ecosystem.md`](docs/participants-and-ecosystem.md) | Guild Council, founding Council members, consenting participants and ecosystem entities |
+| 👥 | [`docs/participants-and-ecosystem.md`](docs/participants-and-ecosystem.md) | Guild Senior Leadership Team (SLT), founding SLT members, consenting participants and ecosystem entities |
 | 🔒 | [`docs/security-maintenance.md`](docs/security-maintenance.md), [`SECURITY.md`](SECURITY.md) | Security maintenance notes and how to report a vulnerability |
 | 🌐 | [`docs/index.md`](docs/index.md), [`docs/index.html`](docs/index.html) | The docs microsite, published by the Deploy GitHub Pages workflow to [manchester-ai-guild.github.io/manchester-ai-guild](https://manchester-ai-guild.github.io/manchester-ai-guild/) |
 | 📝 | [`CONTRIBUTING.md`](CONTRIBUTING.md), [`.github/`](.github/) | Contributing guide, issue template (`guild-task`), pull request template, CODEOWNERS |
@@ -51,7 +51,7 @@ The Manchester AI Guild brings together founders, practitioners, researchers, an
 
 ### Purpose statement
 
-Agreed by the Guild Council on 11 September 2026 and published on the Guild's LinkedIn page.
+Agreed by the Guild Senior Leadership Team (SLT) on 11 September 2026 and published on the Guild's LinkedIn page.
 
 The Manchester AI Guild is a not-for-profit built to make AI work for good in Manchester and the UK.
 
@@ -117,27 +117,27 @@ Many organisations already have technology governance processes, but AI introduc
 
 See [participants-and-ecosystem.md](./docs/participants-and-ecosystem.md) for the full list of attendees, contributors, and meetup/ecosystem entities.
 
-## 🏛️ Council and owners
+## 🏛️ Senior Leadership Team (SLT)
 
-The Guild Council was proposed at the 28 August meeting and reviewed again at the 4 September Council meeting. Founding Council members and consenting participants are listed in [participants-and-ecosystem.md](./docs/participants-and-ecosystem.md).
+The Guild Senior Leadership Team (SLT) was proposed at the 28 August meeting and reviewed again at the 4 September SLT meeting. Founding SLT members and consenting participants are listed in [participants-and-ecosystem.md](./docs/participants-and-ecosystem.md).
 
-| Name | Council role |
+| Name | SLT Role |
 |---|---|
-| Adrian Quayle | President |
-| Mihran Hovnanian | Chairman & Secretary |
-| Edwin Luther | Governance & Ethics; owner of this repository |
+| Adrian Quayle | President & Director |
+| Mihran Hovnanian | Chairman, Secretary & Director |
+| Edwin Luther | Governance & Ethics (interim Compliance); owner of this repository |
 | Simon Ellis | Engagement & Projects Lead |
 | Fernando Torres | Community Lead & Events |
 | Rufus Curnow | Marketing & Communications Lead |
 | Marek Kurczynski | Website & Platform |
-| Trevor Roberts | Council member |
-| Tom Parson | Council member |
-| Treasurer | Seat open |
-| Data Protection Lead | To be appointed |
+| Trevor Roberts | Data Protection Lead (DPO) |
+| Tom Parson | Events & Community Partnerships |
+| Donald McKintosh | Treasurer |
+| Phil Davies | Organisational Development & Membership Lead |
 
 ## 📜 Policies
 
-Draft Guild policies (code of conduct, privacy notice, responsible AI use and others) are kept in the website repository's policy register: [`docs/policies/README.md`](https://github.com/Manchester-AI-Guild/website/blob/main/docs/policies/README.md) (private repository, members only). Their status is **Draft, awaiting Council 10 Oct 2026**. The Code of Conduct that applies across all Guild repositories is at [`.github/CODE_OF_CONDUCT.md`](https://github.com/Manchester-AI-Guild/.github/blob/main/CODE_OF_CONDUCT.md).
+Draft Guild policies (code of conduct, privacy notice, responsible AI use and others) are kept in the website repository's policy register: [`docs/policies/README.md`](https://github.com/Manchester-AI-Guild/website/blob/main/docs/policies/README.md) (private repository, members only). Their status is **Draft, awaiting SLT 10 Oct 2026**. The Code of Conduct that applies across all Guild repositories is at [`.github/CODE_OF_CONDUCT.md`](https://github.com/Manchester-AI-Guild/.github/blob/main/CODE_OF_CONDUCT.md).
 
 ## 🤝 Getting involved
 
@@ -161,7 +161,7 @@ Draft Guild policies (code of conduct, privacy notice, responsible AI use and ot
 ## 📁 Repository
 
 - Purpose: the Guild's public home on GitHub: mission, purpose statement, operating model, participants and the docs microsite (`docs/`, published by the Deploy GitHub Pages workflow).
-- Owner: Edwin Luther — Council, Governance & Ethics
+- Owner: Edwin Luther — SLT, Governance & Ethics
 - Policies index: [website `docs/policies/README.md`](https://github.com/Manchester-AI-Guild/website/blob/main/docs/policies/README.md) (private repository, members only)
 - Only `main` exists; changes go through pull requests and the `secret-scan` check.
 

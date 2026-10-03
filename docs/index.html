@@ -3,14 +3,14 @@
 <head>
 <!--
   Manchester AI Guild public microsite. Static, single page, no build step.
-  Content refreshed 17 September 2026 from the Council's own strategy and workstream records.
+  Content refreshed 17 September 2026 from the SLT's own strategy and workstream records.
 
   Design brief (oviscale-design, build lane)
   Subject: the Guild's public front door on GitHub Pages. Mode: Read.
   Refine, not replace: same single-page structure; the placeholder Arial/blue look is replaced by the Guild identity.
   Colour: navy #0E1E27 (ground, ink), gold #E8B923 (accent), cream #F4F2EA (light ground), lavender #E4D9F7 (academia tag only).
   Type: Zilla Slab 600/700 for headings (Google Fonts), Satoshi 400/500/700 for body (Fontshare). No font files in this repo.
-  Layout: navy hero -> cream reading column (72ch) -> Council grid -> Programmes with the Manchester AI Way supernova band -> who we serve -> footer.
+  Layout: navy hero -> cream reading column (72ch) -> SLT grid -> Programmes with the Manchester AI Way supernova band -> who we serve -> footer.
   Signature: the Manchester story set large in slab serif on navy with a single gold rule.
   Reference board: Guild deck "Building the AI Ecosystem in Manchester" (navy/gold slides); the assets repo README (mark, lockup, type notes);
   civic institution sites that pair a slab serif with a plain sans (Science and Industry Museum, University of Manchester) for tone, not copied.
@@ -18,7 +18,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Manchester AI Guild</title>
-<meta name="description" content="The Manchester AI Guild helps businesses adopt AI safely and grows the city's AI ecosystem across business and academia. Our method, the Manchester Way and the AI Cookbook, the Council, and who we serve.">
+<meta name="description" content="The Manchester AI Guild helps businesses adopt AI safely and grows the city's AI ecosystem across business and academia. Our method, the Manchester Way and the AI Cookbook, the Senior Leadership Team, and who we serve.">
 <meta property="og:title" content="Manchester AI Guild">
 <meta property="og:description" content="Helping Manchester businesses adopt AI safely, and growing the ecosystem so Manchester is an AI-first city.">
 <meta property="og:image" content="https://avatars.githubusercontent.com/u/319570462?v=4">
@@ -88,12 +88,12 @@
   .story p{font-family:var(--font-heading);font-weight:600;font-size:clamp(1.25rem,2.2vw,1.625rem);line-height:1.4;letter-spacing:0.005em;max-width:38ch;color:var(--hero-ink)}
   .story p.plain{font-family:var(--font-body);font-weight:400;font-size:1.0625rem;line-height:1.6;color:var(--hero-muted);max-width:66ch;margin-top:var(--s8)}
 
-  .council{display:grid;gap:var(--s4) var(--s6);grid-template-columns:repeat(auto-fill,minmax(240px,1fr));margin-top:var(--s8);list-style:none;padding:0}
-  .council li{display:flex;gap:var(--s3);align-items:flex-start;padding:var(--s3) 0;border-top:1px solid var(--border)}
-  .council .init{flex:none;width:44px;height:44px;border-radius:50%;background:var(--navy);color:var(--gold);font-family:var(--font-heading);font-weight:700;display:grid;place-items:center;font-size:.95rem}
-  .council .name{font-weight:700;display:block}
-  .council .role{color:var(--ink-2);font-size:.95rem;display:block}
-  .council a{font-size:.95rem}
+  .slt-members{display:grid;gap:var(--s4) var(--s6);grid-template-columns:repeat(auto-fill,minmax(240px,1fr));margin-top:var(--s8);list-style:none;padding:0}
+  .slt-members li{display:flex;gap:var(--s3);align-items:flex-start;padding:var(--s3) 0;border-top:1px solid var(--border)}
+  .slt-members .init{flex:none;width:44px;height:44px;border-radius:50%;background:var(--navy);color:var(--gold);font-family:var(--font-heading);font-weight:700;display:grid;place-items:center;font-size:.95rem}
+  .slt-members .name{font-weight:700;display:block}
+  .slt-members .role{color:var(--ink-2);font-size:.95rem;display:block}
+  .slt-members a{font-size:.95rem}
 
   .groups{display:grid;gap:var(--s8);margin-top:var(--s8)}
   .group h3{font-size:1.5rem;font-weight:700;margin-bottom:var(--s1)}
@@ -154,7 +154,7 @@
       <a class="brand" href="#top"><img src="https://avatars.githubusercontent.com/u/319570462?v=4" alt="" width="44" height="44">Manchester AI Guild</a>
       <ul>
         <li><a href="#story">The Manchester story</a></li>
-        <li><a href="#council">Council</a></li>
+        <li><a href="#slt-members">Senior Leadership Team</a></li>
         <li><a href="#programmes">Programmes</a></li>
         <li><a href="#community">Who we serve</a></li>
         <li><a href="#involved">Get involved</a></li>
@@ -187,20 +187,22 @@
     </div>
   </section>
 
-  <section id="council" aria-labelledby="council-h">
+  <section id="slt-members" aria-labelledby="slt-members-h">
     <div class="wrap">
-      <h2 id="council-h">Council</h2>
-      <p class="measure">The Guild is run by a volunteer Council. Members are listed with their public profiles where they have chosen to share one.</p>
-      <ul class="council">
-        <li><span class="init" aria-hidden="true">AQ</span><div><span class="name">Adrian Quayle</span><span class="role">President</span></div></li>
-        <li><span class="init" aria-hidden="true">MH</span><div><span class="name">Mihran Hovnanian</span><span class="role">Chairman &amp; Secretary</span></div></li>
-        <li><span class="init" aria-hidden="true">EL</span><div><span class="name">Edwin Luther</span><span class="role">Governance &amp; Ethics</span></div></li>
+      <h2 id="slt-members-h">Senior Leadership Team</h2>
+      <p class="measure">The Guild is run by a volunteer Senior Leadership Team (SLT). Members are listed with their public profiles where they have chosen to share one.</p>
+      <ul class="slt-members">
+        <li><span class="init" aria-hidden="true">AQ</span><div><span class="name">Adrian Quayle</span><span class="role">President &amp; Director</span></div></li>
+        <li><span class="init" aria-hidden="true">MH</span><div><span class="name">Mihran Hovnanian</span><span class="role">Chairman, Secretary &amp; Director</span></div></li>
+        <li><span class="init" aria-hidden="true">EL</span><div><span class="name">Edwin Luther</span><span class="role">Governance &amp; Ethics (interim Compliance)</span></div></li>
         <li><span class="init" aria-hidden="true">SE</span><div><span class="name">Simon Ellis</span><span class="role">Engagement &amp; Projects Lead</span></div></li>
         <li><span class="init" aria-hidden="true">FT</span><div><span class="name">Fernando Torres</span><span class="role">Community Lead &amp; Events</span></div></li>
         <li><span class="init" aria-hidden="true">RC</span><div><span class="name">Rufus Curnow</span><span class="role">Marketing &amp; Communications Lead &middot; The Red Giant</span></div></li>
         <li><span class="init" aria-hidden="true">MK</span><div><span class="name">Marek Kurczynski</span><span class="role">Website &amp; Platform</span></div></li>
-        <li><span class="init" aria-hidden="true">TR</span><div><span class="name">Trevor Roberts</span><span class="role">Council member</span></div></li>
-        <li><span class="init" aria-hidden="true">TP</span><div><span class="name">Tom Parson</span><span class="role">Council member &middot; Big Echo</span><a href="https://tomparson.com/" rel="noopener">tomparson.com</a></div></li>
+        <li><span class="init" aria-hidden="true">TR</span><div><span class="name">Trevor Roberts</span><span class="role">Data Protection Lead (DPO)</span></div></li>
+        <li><span class="init" aria-hidden="true">TP</span><div><span class="name">Tom Parson</span><span class="role">Events &amp; Community Partnerships &middot; Big Echo</span><a href="https://tomparson.com/" rel="noopener">tomparson.com</a></div></li>
+        <li><span class="init" aria-hidden="true">DM</span><div><span class="name">Donald McKintosh</span><span class="role">Treasurer</span></div></li>
+        <li><span class="init" aria-hidden="true">PD</span><div><span class="name">Phil Davies</span><span class="role">Organisational Development &amp; Membership Lead</span></div></li>
       </ul>
     </div>
   </section>
@@ -273,7 +275,7 @@
 
 <footer>
   <div class="wrap">
-    <p>&copy; Manchester AI Guild 2026 &middot; Council-owned &middot; Some content prepared with AI assistance and verified by the Council.</p>
+    <p>&copy; Manchester AI Guild 2026 &middot; Guild-owned &middot; Some content prepared with AI assistance and verified by the Senior Leadership Team.</p>
   </div>
 </footer>
 </body>

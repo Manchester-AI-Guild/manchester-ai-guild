@@ -13,7 +13,7 @@ _Adopted 16 September 2026. Version 1._
 
 ## Issues
 - Use the issue template. Every issue needs a label from the Guild set (governance, membership, events, comms, finance, tech, website, cookbook, launch, admin) and an assignee.
-- `decision-needed` means the Council must decide before work continues; `blocked` means another issue must close first — say which.
+- `decision-needed` means the Senior Leadership Team (SLT) must decide before work continues; `blocked` means another issue must close first — say which.
 - Close an issue only when the acceptance criteria in its body are met, with a closing comment saying what was done and where.
 
 ## Conduct
