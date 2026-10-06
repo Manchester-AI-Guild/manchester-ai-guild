@@ -62,7 +62,7 @@ We have two clear ambitions:
 1. Help SMEs and Enterprises adopt AI to drive growth, improve efficiency and solve real business problems.
 2. Bring business, academia, government and the AI community together to build the next generation of AI capability, solutions and talent needed to support that growth.
 
-Build capability. Create opportunity. Grow prosperity. Love people.
+Build capability. Create opportunity. Grow prosperity.
 
 Make Manchester a place where AI is not just talked about, it gets done.
 
