@@ -10,15 +10,15 @@ Proposed at the 28 Aug meeting and reviewed again at the 4 Sept SLT Meeting.
 |---|---|
 | Adrian Quayle | President |
 | Mihran Hovnanian | Chairman & Secretary |
-| Edwin Luther | Governance, Risk & Compliance |
+| Edwin Luther | Risk & Governance Director |
 | Simon Ellis | Engagement & Projects Lead |
-| Fernando Torres | Community Lead & Events |
-| Rufus Curnow | Marketing & Communications Lead |
+| Fernando Torres | Events & Marketing Director |
+| Rufus Curnow | Communications Director |
 | Marek Kurczynski | Website & Platform |
-| Trevor Roberts | Data Protection Lead (DPO) |
+| Trevor Roberts | Data Protection Lead |
 | Tom Parson | Events & Community Partnerships |
-| Donald McKintosh | Treasurer |
-| Phil Davies | Organisational Development & Membership Lead |
+| Donald McIntosh | Treasurer & CFO |
+| Phil Davies | Operations Director |
 
 ## Founding Members
 
@@ -35,7 +35,7 @@ Proposed at the 28 Aug meeting and reviewed again at the 4 Sept SLT Meeting.
 | Phil Edwards | HealthTech Founder & AI Consultant | Healthcare AI Advisory | Founding Member |
 | Phil Wallace | Innovation Manager & AI Manchester Lead | University of Manchester (Digital Futures) | Founding Member |
 | Rick (Richard) | Enterprise Software Architect & Meetup Founder | BrightHR / .NET North | Founding Member |
-| Rufus Curnow | Marketing & Communications Lead | The Red Giant | Member (joined September 2026) |
+| Rufus Curnow | Communications Director | The Red Giant | Member (joined September 2026) |
 | Simon Ellis | Head of AI Transformation & Enterprise Architecture | Pets at Home (previously Boots/WBA) | Founding Member |
 | Tom Parson | Innovation Facilitator & Educator / Founder Big Echo | Big Echo / Circles MCR / Huddle Digital | Member (joined September 2026) |
 | Tom Parkes | AI & Tech Recruitment Specialist / Managing Partner | SF Technology / SF Group | Founding Member |
