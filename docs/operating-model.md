@@ -24,6 +24,7 @@ Status: decided by default on 16 September 2026, building on the SLT's decisions
 | Element | Position |
 |---|---|
 | Legal vehicle | Private company limited by guarantee (no. 17490801) |
+| Data protection | Registered with the ICO as a data controller (ZC266348) |
 | Community served | Businesses, entrepreneurs, professionals, educational institutions and community organisations in Greater Manchester and the wider North West, particularly SMEs |
 | Revenue lines | Membership tiers (Community tier GBP 30/year; others to be set); workshops and training; readiness assessments; SME storytelling features and nights; publications; sponsorship; research collaborations; the Guild Treasures programme |
 | Use of surplus | Reinvested in SME support and the community purpose (surplus reinvested per the articles) |

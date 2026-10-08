@@ -139,6 +139,8 @@ The Guild Senior Leadership Team (SLT) was proposed at the 28 August meeting and
 
 Draft Guild policies (code of conduct, privacy notice, responsible AI use and others) are kept in the website repository's policy register: [`docs/policies/README.md`](https://github.com/Manchester-AI-Guild/website/blob/main/docs/policies/README.md) (private repository, members only). Their status is **Draft, awaiting SLT 10 Oct 2026**. The Code of Conduct that applies across all Guild repositories is at [`.github/CODE_OF_CONDUCT.md`](https://github.com/Manchester-AI-Guild/.github/blob/main/CODE_OF_CONDUCT.md).
 
+Manchester AI Guild Ltd is registered with the Information Commissioner's Office as a data controller (registration ZC266348).
+
 ## 🤝 Getting involved
 
 1. Review open issues and milestones.
