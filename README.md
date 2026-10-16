@@ -13,7 +13,7 @@
 
 <h1 align="center">Manchester AI Guild</h1>
 
-<p align="center">The Guild's public home on GitHub: mission, purpose statement, operating model, participants and the docs microsite.</p>
+<p align="center"><strong>Two missions:</strong> help businesses adopt AI to grow, and build Manchester's AI capability, solutions and talent.</p>
 
 <p align="center">
   <a href="https://github.com/Manchester-AI-Guild/manchester-ai-guild/actions/workflows/security-checks.yml"><img src="https://github.com/Manchester-AI-Guild/manchester-ai-guild/actions/workflows/security-checks.yml/badge.svg" alt="Security Checks"></a>
@@ -30,49 +30,50 @@
   <a href="https://manchester-ai-guild.github.io/manchester-ai-guild/"><img src="https://img.shields.io/badge/Docs-GitHub%20Pages-222?logo=github" alt="Docs microsite"></a>
 </p>
 
-Our goal is to mutually develop a practical framework and execution model that supports the onboarding, development, governance, and scaling of AI-based solutions across Manchester-region organisations.
+This is the Guild's public home on GitHub: the two missions, purpose statement, operating model, participants and the docs microsite. Our goal is to mutually develop a practical framework and execution model that supports the onboarding, development, governance, and scaling of AI-based solutions across Manchester-region organisations.
 
-## 🗂️ What's here
+## What's here
 
-| | Folder or file | What it is |
-|---|---|---|
-| 🎯 | This README | Mission, purpose statement, who we serve, what we offer, charter direction, FAQ |
-| 🧭 | [`docs/operating-model.md`](docs/operating-model.md) | How the Guild runs: working groups, cadence, ownership |
-| 👥 | [`docs/participants-and-ecosystem.md`](docs/participants-and-ecosystem.md) | Guild Senior Leadership Team (SLT), founding members, consenting participants and ecosystem entities |
-| 🔒 | [`docs/security-maintenance.md`](docs/security-maintenance.md), [`SECURITY.md`](SECURITY.md) | Security maintenance notes and how to report a vulnerability |
-| 🌐 | [`docs/index.md`](docs/index.md), [`docs/index.html`](docs/index.html) | The docs microsite, published by the Deploy GitHub Pages workflow to [manchester-ai-guild.github.io/manchester-ai-guild](https://manchester-ai-guild.github.io/manchester-ai-guild/) |
-| 📝 | [`CONTRIBUTING.md`](CONTRIBUTING.md), [`.github/`](.github/) | Contributing guide, issue template (`guild-task`), pull request template, CODEOWNERS |
-| 🗃️ | [`issues-seed.json`](issues-seed.json) | Seed of the action-owner issue backlog |
-| ✅ | [`.github/workflows/`](.github/workflows/) | Security Checks (gitleaks `secret-scan`) and Deploy GitHub Pages |
+| Folder or file | What it is |
+|---|---|
+| This README | The two missions, purpose statement, who we serve, what we offer, charter direction, FAQ |
+| [`docs/operating-model.md`](docs/operating-model.md) | How the Guild runs: working groups, cadence, ownership |
+| [`docs/participants-and-ecosystem.md`](docs/participants-and-ecosystem.md) | Guild Senior Leadership Team (SLT), founding members, consenting participants and ecosystem entities |
+| [`docs/security-maintenance.md`](docs/security-maintenance.md), [`SECURITY.md`](SECURITY.md) | Security maintenance notes and how to report a vulnerability |
+| [`docs/index.md`](docs/index.md), [`docs/index.html`](docs/index.html) | The docs microsite, published by the Deploy GitHub Pages workflow to [manchester-ai-guild.github.io/manchester-ai-guild](https://manchester-ai-guild.github.io/manchester-ai-guild/) |
+| [`CONTRIBUTING.md`](CONTRIBUTING.md), [`.github/`](.github/) | Contributing guide, issue template (`guild-task`), pull request template, CODEOWNERS |
+| [`issues-seed.json`](issues-seed.json) | Seed of the action-owner issue backlog |
+| [`.github/workflows/`](.github/workflows/) | Security Checks (gitleaks `secret-scan`) and Deploy GitHub Pages |
 
-## 🎯 Mission
+## Our two missions
 
-The Manchester AI Guild brings together founders, practitioners, researchers, and ecosystem partners to unlock AI value safely and at speed. We focus on practical delivery and clear governance so teams can move from discussion to implementation with confidence.
+**Mission 1: Help businesses adopt AI.** Help SMEs and enterprises adopt AI to drive growth, improve efficiency and solve real business problems.
 
-### Purpose statement
+**Mission 2: Build Manchester's AI capability.** Bring business, academia, government and the AI community together to build the next generation of AI capability, solutions and talent needed to support that growth.
 
-Agreed by the Guild Senior Leadership Team (SLT) on 11 September 2026 and published on the Guild's LinkedIn page.
+**Build capability. Create opportunity. Grow prosperity.**
 
-The Manchester AI Guild is a not-for-profit built to make AI work for good in Manchester and the UK.
+**Make Manchester a place where AI is not just talked about, it gets done.**
 
-We grow people, strengthen solution providers and connect the Manchester ecosystem to drive lasting change through the responsible adoption of AI.
+The Guild brings together founders, practitioners, researchers and ecosystem partners to unlock AI value safely and at speed. We focus on practical delivery and clear governance so teams can move from discussion to implementation with confidence.
 
-We have two clear ambitions:
+### **Purpose statement**
 
-1. Help SMEs and Enterprises adopt AI to drive growth, improve efficiency and solve real business problems.
-2. Bring business, academia, government and the AI community together to build the next generation of AI capability, solutions and talent needed to support that growth.
+Agreed by the Guild Senior Leadership Team (SLT) on 11 September 2026. Live source: the Guild's [LinkedIn page](https://www.linkedin.com/company/manchester-ai-guild) and [manchesteraiguild.org](https://www.manchesteraiguild.org/).
 
-Build capability. Create opportunity. Grow prosperity.
+The Manchester AI Guild is a not-for-profit built to make AI work for good in Manchester and the UK. We grow people, strengthen solution providers and connect the Manchester ecosystem to drive lasting change through the responsible adoption of AI.
 
-Make Manchester a place where AI is not just talked about, it gets done.
+### **Who we serve**
 
-### Who we serve
+Live source: [manchesteraiguild.org](https://www.manchesteraiguild.org/).
 
 We support SMEs, founders, public-sector teams and regional partners that want to adopt AI but lack the expertise, confidence or resources to do so safely and effectively. We create a trusted space for practical collaboration: identifying valuable use cases, understanding the risk and governance implications, connecting people to the right expertise, and helping organisations move from experimentation to measurable outcomes.
 
 Our role is not to replace existing capabilities, but to connect them. We aim to help members and partners identify where AI can create real operational value, where it should not be used, and how to implement it responsibly.
 
-### What we offer
+### **What we offer**
+
+Live source: [manchesteraiguild.org](https://www.manchesteraiguild.org/) and the [docs microsite](https://manchester-ai-guild.github.io/manchester-ai-guild/).
 
 - Practical support to identify valuable AI use cases
 - Guidance on risk, governance, and implementation trade-offs
@@ -80,7 +81,9 @@ Our role is not to replace existing capabilities, but to connect them. We aim to
 - A route to shared learning, better decisions, and practical pilot delivery
 - A sustainable operating model that connects social value with real delivery capacity
 
-### Charter direction
+### **Charter direction**
+
+Live source: [operating model](./docs/operating-model.md).
 
 The Guild is designed to create value for SMEs and organisations across Greater Manchester and the North West that want to adopt AI but do not yet have a clear path. We will offer practical support to help them understand the opportunity, assess real-world constraints, and implement solutions with confidence.
 
@@ -88,13 +91,13 @@ We also recognise that members and contributors need a sustainable operating mod
 
 **Charter status:** the purpose statement above is agreed. The Guild charter is still being drafted by the working group, building on it. Detailed governance and structural decisions are being worked through in private before a finalised, agreed version is published here.
 
-## 🧠 Strategic context
+## Strategic context
 
 Recent AI advances have created broad opportunity across products, operations, and productivity. They have also introduced new categories of risk, including hallucinations, prompt injection, compliance uncertainty, and uneven controls.  
 
 Many organisations already have technology governance processes, but AI introduces additional complexity that often needs specific adaptation. This repository exists to make that adaptation practical.
 
-## 🛠️ Current approach
+## Current approach
 
 - **Focus on concrete use cases**  
   We prioritize narrow, high-value slices over broad abstract frameworks.
@@ -105,7 +108,7 @@ Many organisations already have technology governance processes, but AI introduc
 - **Community-first iteration**  
   We refine outputs through live working sessions and measurable pilot outcomes.
 
-## 📦 What this repository contains
+## What this repository contains
 
 - Charter and mission narrative
 - Working group definitions
@@ -113,11 +116,11 @@ Many organisations already have technology governance processes, but AI introduc
 - Action-owner issue backlog
 - Participant and ecosystem roster
 
-## 👥 Participants and ecosystem
+## Participants and ecosystem
 
 See [participants-and-ecosystem.md](./docs/participants-and-ecosystem.md) for the full list of attendees, contributors, and meetup/ecosystem entities.
 
-## 🏛️ Senior Leadership Team (SLT)
+## Senior Leadership Team (SLT)
 
 The Guild Senior Leadership Team (SLT) was proposed at the 28 August meeting and reviewed again at the 4 September SLT meeting. Founding members and consenting participants are listed in [participants-and-ecosystem.md](./docs/participants-and-ecosystem.md).
 
@@ -135,13 +138,13 @@ The Guild Senior Leadership Team (SLT) was proposed at the 28 August meeting and
 | Donald McIntosh | Treasurer & CFO |
 | Phil Davies | Operations Director |
 
-## 📜 Policies
+## Policies
 
 Draft Guild policies (code of conduct, privacy notice, responsible AI use and others) are kept in the website repository's policy register: [`docs/policies/README.md`](https://github.com/Manchester-AI-Guild/website/blob/main/docs/policies/README.md) (private repository, members only). Their status is **Draft, awaiting SLT 10 Oct 2026**. The Code of Conduct that applies across all Guild repositories is at [`.github/CODE_OF_CONDUCT.md`](https://github.com/Manchester-AI-Guild/.github/blob/main/CODE_OF_CONDUCT.md).
 
 Manchester AI Guild Ltd is registered with the Information Commissioner's Office as a data controller (registration ZC266348).
 
-## 🤝 Getting involved
+## Getting involved
 
 1. Review open issues and milestones.
 2. Join the appropriate workstream label.
@@ -155,19 +158,19 @@ Manchester AI Guild Ltd is registered with the Information Commissioner's Office
 - **Report a security problem**: follow [`SECURITY.md`](SECURITY.md); do not open a public issue.
 - **Ask for help**: contact the Guild via [www.manchesteraiguild.org](https://www.manchesteraiguild.org/) or [LinkedIn](https://www.linkedin.com/company/manchester-ai-guild).
 
-## 🔗 Connect
+## Connect
 
 - Website: [www.manchesteraiguild.org](https://www.manchesteraiguild.org/)
 - LinkedIn: [Manchester AI Guild](https://www.linkedin.com/company/manchester-ai-guild)
 
-## 📁 Repository
+## Repository
 
 - Purpose: the Guild's public home on GitHub: mission, purpose statement, operating model, participants and the docs microsite (`docs/`, published by the Deploy GitHub Pages workflow).
 - Owner: Edwin Luther, Risk & Governance Director
 - Policies index: [website `docs/policies/README.md`](https://github.com/Manchester-AI-Guild/website/blob/main/docs/policies/README.md) (private repository, members only)
 - Only `main` exists; changes go through pull requests and the `secret-scan` check.
 
-## ❓ FAQ
+## FAQ
 
 ### Are you building foundation models?
 No. The Guild is focused on practical adoption, governance, and implementation pathways.
