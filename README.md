@@ -186,7 +186,7 @@ Manchester AI Guild Ltd is registered with the Information Commissioner's Office
 - **Contribute work**: read [`CONTRIBUTING.md`](CONTRIBUTING.md), then open a pull request against `main`. The `secret-scan` check must pass before merge.
 - **Raise a task or idea**: open an issue using the `guild-task` template.
 - **Report a security problem**: follow [`SECURITY.md`](SECURITY.md); do not open a public issue.
-- **Ask for help**: contact Manchester AI Guild via [www.manchesteraiguild.org](https://www.manchesteraiguild.org/) or [LinkedIn](https://www.linkedin.com/company/manchester-ai-guild).
+- **Ask for help**: contact the Guild via [www.manchesteraiguild.org](https://www.manchesteraiguild.org/) or [LinkedIn](https://www.linkedin.com/company/manchester-ai-guild).
 
 ## Connect
 
