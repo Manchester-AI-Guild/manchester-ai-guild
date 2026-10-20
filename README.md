@@ -32,6 +32,14 @@
 
 This is the Guild's public home on GitHub: the two missions, purpose statement, operating model, participants and the docs microsite. Our goal is to mutually develop a practical framework and execution model that supports the onboarding, development, governance, and scaling of AI-based solutions across Manchester-region organisations.
 
+## Review status and asset flow
+
+This repository is the Guild's public layer, and it is one of three: `.github` holds the organisation configuration, this repository holds public content, and `manchester-ai-guild-operations` holds private operations. It should read cleanly from top to bottom: purpose first, then operating model, then ecosystem, then the published microsite.
+
+- Owns: the two missions, the purpose statement, public commitments, and member-facing guidance
+- Does not own: internal governance records and action tracking, which live in `manchester-ai-guild-operations`; organisation defaults and the shared Code of Conduct, which live in `.github`
+- Review gate: before a change here is merged, the public wording must still match the published microsite and the Guild charter
+
 ## What's here
 
 | Folder or file | What it is |
