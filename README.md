@@ -32,13 +32,13 @@
 
 This is the public home of Manchester AI Guild on GitHub: the two missions, purpose statement, operating model, participants and the docs microsite. Our goal is to mutually develop a practical framework and execution model that supports the onboarding, development, governance, and scaling of AI-based solutions across Manchester-region organisations.
 
-## Review status and asset flow
-
-This repository is the Guild's public layer, and it is one of three: `.github` holds the organisation configuration, this repository holds public content, and `manchester-ai-guild-operations` holds private operations. It should read cleanly from top to bottom: purpose first, then operating model, then ecosystem, then the published microsite.
-
-- Owns: the two missions, the purpose statement, public commitments, and member-facing guidance
-- Does not own: internal governance records, action tracking and the canonical Code of Conduct, which live in `manchester-ai-guild-operations`; organisation defaults and the published Code of Conduct mirror, which live in `.github`
-- Review gate: before a change here is merged, the public wording must still match the published microsite and the Guild charter
+> **The governance material on this page is draft.** The purpose statement is agreed
+> (Senior Leadership Team, 11 September 2026). The charter, the Code of Conduct and the
+> operating model are drafts awaiting SLT approval and are not adopted policy. That
+> includes anything said below about funding, paid engagements or commissioning: none of
+> it is live. Each document in [`docs/operating-model/`](docs/operating-model/README.md)
+> carries its own status line, and where this page and that document differ, the document
+> governs.
 
 ## What's here
 
