@@ -10,14 +10,14 @@ Status: decided by default on 16 September 2026, building on the SLT's decisions
 
 ### 2. How are members supported when they deliver work to SMEs?
 
-- **Paid products the Guild sells and members deliver:** the onPrem Workshop (1-day and 3-day formats), Direct Match, and readiness assessments. Standard workshop prices are published; a founding discount applies to the first ten bookings.
+- **Paid services the Guild sells and members deliver:** SME Workshops and AI Consultancy.
 - **Fair allocation:** opportunities that come through the Guild are allocated by a skills-match shortlist of three, with the business choosing, under a written workflow with conflict-of-interest rules and a quarterly allocation summary to members.
 - **Funded delivery:** where the Guild channels grant or public funding (question 1), that funding pays members who deliver to SMEs that could not otherwise afford support.
 - **Standing:** Practitioner and Master status on the Individual pathway, recognition in Guild publications with consent, and the Guild as a point of comeback for the SME, which protects both the SME and the member's credibility.
 
 ### 3. What is the balance between social mission and a workable commercial model?
 
-**Commercial engagements fund the mission.** The SLT minuted on 11 September 2026 that higher-value corporate engagements build a financial reserve that supports the wider not-for-profit mission, including practical AI support that SMEs can afford. Under the Ltd constitution, any surplus is reinvested in the community purpose: subsidised or free AI support for SMEs and community organisations, education and mentoring, shared resources and standards, events, research and local capability-building. No surplus is distributed for private gain.
+Under the Ltd constitution, any surplus is reinvested in the community purpose: subsidised or free AI support for SMEs and community organisations, education and mentoring, shared resources and standards, events, research and local capability-building. No surplus is distributed for private gain.
 
 ## What this looks like in practice
 
@@ -26,7 +26,7 @@ Status: decided by default on 16 September 2026, building on the SLT's decisions
 | Legal vehicle | Private company limited by guarantee (no. 17490801) |
 | Data protection | Registered with the ICO as a data controller (ZC266348) |
 | Community served | Businesses, entrepreneurs, professionals, educational institutions and community organisations in Greater Manchester and the wider North West, particularly SMEs |
-| Revenue lines | Membership tiers (Community tier GBP 30/year; others to be set); workshops and training; readiness assessments; SME storytelling features and nights; publications; sponsorship; research collaborations; the Guild Treasures programme |
+| Revenue lines | Membership tiers (Community tier GBP 30/year; others to be set); SME Workshops; AI Consultancy; SME storytelling features and nights; publications; sponsorship; research collaborations; the Guild Treasures programme |
 | Use of surplus | Reinvested in SME support and the community purpose (surplus reinvested per the articles) |
 | Member delivery | Skills-match shortlist allocation; no Guild referral fee in the first review period; conflicts of interest declared |
 | Oversight | Guild Senior Leadership Team (SLT); governance, risk and data policies are versioned in the operations records |

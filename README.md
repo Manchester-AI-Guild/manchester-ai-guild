@@ -99,6 +99,29 @@ We also recognise that members and contributors need a sustainable operating mod
 
 **Charter status:** the purpose statement above is agreed. The Guild charter is still being drafted by the working group, building on it. Detailed governance and structural decisions are being worked through in private before a finalised, agreed version is published here.
 
+## The Manchester Way
+
+The Manchester Way is the Manchester AI Guild's method for SMEs. It uses a band as the picture of a business. The core band is your product, your specialist expertise, your data, your systems, your commercial backing, your customers and their feedback. Each role comes with one plain question. The aim is the AI Supernova: the intent to amplify what makes your business exceptional through ethical, sustainable and human-centred AI. Keep what makes you distinctive, find where the performance goes wrong, and test one small change.
+
+The core band, in order:
+
+1. **Lead singer / songwriter**: the product or service and its distinctive voice. *What makes your offering yours?*
+2. **Lead guitarist**: specialist expertise, craft and innovation. *Which capabilities make you exceptional?*
+3. **Bass guitarist**: data. *Is your data reliable, accessible and understood?*
+4. **Sound engineer**: systems integration, quality and delivery. *Does the right information reach the right people?*
+5. **Record label**: commercial backing, investment and business model. *How do you fund and support your offering?*
+6. **Audience**: customers and users. *Who are you performing for?*
+7. **Reviews, applause and repeat bookings**: customer insight and measured results. *How do you hear the response?*
+
+**AI Supernova** is the intent to amplify what makes your business exceptional through ethical, sustainable and human-centred AI. It has positive cultural and financial impact: it pays back in people and in profit.
+
+The microsite's [Manchester Way section](https://manchester-ai-guild.github.io/manchester-ai-guild/#programmes) sets out the method in full.
+
+## Services
+
+- **SME Workshops**: The Manchester Way workshop, an afternoon (13:00 to 17:15) for SMEs with three exercises: the false notes, start your band, and improve one performance. Proposed dates: 18 November and 10 December 2026, at Ada, National College for Digital Skills. A one-company workshop runs the same method for a single organisation, in more depth.
+- **AI Consultancy**: help after the workshop, including setting up AI policies and working with a company's IT team, whose job is to keep data safe. The Guild's consultancy acts as an external critical friend, at the right time.
+
 ## Strategic context
 
 Recent AI advances have created broad opportunity across products, operations, and productivity. They have also introduced new categories of risk, including hallucinations, prompt injection, compliance uncertainty, and uneven controls.  
@@ -148,7 +171,7 @@ The Guild Senior Leadership Team (SLT) was proposed at the 28 August meeting and
 
 ## Policies
 
-Draft Guild policies (privacy notice, responsible AI use and others) are kept in the website repository's policy register: [`docs/policies/README.md`](https://github.com/Manchester-AI-Guild/website/blob/main/docs/policies/README.md) (private repository, members only). Their status is **Draft, awaiting SLT 10 Oct 2026**. The canonical Code of Conduct is [`policies/public/code-of-conduct.md`](https://github.com/Manchester-AI-Guild/manchester-ai-guild-operations/blob/main/policies/public/code-of-conduct.md) in the operations repository; the copy in [`.github`](https://github.com/Manchester-AI-Guild/.github/blob/main/CODE_OF_CONDUCT.md) is the published mirror.
+Draft Guild policies (privacy notice, responsible AI use and others) are kept in the website repository's policy register: [`docs/policies/README.md`](https://github.com/Manchester-AI-Guild/website/blob/main/docs/policies/README.md) (private repository, members only). Their status is **Draft, under SLT review**. The canonical Code of Conduct is [`policies/public/code-of-conduct.md`](https://github.com/Manchester-AI-Guild/manchester-ai-guild-operations/blob/main/policies/public/code-of-conduct.md) in the operations repository; the copy in [`.github`](https://github.com/Manchester-AI-Guild/.github/blob/main/CODE_OF_CONDUCT.md) is the published mirror.
 
 Manchester AI Guild Ltd is registered with the Information Commissioner's Office as a data controller (registration ZC266348).
 
