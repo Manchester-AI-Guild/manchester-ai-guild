@@ -69,7 +69,7 @@ The Guild brings together founders, practitioners, researchers and ecosystem par
 
 Agreed by the Guild Senior Leadership Team (SLT) on 11 September 2026. Live source: the Guild's [LinkedIn page](https://www.linkedin.com/company/manchester-ai-guild) and [manchesteraiguild.org](https://www.manchesteraiguild.org/).
 
-The Manchester AI Guild is a not-for-profit built to make AI work for good in Manchester and the UK. We grow people, strengthen solution providers and connect the Manchester ecosystem to drive lasting change through the responsible adoption of AI.
+The Manchester AI Guild is a not-for-profit built to make AI work for good in Manchester and the UK. We grow people, strengthen solution providers and connect the Manchester ecosystem to drive lasting change through the ethical use of AI.
 
 ### **Who we serve**
 

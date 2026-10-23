@@ -30,7 +30,7 @@ The core band has seven roles, in order: lead singer / songwriter, lead guitaris
 
 ## Working streams
 
-- Responsible AI for SMEs
+- Ethical use of AI for SMEs
 - Sovereign and privacy-first AI pathways
 - Incubator and venture outcomes
 - Community and ecosystem alignment
