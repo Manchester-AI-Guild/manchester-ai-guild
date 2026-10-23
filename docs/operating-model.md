@@ -1,6 +1,6 @@
 # Operating model and funding approach
 
-Status: decided by default on 16 September 2026, building on the SLT's decisions of 4 and 11 September 2026. SLT ratification requested for the meeting on 10 October 2026. Detailed governance lives in the Guild's private operations records; this page is the public summary.
+Status: decided by default on 16 September 2026, building on the SLT's decisions of 4 and 11 September 2026. Draft, under SLT review. Detailed governance lives in the Guild's private operations records; this page is the public summary.
 
 ## The three questions in issue #15, answered
 
