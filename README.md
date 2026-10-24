@@ -36,7 +36,7 @@ Tip: Ctrl-click (Cmd-click on Mac) a link to open it in a new tab.
 
 ## Review status and asset flow
 
-This repository is the Guild's public layer, and it is one of three: `.github` holds the organisation configuration, this repository holds public content, and `manchester-ai-guild-operations` holds private operations. It should read cleanly from top to bottom: purpose first, then operating model, then ecosystem, then the published microsite.
+This repository is the Guild's public layer, and it is one of five repositories: `.github` (public) holds the organisation configuration, this repository (public) holds public content, `manchester-ai-guild-operations` (private) holds private operations, `website` (private) is the source of www.manchesteraiguild.org and the draft policy register, and `manchester-ai-guild-assets` (private) holds official brand assets. It should read cleanly from top to bottom: purpose first, then operating model, then ecosystem, then the published microsite.
 
 - Owns: the two missions, the purpose statement, public commitments, and member-facing guidance
 - Does not own: internal governance records, action tracking and the canonical Code of Conduct, which live in `manchester-ai-guild-operations`; organisation defaults and the published Code of Conduct mirror, which live in `.github`
