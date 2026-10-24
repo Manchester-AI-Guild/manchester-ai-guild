@@ -32,6 +32,8 @@
 
 This is the Guild's public home on GitHub: the two missions, purpose statement, operating model, participants and the docs microsite. Our goal is to mutually develop a practical framework and execution model that supports the onboarding, development, governance, and scaling of AI-based solutions across Manchester-region organisations.
 
+Tip: Ctrl-click (Cmd-click on Mac) a link to open it in a new tab.
+
 ## Review status and asset flow
 
 This repository is the Guild's public layer, and it is one of five repositories: `.github` (public) holds the organisation configuration, this repository (public) holds public content, `manchester-ai-guild-operations` (private) holds private operations, `website` (private) is the source of www.manchesteraiguild.org and the draft policy register, and `manchester-ai-guild-assets` (private) holds official brand assets. It should read cleanly from top to bottom: purpose first, then operating model, then ecosystem, then the published microsite.
@@ -48,7 +50,7 @@ This repository is the Guild's public layer, and it is one of five repositories:
 | [`docs/operating-model.md`](docs/operating-model.md) | How the Guild runs: working groups, cadence, ownership |
 | [`docs/participants-and-ecosystem.md`](docs/participants-and-ecosystem.md) | Guild Senior Leadership Team (SLT), founding members, consenting participants and ecosystem entities |
 | [`docs/security-maintenance.md`](docs/security-maintenance.md), [`SECURITY.md`](SECURITY.md) | Security maintenance notes and how to report a vulnerability |
-| [`docs/index.md`](docs/index.md), [`docs/index.html`](docs/index.html) | The docs microsite, published by the Deploy GitHub Pages workflow to [manchester-ai-guild.github.io/manchester-ai-guild](https://manchester-ai-guild.github.io/manchester-ai-guild/) |
+| [`docs/index.md`](docs/index.md) · [View](https://manchester-ai-guild.github.io/manchester-ai-guild/) · [Source](docs/index.html) | The docs microsite, published by the Deploy GitHub Pages workflow to [manchester-ai-guild.github.io/manchester-ai-guild](https://manchester-ai-guild.github.io/manchester-ai-guild/) |
 | [`CONTRIBUTING.md`](CONTRIBUTING.md), [`.github/`](.github/) | Contributing guide, issue template (`guild-task`), pull request template, CODEOWNERS |
 | [`issues-seed.json`](issues-seed.json) | Seed of the action-owner issue backlog |
 | [`.github/workflows/`](.github/workflows/) | Security Checks (gitleaks `secret-scan`) and Deploy GitHub Pages |
@@ -69,7 +71,7 @@ The Guild brings together founders, practitioners, researchers and ecosystem par
 
 Agreed by the Guild Senior Leadership Team (SLT) on 11 September 2026. Live source: the Guild's [LinkedIn page](https://www.linkedin.com/company/manchester-ai-guild) and [manchesteraiguild.org](https://www.manchesteraiguild.org/).
 
-The Manchester AI Guild is a not-for-profit built to make AI work for good in Manchester and the UK. We grow people, strengthen solution providers and connect the Manchester ecosystem to drive lasting change through the responsible adoption of AI.
+The Manchester AI Guild is a not-for-profit built to make AI work for good in Manchester and the UK. We grow people, strengthen solution providers and connect the Manchester ecosystem to drive lasting change through the ethical use of AI.
 
 ### **Who we serve**
 
@@ -98,6 +100,29 @@ The Guild is designed to create value for SMEs and organisations across Greater 
 We also recognise that members and contributors need a sustainable operating model. Where appropriate, the Guild may act as a channel for public funding, grant support, or collaborative commissioning so that trusted members can deliver services to SMEs while the Guild remains rooted in its social mission.
 
 **Charter status:** the purpose statement above is agreed. The Guild charter is still being drafted by the working group, building on it. Detailed governance and structural decisions are being worked through in private before a finalised, agreed version is published here.
+
+## The Manchester Way
+
+The Manchester Way is the Manchester AI Guild's method for SMEs. It uses a band as the picture of a business. The core band is your product, your specialist expertise, your data, your systems, your commercial backing, your customers and their feedback. Each role comes with one plain question. The aim is the AI Supernova: the intent to amplify what makes your business exceptional through ethical, sustainable and human-centred AI. Keep what makes you distinctive, find where the performance goes wrong, and test one small change.
+
+The core band, in order:
+
+1. **Lead singer / songwriter**: the product or service and its distinctive voice. *What makes your offering yours?*
+2. **Lead guitarist**: specialist expertise, craft and innovation. *Which capabilities make you exceptional?*
+3. **Bass guitarist**: data. *Is your data reliable, accessible and understood?*
+4. **Sound engineer**: systems integration, quality and delivery. *Does the right information reach the right people?*
+5. **Record label**: commercial backing, investment and business model. *How do you fund and support your offering?*
+6. **Audience**: customers and users. *Who are you performing for?*
+7. **Reviews, applause and repeat bookings**: customer insight and measured results. *How do you hear the response?*
+
+**AI Supernova** is the intent to amplify what makes your business exceptional through ethical, sustainable and human-centred AI. It has positive cultural and financial impact: it pays back in people and in profit.
+
+The microsite's [Manchester Way section](https://manchester-ai-guild.github.io/manchester-ai-guild/#programmes) sets out the method in full.
+
+## Services
+
+- **SME Workshops**: The Manchester Way workshop, an afternoon (13:00 to 17:15) for SMEs with three exercises: the false notes, start your band, and improve one performance. Proposed dates: 18 November and 10 December 2026, at Ada, National College for Digital Skills. A one-company workshop runs the same method for a single organisation, in more depth.
+- **AI Consultancy**: help after the workshop, including setting up AI policies and working with a company's IT team, whose job is to keep data safe. The Guild's consultancy acts as an external critical friend, at the right time.
 
 ## Strategic context
 
@@ -148,7 +173,7 @@ The Guild Senior Leadership Team (SLT) was proposed at the 28 August meeting and
 
 ## Policies
 
-Draft Guild policies (privacy notice, responsible AI use and others) are kept in the website repository's policy register: [`docs/policies/README.md`](https://github.com/Manchester-AI-Guild/website/blob/main/docs/policies/README.md) (private repository, members only). Their status is **Draft, awaiting SLT 10 Oct 2026**. The canonical Code of Conduct is [`policies/public/code-of-conduct.md`](https://github.com/Manchester-AI-Guild/manchester-ai-guild-operations/blob/main/policies/public/code-of-conduct.md) in the operations repository; the copy in [`.github`](https://github.com/Manchester-AI-Guild/.github/blob/main/CODE_OF_CONDUCT.md) is the published mirror.
+Draft Guild policies (privacy notice, responsible AI use and others) are kept in the website repository's policy register: [`docs/policies/README.md`](https://github.com/Manchester-AI-Guild/website/blob/main/docs/policies/README.md) (private repository, members only). Their status is **Draft, under SLT review**. The canonical Code of Conduct is [`policies/public/code-of-conduct.md`](https://github.com/Manchester-AI-Guild/manchester-ai-guild-operations/blob/main/policies/public/code-of-conduct.md) in the operations repository; the copy in [`.github`](https://github.com/Manchester-AI-Guild/.github/blob/main/CODE_OF_CONDUCT.md) is the published mirror.
 
 Manchester AI Guild Ltd is registered with the Information Commissioner's Office as a data controller (registration ZC266348).
 
