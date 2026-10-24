@@ -32,6 +32,8 @@
 
 This is the Guild's public home on GitHub: the two missions, purpose statement, operating model, participants and the docs microsite. Our goal is to mutually develop a practical framework and execution model that supports the onboarding, development, governance, and scaling of AI-based solutions across Manchester-region organisations.
 
+Tip: Ctrl-click (Cmd-click on Mac) a link to open it in a new tab.
+
 ## Review status and asset flow
 
 This repository is the Guild's public layer, and it is one of three: `.github` holds the organisation configuration, this repository holds public content, and `manchester-ai-guild-operations` holds private operations. It should read cleanly from top to bottom: purpose first, then operating model, then ecosystem, then the published microsite.
@@ -48,7 +50,7 @@ This repository is the Guild's public layer, and it is one of three: `.github` h
 | [`docs/operating-model.md`](docs/operating-model.md) | How the Guild runs: working groups, cadence, ownership |
 | [`docs/participants-and-ecosystem.md`](docs/participants-and-ecosystem.md) | Guild Senior Leadership Team (SLT), founding members, consenting participants and ecosystem entities |
 | [`docs/security-maintenance.md`](docs/security-maintenance.md), [`SECURITY.md`](SECURITY.md) | Security maintenance notes and how to report a vulnerability |
-| [`docs/index.md`](docs/index.md), [`docs/index.html`](docs/index.html) | The docs microsite, published by the Deploy GitHub Pages workflow to [manchester-ai-guild.github.io/manchester-ai-guild](https://manchester-ai-guild.github.io/manchester-ai-guild/) |
+| [`docs/index.md`](docs/index.md) · [View](https://manchester-ai-guild.github.io/manchester-ai-guild/) · [Source](docs/index.html) | The docs microsite, published by the Deploy GitHub Pages workflow to [manchester-ai-guild.github.io/manchester-ai-guild](https://manchester-ai-guild.github.io/manchester-ai-guild/) |
 | [`CONTRIBUTING.md`](CONTRIBUTING.md), [`.github/`](.github/) | Contributing guide, issue template (`guild-task`), pull request template, CODEOWNERS |
 | [`issues-seed.json`](issues-seed.json) | Seed of the action-owner issue backlog |
 | [`.github/workflows/`](.github/workflows/) | Security Checks (gitleaks `secret-scan`) and Deploy GitHub Pages |
