@@ -15,9 +15,22 @@ Manchester AI Guild exists to help founders, operators, researchers, and institu
 - **Threat modelling and controls**: identify concrete mitigations and assurance paths for realistic architectures and use cases.
 - **Action-owner delivery**: convert discussion outputs into accountable projects, issues, and milestones.
 
+## The Manchester Way
+
+The Manchester Way is the Manchester AI Guild's method for SMEs. It uses a band as the picture of a business. The core band is your product, your specialist expertise, your data, your systems, your commercial backing, your customers and their feedback. Each role comes with one plain question. The aim is the AI Supernova: the intent to amplify what makes your business exceptional through ethical, sustainable and human-centred AI. Keep what makes you distinctive, find where the performance goes wrong, and test one small change.
+
+The core band has seven roles, in order: lead singer / songwriter, lead guitarist, bass guitarist, sound engineer, record label, audience, and reviews, applause and repeat bookings. The [README](https://github.com/Manchester-AI-Guild/manchester-ai-guild#the-manchester-way) lists each role with its question.
+
+**AI Supernova** has positive cultural and financial impact: it pays back in people and in profit.
+
+## Services
+
+- **SME Workshops**: The Manchester Way workshop, an afternoon (13:00 to 17:15) for SMEs. Proposed dates: 18 November and 10 December 2026, at Ada, National College for Digital Skills.
+- **AI Consultancy**: help after the workshop, including setting up AI policies and working with a company's IT team.
+
 ## Working streams
 
-- Responsible AI for SMEs
+- Ethical use of AI for SMEs
 - Sovereign and privacy-first AI pathways
 - Incubator and venture outcomes
 - Community and ecosystem alignment
