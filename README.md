@@ -52,7 +52,6 @@ More detail: [how the Guild runs](docs/operating-model.md) and [participants and
 | Adrian Quayle | President & Director |
 | Mihran Hovnanian | Chairman, Secretary & Director |
 | Edwin Luther | Risk & Governance Director |
-| Simon Ellis | Engagement & Projects Lead |
 | Fernando Torres | Events & Marketing Director |
 | Rufus Curnow | Communications Director |
 | Marek Kurczynski | Website & Platform |

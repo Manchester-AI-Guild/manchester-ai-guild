@@ -11,7 +11,6 @@ Proposed at the 28 Aug meeting and reviewed again at the 4 Sept SLT Meeting.
 | Adrian Quayle | President & Director |
 | Mihran Hovnanian | Chairman, Secretary & Director |
 | Edwin Luther | Risk & Governance Director |
-| Simon Ellis | Engagement & Projects Lead |
 | Fernando Torres | Events & Marketing Director |
 | Rufus Curnow | Communications Director |
 | Marek Kurczynski | Website & Platform |
@@ -36,7 +35,6 @@ Proposed at the 28 Aug meeting and reviewed again at the 4 Sept SLT Meeting.
 | Phil Wallace | Innovation Manager & AI Manchester Lead | University of Manchester (Digital Futures) | Founding Member |
 | Rick (Richard) | Enterprise Software Architect & Meetup Founder | BrightHR / .NET North | Founding Member |
 | Rufus Curnow | Communications Director | The Red Giant | Member (joined September 2026) |
-| Simon Ellis | Head of AI Transformation & Enterprise Architecture | Pets at Home (previously Boots/WBA) | Founding Member |
 | Tom Parson | Innovation Facilitator & Educator / Founder Big Echo | Big Echo / Circles MCR / Huddle Digital | Member (joined September 2026) |
 | Tom Parkes | AI & Tech Recruitment Specialist / Managing Partner | SF Technology / SF Group | Founding Member |
 | Trevor Roberts | Programme & Portfolio Management / Delivery Assurance | Dull Industries | Founding Member |
