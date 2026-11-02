@@ -70,23 +70,25 @@ input::placeholder,textarea::placeholder{color:var(--muted);opacity:1}
     <label for="photo">Your photo <span>(optional; cropped to a circle)</span></label>
     <input id="photo" type="file" accept="image/*" aria-describedby="photo-hint">
     <p class="hint" id="photo-hint">A square or portrait photo works best. Leave blank for no photo.</p>
-    <h2>3. Copy or download</h2>
-    <p class="hint">Copy the footer and paste it into your email program, or download a file to open in a browser or import.</p>
-    <div class="btns" role="group" aria-label="Copy">
-      <button type="button" id="copyRich">Copy footer</button>
-      <button type="button" id="copyText" class="alt">Copy plain text</button>
-    </div>
-    <div class="btns" role="group" aria-label="Download">
-      <button type="button" id="dlHtml" class="alt">Download signature (.html)</button>
-      <button type="button" id="dlText" class="alt">Download plain text (.txt)</button>
-    </div>
-    <div id="status" role="status" aria-live="polite"></div>
   </form>
 
   <section>
     <div class="panel">
       <h2>2. Check the preview</h2>
       <div id="preview"></div>
+    </div>
+    <div class="panel" style="margin-top:16px">
+      <h2>3. Copy or download</h2>
+      <p class="hint">Copy the footer and paste it into your email program, or download a file to open in a browser or import.</p>
+      <div class="btns" role="group" aria-label="Copy">
+        <button type="button" id="copyRich">Copy footer</button>
+        <button type="button" id="copyText" class="alt">Copy plain text</button>
+      </div>
+      <div class="btns" role="group" aria-label="Download">
+        <button type="button" id="dlHtml" class="alt">Download signature (.html)</button>
+        <button type="button" id="dlText" class="alt">Download plain text (.txt)</button>
+      </div>
+      <div id="status" role="status" aria-live="polite"></div>
     </div>
     <div class="panel" style="margin-top:16px">
       <h2>Add it to your email</h2>
