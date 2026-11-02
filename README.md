@@ -40,6 +40,7 @@ The Manchester Way is the Guild's practical method for helping small businesses 
 - LinkedIn: [Manchester AI Guild](https://www.linkedin.com/company/manchester-ai-guild)
 - Downloads: [guides, slides and logos](https://manchester-ai-guild.github.io/manchester-ai-guild/downloads/)
 - Email signature (for Guild members): [get the signature](https://manchester-ai-guild.github.io/manchester-ai-guild/email-signature/)
+- Code of Conduct: [how we expect everyone to behave](https://github.com/Manchester-AI-Guild/.github/blob/main/CODE_OF_CONDUCT.md)
 - Problem with this page? [Report an issue](https://github.com/Manchester-AI-Guild/manchester-ai-guild/issues)
 
 More detail: [how the Guild runs](docs/operating-model.md) and [participants and ecosystem](docs/participants-and-ecosystem.md).

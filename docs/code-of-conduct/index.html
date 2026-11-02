@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- Code of conduct page: the public mirror of the Guild Code of Conduct, version 2.9. Same look as the Guild home page. -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Code of conduct | Manchester AI Guild</title>
+<meta name="description" content="The Manchester AI Guild Code of Conduct, version 2.9: our standards, how to report a concern, and what happens next.">
+<meta property="og:title" content="Code of conduct | Manchester AI Guild">
+<meta property="og:description" content="The Manchester AI Guild Code of Conduct, version 2.9.">
+<meta property="og:image" content="https://avatars.githubusercontent.com/u/319570462?v=4">
+<meta property="og:type" content="website">
+<link rel="icon" href="https://avatars.githubusercontent.com/u/319570462?v=4">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap">
+<style>
+  :root{
+    --navy:#0f1e24; --gold:#f2c52f; --cream:#f5f5ec; --lavender:#E4D9F7; --lavender-ink:#4A3B6B;
+    --bg:var(--cream); --surface:#ffffff; --border:#D9D4C4; --ink:var(--navy); --ink-2:#4B5560;
+    --accent:var(--gold); --accent-ink:#8a6700; --link:#0F4C81; --hero-bg:var(--navy); --hero-ink:#FFFFFF; --hero-muted:#C9D1D8;
+    --font-heading:"Roboto Slab","Noto Serif",Georgia,serif; --font-body:"Inter","Avenir Next",system-ui,sans-serif;
+    --s1:4px;--s2:8px;--s3:12px;--s4:16px;--s6:24px;--s8:32px;--s12:48px;--s16:64px;--s24:96px;
+    --measure:72ch; --wide:1120px;
+    color-scheme:light dark;
+  }
+  @media (prefers-color-scheme:dark){
+    :root:not([data-theme="light"]){
+      --bg:#0B171E; --surface:#12232C; --border:#2A3A44; --ink:#F4F2EA; --ink-2:#B9C2C9;
+      --accent-ink:#f2c52f; --link:#8FC7FF; --hero-bg:#0f1e24; --lavender:#3A2F55; --lavender-ink:#E4D9F7;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#0B171E; --surface:#12232C; --border:#2A3A44; --ink:#F4F2EA; --ink-2:#B9C2C9;
+    --accent-ink:#f2c52f; --link:#8FC7FF; --hero-bg:#0f1e24; --lavender:#3A2F55; --lavender-ink:#E4D9F7;
+  }
+  *,*::before,*::after{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font-body);font-size:1.0625rem;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+  ::selection{background:var(--gold);color:var(--navy)}
+  a{color:var(--link);text-decoration-thickness:1px;text-underline-offset:0.18em}
+  a:hover{text-decoration-thickness:2px}
+  :focus-visible{outline:3px solid var(--gold);outline-offset:3px;border-radius:2px}
+  h1,h2,h3{font-family:var(--font-heading);font-weight:700;line-height:1.15;margin:0 0 var(--s4);letter-spacing:-0.01em}
+  h1{font-size:clamp(2.25rem,5vw,3.75rem);letter-spacing:-0.02em}
+  h2{font-size:clamp(1.75rem,3vw,2.375rem);margin-top:0}
+  h3{font-size:1.25rem;font-weight:600}
+  p{margin:0 0 var(--s4)}
+  .wrap{width:100%;max-width:var(--wide);margin:0 auto;padding:0 var(--s4)}
+  .measure{max-width:var(--measure)}
+  .skip{position:absolute;left:var(--s4);top:-60px;background:var(--gold);color:var(--navy);padding:var(--s2) var(--s4);font-weight:700;z-index:10}
+  .skip:focus{top:var(--s4)}
+
+  header.top{background:var(--hero-bg);color:var(--hero-ink)}
+  .nav{display:flex;align-items:center;gap:var(--s4);padding:var(--s4) 0;flex-wrap:wrap}
+  .nav .brand{display:flex;align-items:center;gap:var(--s3);color:var(--hero-ink);text-decoration:none;font-family:var(--font-heading);font-weight:700;font-size:1.25rem;margin-right:auto}
+  .nav .brand img{width:44px;height:44px;border-radius:50%;background:#fff}
+  .nav ul{list-style:none;margin:0;padding:0;display:flex;gap:var(--s2) var(--s4);flex-wrap:wrap}
+  .nav ul a{color:var(--hero-muted);text-decoration:none;padding:var(--s2) 0;display:inline-block;min-height:24px}
+  .nav ul a:hover{color:var(--hero-ink);text-decoration:underline}
+  .hero{padding:var(--s12) 0 var(--s16)}
+  .hero h1{color:var(--hero-ink);max-width:18ch}
+  .hero .lede{font-size:1.25rem;color:var(--hero-muted);max-width:60ch;margin-bottom:var(--s8)}
+  .hero .rule{width:96px;height:4px;background:var(--gold);margin:var(--s6) 0}
+  .objectives{display:grid;gap:var(--s6);grid-template-columns:repeat(auto-fit,minmax(280px,1fr));margin-top:var(--s8)}
+  .objectives div{border-top:1px solid rgba(255,255,255,.25);padding-top:var(--s4)}
+  .objectives h2{color:var(--gold);font-size:1.125rem;font-weight:600;margin-bottom:var(--s2);letter-spacing:0}
+  .objectives p{color:var(--hero-ink);margin:0}
+
+  main section{padding:var(--s16) 0}
+  main section + section{border-top:1px solid var(--border)}
+  .story{background:var(--hero-bg);color:var(--hero-ink);padding:var(--s24) 0}
+  .story h2{color:var(--gold)}
+  .story p{font-family:var(--font-body);font-weight:500;font-size:1.125rem;line-height:1.55;max-width:60ch;color:var(--hero-ink)}
+  .story p.plain{font-family:var(--font-body);font-weight:400;font-size:1.0625rem;line-height:1.6;color:var(--hero-muted);max-width:66ch;margin-top:var(--s8)}
+
+  .slt-members{display:grid;gap:var(--s4) var(--s6);grid-template-columns:repeat(auto-fill,minmax(240px,1fr));margin-top:var(--s8);list-style:none;padding:0}
+  .slt-members li{display:flex;gap:var(--s3);align-items:flex-start;padding:var(--s3) 0;border-top:1px solid var(--border)}
+  .slt-members .init{flex:none;width:44px;height:44px;border-radius:50%;background:var(--navy);color:var(--gold);font-family:var(--font-heading);font-weight:700;display:grid;place-items:center;font-size:.95rem}
+  .slt-members .name{font-weight:700;display:block}
+  .slt-members .role{color:var(--ink-2);font-size:.95rem;display:block}
+  .slt-members a{font-size:.95rem}
+
+  .groups{display:grid;gap:var(--s8);margin-top:var(--s8)}
+  .group h3{font-size:1.5rem;font-weight:700;margin-bottom:var(--s1)}
+  .group > p{color:var(--ink-2);margin-bottom:var(--s4);max-width:var(--measure)}
+  .ws{list-style:none;margin:0;padding:0;display:grid;gap:var(--s3);grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}
+  .ws li{background:var(--surface);border:1px solid var(--border);padding:var(--s4);border-radius:6px}
+  .ws b{display:block;font-family:var(--font-heading);font-size:1.125rem;font-weight:600;margin-bottom:var(--s1)}
+  .ws p{margin:0 0 var(--s2)}
+  .ws small{color:var(--ink-2);font-size:.875rem}
+  .tag{display:inline-block;background:var(--lavender);color:var(--lavender-ink);font-size:.8rem;font-weight:500;padding:2px 8px;border-radius:999px;margin-left:var(--s1);font-family:var(--font-body)}
+
+  .prog{display:grid;gap:var(--s6);grid-template-columns:repeat(auto-fit,minmax(240px,1fr));margin-top:var(--s8)}
+  .prog h3{font-size:1.375rem}
+  .roles{list-style:none;padding:0;margin:var(--s4) 0 0;display:grid;gap:var(--s2)}
+  .roles li{display:grid;grid-template-columns:2.25rem 1fr;gap:var(--s3);align-items:baseline}
+  .roles li span{font-family:var(--font-heading);font-weight:700;color:var(--accent-ink)}
+
+  .events{width:100%;border-collapse:collapse;margin-top:var(--s8);font-size:.95rem;font-variant-numeric:tabular-nums}
+  .events th,.events td{text-align:left;padding:var(--s3) var(--s2);border-bottom:1px solid var(--border);vertical-align:top}
+  .events th{font-family:var(--font-heading);font-weight:600;font-size:1rem;border-bottom:2px solid var(--ink)}
+  .events td:first-child{white-space:nowrap;color:var(--ink-2)}
+  @media (max-width:640px){
+    .events thead{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+    .events tr{display:block;padding:var(--s3) 0;border-bottom:1px solid var(--border)}
+    .events td{display:block;border:0;padding:2px 0}
+    .events td:first-child{font-weight:700;color:var(--ink)}
+  }
+  .cta{display:flex;gap:var(--s4);flex-wrap:wrap;margin-top:var(--s6)}
+  .btn{display:inline-block;padding:var(--s3) var(--s6);border-radius:6px;font-weight:700;text-decoration:none;min-height:44px;line-height:1.35}
+  .btn.primary{background:var(--gold);color:var(--navy)}
+  .btn.primary:hover{background:#F2C230}
+  .btn.secondary{border:2px solid var(--ink);color:var(--ink)}
+  .docs{margin-top:var(--s6)}
+  footer{border-top:1px solid var(--border);padding:var(--s8) 0;color:var(--ink-2);font-size:.95rem}
+  footer p{margin:0 0 var(--s2)}
+
+  /* The Manchester Way: AI Supernova band */
+  .supernova{margin:var(--s8) 0 0}
+  .supernova .cap{color:var(--ink-2);font-size:.9rem;text-transform:uppercase;letter-spacing:.08em;margin-bottom:var(--s3)}
+  .band{display:flex;flex-wrap:wrap;align-items:stretch;gap:var(--s2)}
+  .band .stage{flex:1 1 140px;background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:var(--s3) var(--s4);position:relative}
+  .band .stage b{display:block;font-family:var(--font-heading);color:var(--accent-ink);font-size:.85rem;letter-spacing:.04em}
+  .band .stage span{display:block;font-family:var(--font-heading);font-weight:700;font-size:1rem;margin-top:2px}
+  .band .core{flex:1 1 140px;background:var(--navy);color:#fff;border:1px solid var(--navy);border-radius:8px;padding:var(--s3) var(--s4);display:grid;align-content:center}
+  .band .core b{display:block;color:var(--gold);font-family:var(--font-heading);font-size:.85rem;letter-spacing:.04em}
+  .band .core span{display:block;font-family:var(--font-heading);font-weight:700;font-size:1.05rem;margin-top:2px}
+  .serve{display:grid;gap:var(--s4);grid-template-columns:repeat(auto-fit,minmax(220px,1fr));margin-top:var(--s8)}
+  .serve div{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:var(--s4)}
+  .serve h3{margin:0 0 var(--s1)}
+  .serve p{margin:0;color:var(--ink-2);font-size:.98rem}
+  .serve p+p{margin-top:var(--s2)}
+  .events td.file{white-space:normal;word-break:break-all}
+  .doc-table{margin-top:var(--s6)}
+  .doc-table th,.doc-table td{vertical-align:top}
+  .doc-table td{font-size:.92rem}
+  .doc h2{margin-top:var(--s12);font-size:clamp(1.5rem,2.6vw,2rem)}
+  .doc h2:first-child{margin-top:0}
+  .doc h3{margin-top:var(--s8);font-size:1.125rem}
+  .doc blockquote{margin:var(--s6) 0;padding:var(--s4) var(--s6);background:var(--surface);border-left:4px solid var(--gold);border-radius:6px}
+  .doc blockquote p{margin:0 0 var(--s2)}
+  .doc ul,.doc ol{padding-left:var(--s6);margin:0 0 var(--s4)}
+  .doc li{margin-bottom:var(--s2)}
+  .doc p,.doc li,.doc td,.doc th,.doc a{overflow-wrap:anywhere}
+  .doc .meta{color:var(--ink-2);margin:0 0 var(--s2)}
+</style>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="top">
+  <div class="wrap">
+    <nav class="nav" aria-label="Site">
+      <a class="brand" href="../"><img src="https://avatars.githubusercontent.com/u/319570462?v=4" alt="" width="44" height="44">Manchester AI Guild</a>
+    </nav>
+    <div class="hero">
+      <h1>Code of conduct</h1>
+      <div class="rule" aria-hidden="true"></div>
+      <p class="lede">How we expect everyone in the Guild to behave, and what to do if something goes wrong.</p>
+    </div>
+  </div>
+</header>
+
+
+<main id="main" class="doc">
+  <section aria-label="Version and status">
+    <div class="wrap measure">
+      <p class="meta">Version: v2.9</p>
+      <p class="meta">Status: Draft, awaiting the Senior Leadership Team (SLT)</p>
+    </div>
+  </section>
+  <section aria-label="Code of conduct text">
+    <div class="wrap measure">
+<p>This is the canonical Code of Conduct for the Manchester AI Guild. The copy in the Guild's GitHub `.github` repository and the page at manchesteraiguild.org/policies/code-of-conduct/ are generated from this file.</p>
+<h2>1. Purpose and scope</h2>
+<p>This Code sets the standard of behaviour we expect from Guild Members, Senior Leadership Team (SLT) members, volunteers, speakers, contractors and anyone attending a Guild event. It also sets out what happens when someone falls short.</p>
+<p>Registering interest or subscribing to the newsletter does not bind you to this Code. It applies in these places:</p>
+<ul><li>the Guild Slack workspace (private, invite only)</li><li>the Guild LinkedIn page: <a href="https://www.linkedin.com/company/manchester-ai-guild">https://www.linkedin.com/company/manchester-ai-guild</a></li><li>the Guild website: <a href="https://www.manchesteraiguild.org">https://www.manchesteraiguild.org</a></li><li>GitHub repositories under <a href="https://github.com/Manchester-AI-Guild">https://github.com/Manchester-AI-Guild</a></li><li>in-person meetups, talks, workshops and other Guild events</li><li>any official social media used to represent the Guild</li></ul>
+<blockquote><p><strong>Defined terms</strong></p><p><strong>Guild Member</strong>: an individual or organisation whose application the Guild has accepted, as set out in the Membership terms.</p><p><strong>SLT member</strong>: a member of the Manchester AI Guild SLT.</p><p><strong>Risk &amp; Governance Director</strong>: the SLT member who receives reports under this Code, Edwin Luther.</p></blockquote>
+<h2>2. Background</h2>
+<p>The Guild is a community of AI practitioners, builders and organisations across Greater Manchester and the North West. We help the region adopt AI practically, responsibly and with good governance.</p>
+<p>Members, venues, sponsors and partners need to trust the Guild. A written code, a clear reporting route and fair consequences help build that trust. This Code is adapted from the Contributor Covenant, version 2.1, with Guild-specific standards added.</p>
+<h2>3. Principles</h2>
+<p>We, as Guild Members and SLT members, are against harassment, discrimination and exclusionary behaviour of any kind. We pledge to make participation in the Guild safe, respectful and welcoming for everyone, whatever their background.</p>
+<ul><li>Build capability. Create opportunity. Grow prosperity.</li><li>Looking out for one another is everyone's responsibility, not only the SLT's.</li><li>Speak up if something falls short of this Code. Listen if someone raises a concern with you.</li><li>When unsure whether something crosses a line, ask: would this stand up to being open, honest, transparent and fair to everyone involved?</li></ul>
+<h2>4. Commitments and standards</h2>
+<h3>4.1 Expected behaviour</h3>
+<p>Behaviour that builds a positive environment includes:</p>
+<ul><li>being respectful and constructive</li><li>giving and gracefully accepting feedback</li><li>focusing on practical outcomes and useful collaboration</li><li>helping others succeed and learn</li><li>sharing knowledge freely and recognising the work of others</li><li>knowing your limits and seeking help when you need it</li><li>taking responsibility for your words, actions and their outcomes</li><li>putting the interests of the communities we serve ahead of personal advantage</li></ul>
+<h3>4.2 Unacceptable behaviour</h3>
+<p>Unacceptable behaviour includes:</p>
+<ul><li>harassment, discrimination or personal attacks, including on the basis of any protected characteristic or other personal characteristic</li><li>trolling, intimidation or disruptive behaviour, or undermining other Guild Members</li><li>presenting another person's work, ideas or contribution as your own</li><li>posting sensitive, confidential or private information without permission, in any channel</li><li>knowingly promoting AI where it creates greater harm than benefit</li><li>using the Guild to push unrelated commercial agendas without consent, or using Guild relationships mainly for personal or commercial gain</li><li>competing for another member's commercial opportunity without their knowledge</li><li>acting in a way that could damage trust in the Guild or the communities it serves</li><li>knowingly submitting a false or misleading report under this Code</li><li>retaliating against anyone for reporting a possible breach, or for taking part in an investigation</li></ul>
+<h3>4.3 Our commitments</h3>
+<ul><li>We acknowledge every report within 5 working days and keep the reporter's identity confidential as far as the investigation allows.</li><li>We never let anyone investigate a report about themselves.</li><li>The Risk &amp; Governance Director publishes this Code on the website and gives it to every new member when they join.</li><li>We review this Code at least once every 12 months, and sooner after any serious incident. The Senior Leadership Team (SLT) approves each review.</li></ul>
+<h3>4.4 Conflicts of interest and commercial conduct</h3>
+<p>Speakers, sponsors and SLT members disclose any financial or commercial interest that is relevant to what they present or discuss. Examples include a product, a vendor or an employer. A disclosed interest is welcome. An undisclosed one is not.</p>
+<p>The Conflicts of interest policy sets out the register and the rules for SLT decisions. Where the Guild allocates paid opportunities to members, the business engagement allocation workflow and its conflict-of-interest rules apply first.</p>
+<h3>4.5 In-person and event conduct</h3>
+<p>At meetups, talks and other in-person Guild events:</p>
+<ul><li>ask before you photograph or record anyone, and before you publish images that identify attendees</li><li>follow the venue's rules and the instructions of venue staff</li><li>if alcohol is served at a social event, drink responsibly and look out for other attendees</li></ul>
+<h3>4.6 Membership</h3>
+<p>The Membership terms and the membership pathway documents set further expectations for members. Those documents refer to this Code. This Code does not repeat them.</p>
+<p>A statement of commitment for Master members (a "Master's Oath") has been drafted. It is part of the membership pathway work. It does not form part of this Code until the Senior Leadership Team (SLT) ratifies it.</p>
+<h2>5. Roles and responsibilities</h2>
+<table class="events doc-table">
+<thead><tr><th scope="col">Role</th><th scope="col">Holder</th><th scope="col">Responsibilities</th></tr></thead>
+<tbody>
+<tr><td>SLT</td><td>Manchester AI Guild SLT</td><td>Clarifies and enforces this Code; takes fair, proportionate and timely action; appoints an independent panel where a report concerns an SLT member</td></tr>
+<tr><td>Primary responsibility</td><td>Edwin Luther, Risk &amp; Governance Director</td><td>First point of contact for reports; acknowledges, investigates and escalates to the Senior Leadership Team (SLT)</td></tr>
+<tr><td>Secondary responsibility</td><td>Trevor Roberts, Data Protection Lead</td><td>Acts when the primary holder is unavailable, or where the matter concerns the primary holder</td></tr>
+<tr><td>Data Protection Lead</td><td>Trevor Roberts</td><td>Advises on personal data handled during a report</td></tr>
+<tr><td>Senior Leadership Team (SLT)</td><td>Manchester AI Guild SLT</td><td>Approves this Code and every review of it</td></tr>
+<tr><td>Independent QA reviewer</td><td>To be assigned</td><td>QA reviews this Code before it goes to the Senior Leadership Team (SLT). Must be a Manchester AI Guild member who did not draft it</td></tr>
+</tbody>
+</table>
+<h2>6. Procedure: how to report and what happens next</h2>
+<ol><li><strong>Report as soon as you can.</strong> Email <a href="mailto:report@manchesteraiguild.com">report@manchesteraiguild.com</a>. It reaches the Risk &amp; Governance Director, Edwin Luther. You may also message him on Slack or LinkedIn. You can write from an address that does not identify you, but we can only act on what we can verify. [To confirm: anonymous report form, once it exists]</li><li><strong>Acknowledgement within 5 working days.</strong></li><li><strong>Investigation.</strong> We review the report promptly, fairly and confidentially. We keep the reporter's identity and the details confidential as far as the investigation allows. Nobody is retaliated against for reporting in good faith.</li><li><strong>Independence.</strong> If a report concerns an SLT member, including the Risk &amp; Governance Director, a panel of at least two SLT members not involved in the matter handles it. An external adviser chosen by the SLT can do so instead. Nobody investigates a complaint made against themselves.</li><li><strong>Outcome.</strong> The Senior Leadership Team (SLT) decides the consequence under section 7 and tells the people involved.</li><li><strong>Records.</strong> We process personal data from a report under the Privacy notice. We keep it for 3 years after the case closes, as the Data retention schedule sets out.</li></ol>
+<p>If you are unhappy with how we handled a report, the Complaints and data rights procedure applies.</p>
+<h2>7. Compliance: enforcement guidelines</h2>
+<p>The SLT uses these community impact guidelines to decide the consequence of a breach.</p>
+<table class="events doc-table">
+<thead><tr><th scope="col">Level</th><th scope="col">Community impact</th><th scope="col">Consequence</th></tr></thead>
+<tbody>
+<tr><td>1. Correction</td><td>Inappropriate language or other behaviour that is unprofessional or unwelcome</td><td>A private, written warning from the Senior Leadership Team (SLT) explaining the breach and why the behaviour was inappropriate. A public apology may be requested.</td></tr>
+<tr><td>2. Warning</td><td>A breach through a single incident or a series of actions</td><td>A warning with consequences for continued behaviour. No interaction with the people involved, including those enforcing the Code, for a set period, in Guild spaces and external channels. Breaking these terms may lead to a temporary or permanent ban.</td></tr>
+<tr><td>3. Temporary ban</td><td>A serious breach, including sustained inappropriate behaviour</td><td>A temporary ban from any interaction or public communication with the community for a set period. No public or private interaction with the people involved during that period. Breaking these terms may lead to a permanent ban.</td></tr>
+<tr><td>4. Permanent ban</td><td>A pattern of breaches, sustained inappropriate behaviour, harassment of an individual, or aggression toward or disparagement of groups of people</td><td>A permanent ban from any public interaction within the community. For members, removal from membership.</td></tr>
+</tbody>
+</table>
+<h2>8. Further information</h2>
+<p>Reports, questions and personal data requests: <a href="mailto:report@manchesteraiguild.com">report@manchesteraiguild.com</a>.</p>
+<h2>9. Review</h2>
+<p>We review this Code as often as is reasonable and, as a minimum, once every 12 months. We review it sooner when something changes that affects it, such as after a serious incident or a change in the Guild's spaces.</p>
+<p>The Senior Leadership Team (SLT) approves every review. A Manchester AI Guild member who did not draft this Code QA reviews it before it goes to the SLT. The reviewer is never the author. The QA reviewer's name and the date of the QA review go in the version history.</p>
+<h2>10. Related policies</h2>
+<p>Membership terms · Conflicts of interest policy · Complaints and data rights procedure · Privacy notice · Data retention schedule · Safeguarding policy · Equality, diversity and inclusion policy · Speaking up policy</p>
+<h2>11. References</h2>
+<p>Contributor Covenant (2021) <em>Contributor Covenant Code of Conduct</em>, version 2.1. [online]. Available at: <a href="https://www.contributor-covenant.org/version/2/1/code_of_conduct/">https://www.contributor-covenant.org/version/2/1/code_of_conduct/</a> [Accessed 2 November 2026]. Quote checked: "We as members, contributors, and leaders pledge to make participation".</p>
+<h2>12. Version history</h2>
+<table class="events doc-table">
+<thead><tr><th scope="col">Version</th><th scope="col">Date</th><th scope="col">Author</th><th scope="col">Reason for change</th><th scope="col">Presented to SLT</th><th scope="col">Signed off</th></tr></thead>
+<tbody>
+<tr><td>v2.9</td><td>2 November 2026</td><td>Edwin Luther</td><td>Rewritten to the Manchester AI Guild policy writing standard: standard section order, plain English, roles and review wording, verified citations. QA reviewer: to be assigned.</td><td>—</td><td>—</td></tr>
+<tr><td>v2.8</td><td>12 October 2026</td><td>Edwin Luther</td><td>Guild Member defined by reference to the Membership terms, removing a tier structure that the published terms do not establish.</td><td>—</td><td>—</td></tr>
+<tr><td>v2.7</td><td>12 October 2026</td><td>Edwin Luther</td><td>Acknowledgement set to 5 working days, matching the complaints procedure and every other reporting route. SLT decision, 12 October 2026.</td><td>—</td><td>—</td></tr>
+<tr><td>v2.6</td><td>12 October 2026</td><td>Edwin Luther</td><td>Scope narrowed to Guild Members, SLT, volunteers, speakers, contractors and event attendees, so registering interest or subscribing to the newsletter no longer binds; acknowledgement unit changed from business to working days.</td><td>—</td><td>—</td></tr>
+<tr><td>v2.5</td><td>24 September 2026</td><td>Edwin Luther</td><td>Review cycle set to a minimum of once every 12 months, approved by the Senior Leadership Team (SLT), with QA review by a Manchester AI Guild member who did not draft the document.</td><td>—</td><td>—</td></tr>
+<tr><td>v2.4</td><td>24 September 2026</td><td>Edwin Luther</td><td>Reporting and escalation route changed to <a href="mailto:report@manchesteraiguild.com">report@manchesteraiguild.com</a>; ownership allocated to Edwin Luther, Risk &amp; Governance Director, with Trevor Roberts as secondary.</td><td>—</td><td>—</td></tr>
+<tr><td>v2.3</td><td>20 September 2026</td><td>Edwin Luther</td><td>Data Protection Officer role replaced by Data Protection Lead (to be appointed) and the dpo@ mailbox by <a href="mailto:report@manchesteraiguild.com">report@manchesteraiguild.com</a>.</td><td>—</td><td>—</td></tr>
+<tr><td>v2.2</td><td>17 September 2026</td><td>Edwin Luther</td><td>Independence panel made workable for a small SLT; owner named for publishing and onboarding.</td><td>—</td><td>—</td></tr>
+<tr><td>v2.1</td><td>17 September 2026</td><td>Edwin Luther</td><td>Rewritten into the MAIG policy writing standard. Reporting route conduct@ (mailbox on Fastmail).</td><td>—</td><td>—</td></tr>
+<tr><td>v2.0</td><td>16 September 2026</td><td>Edwin Luther</td><td>Adopted as canonical; Guild-specific standards merged; applied by default pending ratification.</td><td>—</td><td>—</td></tr>
+</tbody>
+</table>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p><a href="../">Manchester AI Guild</a> &middot; <a href="../downloads/">Downloads</a> &middot; <a href="./">Code of conduct</a></p>
+    <p>&copy; Manchester AI Guild Ltd 2026 &middot; Company no. 17490801 &middot; ICO registration ZC266348 &middot; Guild-owned.</p>
+    <p><a href="../code-of-conduct/">Code of Conduct</a></p>
+  </div>
+</footer>
+</body>
+</html>
