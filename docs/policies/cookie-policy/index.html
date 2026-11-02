@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- Cookie policy: public copy of the Guild cookie policy, version 1.7. Same look as the Guild home page. -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cookie policy | Manchester AI Guild</title>
+<meta name="description" content="The Manchester AI Guild cookie policy, version 1.7: what this site sets, which is almost nothing.">
+<meta property="og:title" content="Cookie policy | Manchester AI Guild">
+<meta property="og:description" content="The Manchester AI Guild cookie policy, version 1.7: what this site sets, which is almost nothing.">
+<meta property="og:image" content="https://avatars.githubusercontent.com/u/319570462?v=4">
+<meta property="og:type" content="website">
+<link rel="icon" href="https://avatars.githubusercontent.com/u/319570462?v=4">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap">
+<style>
+  :root{
+    --navy:#0f1e24; --gold:#f2c52f; --cream:#f5f5ec; --lavender:#E4D9F7; --lavender-ink:#4A3B6B;
+    --bg:var(--cream); --surface:#ffffff; --border:#D9D4C4; --ink:var(--navy); --ink-2:#4B5560;
+    --accent:var(--gold); --accent-ink:#8a6700; --link:#0F4C81; --hero-bg:var(--navy); --hero-ink:#FFFFFF; --hero-muted:#C9D1D8;
+    --font-heading:"Roboto Slab","Noto Serif",Georgia,serif; --font-body:"Inter","Avenir Next",system-ui,sans-serif;
+    --s1:4px;--s2:8px;--s3:12px;--s4:16px;--s6:24px;--s8:32px;--s12:48px;--s16:64px;--s24:96px;
+    --measure:72ch; --wide:1120px;
+    color-scheme:light dark;
+  }
+  @media (prefers-color-scheme:dark){
+    :root:not([data-theme="light"]){
+      --bg:#0B171E; --surface:#12232C; --border:#2A3A44; --ink:#F4F2EA; --ink-2:#B9C2C9;
+      --accent-ink:#f2c52f; --link:#8FC7FF; --hero-bg:#0f1e24; --lavender:#3A2F55; --lavender-ink:#E4D9F7;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#0B171E; --surface:#12232C; --border:#2A3A44; --ink:#F4F2EA; --ink-2:#B9C2C9;
+    --accent-ink:#f2c52f; --link:#8FC7FF; --hero-bg:#0f1e24; --lavender:#3A2F55; --lavender-ink:#E4D9F7;
+  }
+  *,*::before,*::after{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font-body);font-size:1.0625rem;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+  ::selection{background:var(--gold);color:var(--navy)}
+  a{color:var(--link);text-decoration-thickness:1px;text-underline-offset:0.18em}
+  a:hover{text-decoration-thickness:2px}
+  :focus-visible{outline:3px solid var(--gold);outline-offset:3px;border-radius:2px}
+  h1,h2,h3{font-family:var(--font-heading);font-weight:700;line-height:1.15;margin:0 0 var(--s4);letter-spacing:-0.01em}
+  h1{font-size:clamp(2.25rem,5vw,3.75rem);letter-spacing:-0.02em}
+  h2{font-size:clamp(1.75rem,3vw,2.375rem);margin-top:0}
+  h3{font-size:1.25rem;font-weight:600}
+  p{margin:0 0 var(--s4)}
+  .wrap{width:100%;max-width:var(--wide);margin:0 auto;padding:0 var(--s4)}
+  .measure{max-width:var(--measure)}
+  .skip{position:absolute;left:var(--s4);top:-60px;background:var(--gold);color:var(--navy);padding:var(--s2) var(--s4);font-weight:700;z-index:10}
+  .skip:focus{top:var(--s4)}
+
+  header.top{background:var(--hero-bg);color:var(--hero-ink)}
+  .nav{display:flex;align-items:center;gap:var(--s4);padding:var(--s4) 0;flex-wrap:wrap}
+  .nav .brand{display:flex;align-items:center;gap:var(--s3);color:var(--hero-ink);text-decoration:none;font-family:var(--font-heading);font-weight:700;font-size:1.25rem;margin-right:auto}
+  .nav .brand img{width:44px;height:44px;border-radius:50%;background:#fff}
+  .nav ul{list-style:none;margin:0;padding:0;display:flex;gap:var(--s2) var(--s4);flex-wrap:wrap}
+  .nav ul a{color:var(--hero-muted);text-decoration:none;padding:var(--s2) 0;display:inline-block;min-height:24px}
+  .nav ul a:hover{color:var(--hero-ink);text-decoration:underline}
+  .hero{padding:var(--s12) 0 var(--s16)}
+  .hero h1{color:var(--hero-ink);max-width:18ch}
+  .hero .lede{font-size:1.25rem;color:var(--hero-muted);max-width:60ch;margin-bottom:var(--s8)}
+  .hero .rule{width:96px;height:4px;background:var(--gold);margin:var(--s6) 0}
+  .objectives{display:grid;gap:var(--s6);grid-template-columns:repeat(auto-fit,minmax(280px,1fr));margin-top:var(--s8)}
+  .objectives div{border-top:1px solid rgba(255,255,255,.25);padding-top:var(--s4)}
+  .objectives h2{color:var(--gold);font-size:1.125rem;font-weight:600;margin-bottom:var(--s2);letter-spacing:0}
+  .objectives p{color:var(--hero-ink);margin:0}
+
+  main section{padding:var(--s16) 0}
+  main section + section{border-top:1px solid var(--border)}
+  .story{background:var(--hero-bg);color:var(--hero-ink);padding:var(--s24) 0}
+  .story h2{color:var(--gold)}
+  .story p{font-family:var(--font-body);font-weight:500;font-size:1.125rem;line-height:1.55;max-width:60ch;color:var(--hero-ink)}
+  .story p.plain{font-family:var(--font-body);font-weight:400;font-size:1.0625rem;line-height:1.6;color:var(--hero-muted);max-width:66ch;margin-top:var(--s8)}
+
+  .slt-members{display:grid;gap:var(--s4) var(--s6);grid-template-columns:repeat(auto-fill,minmax(240px,1fr));margin-top:var(--s8);list-style:none;padding:0}
+  .slt-members li{display:flex;gap:var(--s3);align-items:flex-start;padding:var(--s3) 0;border-top:1px solid var(--border)}
+  .slt-members .init{flex:none;width:44px;height:44px;border-radius:50%;background:var(--navy);color:var(--gold);font-family:var(--font-heading);font-weight:700;display:grid;place-items:center;font-size:.95rem}
+  .slt-members .name{font-weight:700;display:block}
+  .slt-members .role{color:var(--ink-2);font-size:.95rem;display:block}
+  .slt-members a{font-size:.95rem}
+
+  .groups{display:grid;gap:var(--s8);margin-top:var(--s8)}
+  .group h3{font-size:1.5rem;font-weight:700;margin-bottom:var(--s1)}
+  .group > p{color:var(--ink-2);margin-bottom:var(--s4);max-width:var(--measure)}
+  .ws{list-style:none;margin:0;padding:0;display:grid;gap:var(--s3);grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}
+  .ws li{background:var(--surface);border:1px solid var(--border);padding:var(--s4);border-radius:6px}
+  .ws b{display:block;font-family:var(--font-heading);font-size:1.125rem;font-weight:600;margin-bottom:var(--s1)}
+  .ws p{margin:0 0 var(--s2)}
+  .ws small{color:var(--ink-2);font-size:.875rem}
+  .tag{display:inline-block;background:var(--lavender);color:var(--lavender-ink);font-size:.8rem;font-weight:500;padding:2px 8px;border-radius:999px;margin-left:var(--s1);font-family:var(--font-body)}
+
+  .prog{display:grid;gap:var(--s6);grid-template-columns:repeat(auto-fit,minmax(240px,1fr));margin-top:var(--s8)}
+  .prog h3{font-size:1.375rem}
+  .roles{list-style:none;padding:0;margin:var(--s4) 0 0;display:grid;gap:var(--s2)}
+  .roles li{display:grid;grid-template-columns:2.25rem 1fr;gap:var(--s3);align-items:baseline}
+  .roles li span{font-family:var(--font-heading);font-weight:700;color:var(--accent-ink)}
+
+  .events{width:100%;border-collapse:collapse;margin-top:var(--s8);font-size:.95rem;font-variant-numeric:tabular-nums}
+  .events th,.events td{text-align:left;padding:var(--s3) var(--s2);border-bottom:1px solid var(--border);vertical-align:top}
+  .events th{font-family:var(--font-heading);font-weight:600;font-size:1rem;border-bottom:2px solid var(--ink)}
+  .events td:first-child{white-space:nowrap;color:var(--ink-2)}
+  @media (max-width:640px){
+    .events thead{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+    .events tr{display:block;padding:var(--s3) 0;border-bottom:1px solid var(--border)}
+    .events td{display:block;border:0;padding:2px 0}
+    .events td:first-child{font-weight:700;color:var(--ink)}
+  }
+  .cta{display:flex;gap:var(--s4);flex-wrap:wrap;margin-top:var(--s6)}
+  .btn{display:inline-block;padding:var(--s3) var(--s6);border-radius:6px;font-weight:700;text-decoration:none;min-height:44px;line-height:1.35}
+  .btn.primary{background:var(--gold);color:var(--navy)}
+  .btn.primary:hover{background:#F2C230}
+  .btn.secondary{border:2px solid var(--ink);color:var(--ink)}
+  .docs{margin-top:var(--s6)}
+  footer{border-top:1px solid var(--border);padding:var(--s8) 0;color:var(--ink-2);font-size:.95rem}
+  footer p{margin:0 0 var(--s2)}
+
+  /* The Manchester Way: AI Supernova band */
+  .supernova{margin:var(--s8) 0 0}
+  .supernova .cap{color:var(--ink-2);font-size:.9rem;text-transform:uppercase;letter-spacing:.08em;margin-bottom:var(--s3)}
+  .band{display:flex;flex-wrap:wrap;align-items:stretch;gap:var(--s2)}
+  .band .stage{flex:1 1 140px;background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:var(--s3) var(--s4);position:relative}
+  .band .stage b{display:block;font-family:var(--font-heading);color:var(--accent-ink);font-size:.85rem;letter-spacing:.04em}
+  .band .stage span{display:block;font-family:var(--font-heading);font-weight:700;font-size:1rem;margin-top:2px}
+  .band .core{flex:1 1 140px;background:var(--navy);color:#fff;border:1px solid var(--navy);border-radius:8px;padding:var(--s3) var(--s4);display:grid;align-content:center}
+  .band .core b{display:block;color:var(--gold);font-family:var(--font-heading);font-size:.85rem;letter-spacing:.04em}
+  .band .core span{display:block;font-family:var(--font-heading);font-weight:700;font-size:1.05rem;margin-top:2px}
+  .serve{display:grid;gap:var(--s4);grid-template-columns:repeat(auto-fit,minmax(220px,1fr));margin-top:var(--s8)}
+  .serve div{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:var(--s4)}
+  .serve h3{margin:0 0 var(--s1)}
+  .serve p{margin:0;color:var(--ink-2);font-size:.98rem}
+  .serve p+p{margin-top:var(--s2)}
+  .events td.file{white-space:normal;word-break:break-all}
+  .doc-table{margin-top:var(--s6)}
+  .doc-table th,.doc-table td{vertical-align:top}
+  .doc-table td{font-size:.92rem}
+  .doc h2{margin-top:var(--s12);font-size:clamp(1.5rem,2.6vw,2rem)}
+  .doc h2:first-child{margin-top:0}
+  .doc h3{margin-top:var(--s8);font-size:1.125rem}
+  .doc blockquote{margin:var(--s6) 0;padding:var(--s4) var(--s6);background:var(--surface);border-left:4px solid var(--gold);border-radius:6px}
+  .doc blockquote p{margin:0 0 var(--s2)}
+  .doc ul,.doc ol{padding-left:var(--s6);margin:0 0 var(--s4)}
+  .doc li{margin-bottom:var(--s2)}
+  .doc p,.doc li,.doc td,.doc th,.doc a{overflow-wrap:anywhere}
+  .doc .meta{color:var(--ink-2);margin:0 0 var(--s2)}
+  .events td:first-child{white-space:normal}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="top">
+  <div class="wrap">
+    <nav class="nav" aria-label="Site">
+      <a class="brand" href="../../"><img src="https://avatars.githubusercontent.com/u/319570462?v=4" alt="" width="44" height="44">Manchester AI Guild</a>
+    </nav>
+    <div class="hero">
+      <h1>Cookie policy</h1>
+      <div class="rule" aria-hidden="true"></div>
+      <p class="lede">What this site sets: almost nothing.</p>
+    </div>
+  </div>
+</header>
+
+<main id="main" class="doc">
+  <section aria-label="Version and status">
+    <div class="wrap measure">
+      <p class="meta">Version: v1.7</p>
+      <p class="meta">Status: Published, 2 November 2026</p>
+      <p class="meta">Review: annually</p>
+    </div>
+  </section>
+  <section aria-label="Cookie policy text">
+    <div class="wrap measure">
+<!-- body:start -->
+<h2>1. Purpose and scope</h2>
+<p>This policy says what manchesteraiguild.org stores on your device, why, and how you can control it. It covers every page of the website. That includes the join page and the Cookbook slide deck.</p>
+<blockquote><p><strong>Defined terms</strong></p><p><strong>Cookie</strong>: a small text file a website stores in your browser.</p><p><strong>Similar technologies</strong>: anything else that stores or reads information on your device. Examples are local storage, and scripts that fingerprint your browser.</p><p><strong>Strictly necessary</strong>: storage the service you asked for cannot work without. It needs no consent.</p></blockquote>
+<h2>2. Background</h2>
+<p>The Privacy and Electronic Communications Regulations 2003 (PECR) set the rules for storing information on a device. Regulation 6 says a person must not store information on your device, or read information already stored there, unless an exception applies. The exceptions are in Schedule A1.</p>
+<p>The Guild's site is built to store nothing beyond what is strictly necessary. Where the bot check processes your IP address, the lawful basis is legitimate interests (security). The Privacy notice, section 4, sets this out.</p>
+<h2>3. Principles</h2>
+<ul>
+<li><p>Store nothing on a visitor's device unless the site cannot work without it.</p></li>
+<li><p>Say exactly what is stored. Check it in a real browser, and record the date of the check.</p></li>
+<li><p>Ask for consent before adding anything that is not strictly necessary.</p></li>
+</ul>
+<h2>4. Commitments</h2>
+<ul>
+<li><p>We re-check the cookie store and web storage in a real browser after every release that adds a script or embed, and record the result.</p></li>
+<li><p>We add a consent step before we introduce any storage that is not strictly necessary.</p></li>
+<li><p>We keep the table in section 5 accurate to the last check, and show the date of that check.</p></li>
+</ul>
+<h2>5. What this website sets</h2>
+<p><strong>Pages on manchesteraiguild.org set no cookies and use no local or session storage.</strong> There is no analytics, advertising or social-media tracking script on any page.</p>
+<p>We checked this on 16 September 2026. We loaded every page (home, team, resources, join, every policy page, the Cookbook deck and the 404 page) in a fresh Google Chrome profile. We then read the cookie store and web storage. We found zero cookies and zero storage keys. The same check on the live domain found no cookies set by Cloudflare's edge either. The Guild keeps a record of this check.</p>
+<p>One mechanism can store something, and it is strictly necessary:</p>
+<table class="events doc-table">
+<thead><tr><th scope="col">Name</th><th scope="col">Set by</th><th scope="col">Purpose</th><th scope="col">Type</th><th scope="col">Duration</th></tr></thead>
+<tbody>
+<tr><td>Turnstile challenge state</td><td>Cloudflare Turnstile, only on /join</td><td>Tells human visitors from bots, so the form is not abused. It runs inside a Cloudflare frame. By default it uses browser signals and does not set a cookie on our domain. If Cloudflare's "pre-clearance" option is turned on, it may set <code>cf_clearance</code>.</td><td>Strictly necessary</td><td>Session. Pre-clearance is not enabled on the Guild's widget, so no <code>cf_clearance</code> cookie is set.</td></tr>
+</tbody>
+</table>
+<p>Because we use nothing beyond strictly necessary storage, the site shows no cookie banner. If we ever add analytics or embedded video, we will ask for consent first and update this policy.</p>
+<h2>6. Third-party requests that are not cookies</h2>
+<ul>
+<li><p><strong>Google Fonts</strong>: the site's typefaces (Inter and Roboto Slab) load from Google's servers. Google receives your IP address and browser details with that request. Google's Fonts API does not set or log cookies (Google, n.d.). Google's privacy FAQ is at <a href="https://developers.google.com/fonts/faq/privacy">https://developers.google.com/fonts/faq/privacy</a></p></li>
+<li><p><strong>Slide decks</strong> on the resources page are hosted on this site, not on a third-party service.</p></li>
+<li><p><strong>Links</strong> to third-party sites open those organisations' own sites. Those sites have their own cookie practices. These are outbound links, not cookies we set.</p></li>
+</ul>
+<h2>7. How to control cookies</h2>
+<p>You can block or delete cookies in your browser settings. Blocking the Turnstile mechanism may stop the join form from working. Everything else on the site works with all cookies blocked.</p>
+<ul>
+<li><p>Chrome: <a href="https://support.google.com/chrome/answer/95647">https://support.google.com/chrome/answer/95647</a></p></li>
+<li><p>Safari: <a href="https://support.apple.com/en-gb/guide/safari/sfri11471/mac">https://support.apple.com/en-gb/guide/safari/sfri11471/mac</a></p></li>
+<li><p>Edge: <a href="https://support.microsoft.com/en-us/windows/manage-cookies-in-microsoft-edge-view-allow-block-delete-and-use-168dab11-0753-043d-7c16-ede5947fc64d">https://support.microsoft.com/en-us/windows/manage-cookies-in-microsoft-edge-view-allow-block-delete-and-use-168dab11-0753-043d-7c16-ede5947fc64d</a></p></li>
+</ul>
+<p>The ICO's guidance for the public is at <a href="https://ico.org.uk/for-the-public/online/cookies/">https://ico.org.uk/for-the-public/online/cookies/</a></p>
+<h2>8. Roles and responsibilities</h2>
+<table class="events doc-table">
+<thead><tr><th scope="col">Role</th><th scope="col">Holder</th><th scope="col">Responsibilities</th></tr></thead>
+<tbody>
+<tr><td>Primary responsibility</td><td>Edwin Luther, Risk &amp; Governance Director</td><td>Owns this policy. Receives reports and escalations at report@manchesteraiguild.com. Reports to the Senior Leadership Team (SLT).</td></tr>
+<tr><td>Secondary responsibility</td><td>Trevor Roberts, Data Protection Lead</td><td>Acts when the primary holder is unavailable, or where the matter concerns the primary holder.</td></tr>
+<tr><td>Website maintainer</td><td>Marek Kurczynski</td><td>Re-checks storage after every release that adds a script or embed. Keeps the QA record. Keeps the table in section 5 current.</td></tr>
+<tr><td>Data Protection Lead</td><td>Trevor Roberts</td><td>Approves any new storage before it ships.</td></tr>
+<tr><td>Senior Leadership Team (SLT)</td><td>Manchester AI Guild SLT</td><td>Decides whether to add analytics. Approves this policy and every review of it.</td></tr>
+<tr><td>Independent QA reviewer</td><td>Any SLT member</td><td>Reviews this policy before it goes to the Senior Leadership Team (SLT). Must be a Manchester AI Guild member who did not draft it.</td></tr>
+</tbody>
+</table>
+<h2>9. Procedure: adding anything that stores data</h2>
+<ol>
+<li><p>The website maintainer describes the storage (name, purpose and duration) in the pull request.</p></li>
+<li><p>The Data Protection Lead decides whether the storage is strictly necessary. If it is not, a consent mechanism is designed first.</p></li>
+<li><p>The table in section 5 is updated in the same pull request. The storage check is re-run and recorded.</p></li>
+<li><p>The Data Protection Lead tells the Senior Leadership Team (SLT) at its next meeting.</p></li>
+</ol>
+<h2>10. Compliance</h2>
+<p>We remove any script or embed that stores data without consent at the next release. If personal data was involved, we record the incident under the Incident response procedure.</p>
+<h2>11. Further information</h2>
+<p>Email report@manchesteraiguild.com.</p>
+<h2>12. Review</h2>
+<p>This policy is reviewed as often as is reasonable and, as a minimum, once every 12 months. It is reviewed sooner whenever something changes that affects it, for example when a feature that stores anything on your device is added.</p>
+<p>The Senior Leadership Team (SLT) approves every review.</p>
+<p>Before a review goes to the Senior Leadership Team (SLT), a Manchester AI Guild member who did not draft this policy QA reviews it. The reviewer is never the author. The reviewer's name and the date of the QA review are recorded in the version history.</p>
+<p>The version and date at the top show which version you are reading.</p>
+<h2>13. Related policies</h2>
+<p>Privacy notice · Data retention schedule · Incident response procedure</p>
+<h2>14. References and sources</h2>
+<p>Information Commissioner's Office (n.d.) <em>Cookies and similar technologies</em>. Guide to PECR. [online]. Available at: <a href="https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/guide-to-pecr/cookies-and-similar-technologies/">https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/guide-to-pecr/cookies-and-similar-technologies/</a> [Accessed 2 November 2026]. Quote: "The basic rule is that you must: tell people the cookies are there".</p>
+<p>Information Commissioner's Office (n.d.) <em>Cookies</em>. [online]. Available at: <a href="https://ico.org.uk/for-the-public/online/cookies/">https://ico.org.uk/for-the-public/online/cookies/</a> [Accessed 2 November 2026]. Quote: "this guidance is under review and may be subject to change".</p>
+<p><em>The Privacy and Electronic Communications (EC Directive) Regulations 2003</em>, SI 2003/2426, regulation 6(1). Available at: <a href="https://www.legislation.gov.uk/uksi/2003/2426/regulation/6">https://www.legislation.gov.uk/uksi/2003/2426/regulation/6</a> [Accessed 2 November 2026]. Quote: "a person must not store information".</p>
+<p>Google (n.d.) <em>Google Fonts privacy FAQ</em>. [online]. Available at: <a href="https://developers.google.com/fonts/faq/privacy">https://developers.google.com/fonts/faq/privacy</a> [Accessed 2 November 2026]. Quote: "does not set or log cookies".</p>
+<p>Google (n.d.) <em>Delete, allow and manage cookies in Chrome</em>. [online]. Available at: <a href="https://support.google.com/chrome/answer/95647">https://support.google.com/chrome/answer/95647</a> [Accessed 2 November 2026]. Quote: "You can choose to delete existing cookies, allow or block third-party cookies".</p>
+<p>Apple (n.d.) <em>Clear your cache and cookies in Safari on Mac</em>. [online]. Available at: <a href="https://support.apple.com/en-gb/guide/safari/sfri11471/mac">https://support.apple.com/en-gb/guide/safari/sfri11471/mac</a> [Accessed 2 November 2026]. Quote: "Clear your cache and cookies in Safari on Mac".</p>
+<p>Microsoft (n.d.) <em>Manage cookies in Microsoft Edge</em>. [online]. Available at: <a href="https://support.microsoft.com/en-us/windows/manage-cookies-in-microsoft-edge-view-allow-block-delete-and-use-168dab11-0753-043d-7c16-ede5947fc64d">https://support.microsoft.com/en-us/windows/manage-cookies-in-microsoft-edge-view-allow-block-delete-and-use-168dab11-0753-043d-7c16-ede5947fc64d</a> [Accessed 2 November 2026]. Quote: "Manage cookies in Microsoft Edge: View, allow, block".</p>
+<h2>15. Version history</h2>
+<table class="events doc-table">
+<thead><tr><th scope="col">Version</th><th scope="col">Date</th><th scope="col">Author</th><th scope="col">Reason for change</th><th scope="col">Presented to SLT</th><th scope="col">Signed off</th></tr></thead>
+<tbody>
+<tr><td>v1.7</td><td>2 November 2026</td><td>Edwin Luther</td><td>Rewritten in plain English for public readers. PECR regulation 6 wording updated to the text in force from 5 February 2026, with Schedule A1 exceptions. Firefox help link removed because the page could not be read. Google Fonts claim sourced. Storage-check path replaced with a note that the Guild keeps a record. Re-check before publication flagged.</td><td>—</td><td>—</td></tr>
+<tr><td>v1.6</td><td>12 October 2026</td><td>Edwin Luther</td><td>Named third-party platforms replaced with a category; these are outbound links, so no PECR naming duty attaches.</td><td>—</td><td>—</td></tr>
+<tr><td>v1.5</td><td>24 September 2026</td><td>Edwin Luther</td><td>Review cycle set to a minimum of once every 12 months, approved by the Senior Leadership Team (SLT), with QA review by a Manchester AI Guild member who did not draft the document.</td><td>—</td><td>—</td></tr>
+<tr><td>v1.4</td><td>24 September 2026</td><td>Edwin Luther</td><td>Reporting and escalation route changed to report@manchesteraiguild.com; ownership allocated to Edwin Luther, Risk &amp; Governance Director, with Trevor Roberts as secondary.</td><td>—</td><td>—</td></tr>
+<tr><td>v1.3</td><td>20 September 2026</td><td>Edwin Luther</td><td>Data Protection Officer role replaced by Data Protection Lead (to be appointed) and the dpo@ mailbox by report@manchesteraiguild.com, following #75.</td><td>—</td><td>—</td></tr>
+<tr><td>v1.2</td><td>17 September 2026</td><td>Edwin Luther</td><td>Independent critique applied: lawful basis for the bot check cross-referenced; owner named; who informs the SLT. Undated ICO page cited as n.d. Compliance lint (scripts/policy-tools.mjs) passed with 0 errors.</td><td>—</td><td>—</td></tr>
+<tr><td>v1.1</td><td>17 September 2026</td><td>Edwin Luther</td><td>MAIG standard applied: document control, principles, roles, compliance, references, version history. Facts unchanged from the 16 September check.</td><td>—</td><td>—</td></tr>
+<tr><td>v1.0</td><td>16 September 2026</td><td>Edwin Luther</td><td>First draft against the ICO cookie checklist; real-Chrome storage inspection.</td><td>—</td><td>—</td></tr>
+</tbody>
+</table>
+<!-- body:end -->
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p><a href="../../">Manchester AI Guild</a> &middot; <a href="../../downloads/">Downloads</a> &middot; <a href="../">Policies</a></p>
+    <p>&copy; Manchester AI Guild Ltd 2026 &middot; Company no. 17490801 &middot; ICO registration ZC266348 &middot; Guild-owned.</p>
+    <p><a href="../../code-of-conduct/">Code of Conduct</a> &middot; <a href="../">Policies</a></p>
+  </div>
+</footer>
+</body>
+</html>

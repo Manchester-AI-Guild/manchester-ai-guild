@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- Privacy notice: public copy of the Guild privacy notice, version 1.10. Same look as the Guild home page. -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy notice | Manchester AI Guild</title>
+<meta name="description" content="The Manchester AI Guild privacy notice, version 1.10: what we collect, why, and your rights.">
+<meta property="og:title" content="Privacy notice | Manchester AI Guild">
+<meta property="og:description" content="The Manchester AI Guild privacy notice, version 1.10: what we collect, why, and your rights.">
+<meta property="og:image" content="https://avatars.githubusercontent.com/u/319570462?v=4">
+<meta property="og:type" content="website">
+<link rel="icon" href="https://avatars.githubusercontent.com/u/319570462?v=4">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap">
+<style>
+  :root{
+    --navy:#0f1e24; --gold:#f2c52f; --cream:#f5f5ec; --lavender:#E4D9F7; --lavender-ink:#4A3B6B;
+    --bg:var(--cream); --surface:#ffffff; --border:#D9D4C4; --ink:var(--navy); --ink-2:#4B5560;
+    --accent:var(--gold); --accent-ink:#8a6700; --link:#0F4C81; --hero-bg:var(--navy); --hero-ink:#FFFFFF; --hero-muted:#C9D1D8;
+    --font-heading:"Roboto Slab","Noto Serif",Georgia,serif; --font-body:"Inter","Avenir Next",system-ui,sans-serif;
+    --s1:4px;--s2:8px;--s3:12px;--s4:16px;--s6:24px;--s8:32px;--s12:48px;--s16:64px;--s24:96px;
+    --measure:72ch; --wide:1120px;
+    color-scheme:light dark;
+  }
+  @media (prefers-color-scheme:dark){
+    :root:not([data-theme="light"]){
+      --bg:#0B171E; --surface:#12232C; --border:#2A3A44; --ink:#F4F2EA; --ink-2:#B9C2C9;
+      --accent-ink:#f2c52f; --link:#8FC7FF; --hero-bg:#0f1e24; --lavender:#3A2F55; --lavender-ink:#E4D9F7;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#0B171E; --surface:#12232C; --border:#2A3A44; --ink:#F4F2EA; --ink-2:#B9C2C9;
+    --accent-ink:#f2c52f; --link:#8FC7FF; --hero-bg:#0f1e24; --lavender:#3A2F55; --lavender-ink:#E4D9F7;
+  }
+  *,*::before,*::after{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font-body);font-size:1.0625rem;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+  ::selection{background:var(--gold);color:var(--navy)}
+  a{color:var(--link);text-decoration-thickness:1px;text-underline-offset:0.18em}
+  a:hover{text-decoration-thickness:2px}
+  :focus-visible{outline:3px solid var(--gold);outline-offset:3px;border-radius:2px}
+  h1,h2,h3{font-family:var(--font-heading);font-weight:700;line-height:1.15;margin:0 0 var(--s4);letter-spacing:-0.01em}
+  h1{font-size:clamp(2.25rem,5vw,3.75rem);letter-spacing:-0.02em}
+  h2{font-size:clamp(1.75rem,3vw,2.375rem);margin-top:0}
+  h3{font-size:1.25rem;font-weight:600}
+  p{margin:0 0 var(--s4)}
+  .wrap{width:100%;max-width:var(--wide);margin:0 auto;padding:0 var(--s4)}
+  .measure{max-width:var(--measure)}
+  .skip{position:absolute;left:var(--s4);top:-60px;background:var(--gold);color:var(--navy);padding:var(--s2) var(--s4);font-weight:700;z-index:10}
+  .skip:focus{top:var(--s4)}
+
+  header.top{background:var(--hero-bg);color:var(--hero-ink)}
+  .nav{display:flex;align-items:center;gap:var(--s4);padding:var(--s4) 0;flex-wrap:wrap}
+  .nav .brand{display:flex;align-items:center;gap:var(--s3);color:var(--hero-ink);text-decoration:none;font-family:var(--font-heading);font-weight:700;font-size:1.25rem;margin-right:auto}
+  .nav .brand img{width:44px;height:44px;border-radius:50%;background:#fff}
+  .nav ul{list-style:none;margin:0;padding:0;display:flex;gap:var(--s2) var(--s4);flex-wrap:wrap}
+  .nav ul a{color:var(--hero-muted);text-decoration:none;padding:var(--s2) 0;display:inline-block;min-height:24px}
+  .nav ul a:hover{color:var(--hero-ink);text-decoration:underline}
+  .hero{padding:var(--s12) 0 var(--s16)}
+  .hero h1{color:var(--hero-ink);max-width:18ch}
+  .hero .lede{font-size:1.25rem;color:var(--hero-muted);max-width:60ch;margin-bottom:var(--s8)}
+  .hero .rule{width:96px;height:4px;background:var(--gold);margin:var(--s6) 0}
+  .objectives{display:grid;gap:var(--s6);grid-template-columns:repeat(auto-fit,minmax(280px,1fr));margin-top:var(--s8)}
+  .objectives div{border-top:1px solid rgba(255,255,255,.25);padding-top:var(--s4)}
+  .objectives h2{color:var(--gold);font-size:1.125rem;font-weight:600;margin-bottom:var(--s2);letter-spacing:0}
+  .objectives p{color:var(--hero-ink);margin:0}
+
+  main section{padding:var(--s16) 0}
+  main section + section{border-top:1px solid var(--border)}
+  .story{background:var(--hero-bg);color:var(--hero-ink);padding:var(--s24) 0}
+  .story h2{color:var(--gold)}
+  .story p{font-family:var(--font-body);font-weight:500;font-size:1.125rem;line-height:1.55;max-width:60ch;color:var(--hero-ink)}
+  .story p.plain{font-family:var(--font-body);font-weight:400;font-size:1.0625rem;line-height:1.6;color:var(--hero-muted);max-width:66ch;margin-top:var(--s8)}
+
+  .slt-members{display:grid;gap:var(--s4) var(--s6);grid-template-columns:repeat(auto-fill,minmax(240px,1fr));margin-top:var(--s8);list-style:none;padding:0}
+  .slt-members li{display:flex;gap:var(--s3);align-items:flex-start;padding:var(--s3) 0;border-top:1px solid var(--border)}
+  .slt-members .init{flex:none;width:44px;height:44px;border-radius:50%;background:var(--navy);color:var(--gold);font-family:var(--font-heading);font-weight:700;display:grid;place-items:center;font-size:.95rem}
+  .slt-members .name{font-weight:700;display:block}
+  .slt-members .role{color:var(--ink-2);font-size:.95rem;display:block}
+  .slt-members a{font-size:.95rem}
+
+  .groups{display:grid;gap:var(--s8);margin-top:var(--s8)}
+  .group h3{font-size:1.5rem;font-weight:700;margin-bottom:var(--s1)}
+  .group > p{color:var(--ink-2);margin-bottom:var(--s4);max-width:var(--measure)}
+  .ws{list-style:none;margin:0;padding:0;display:grid;gap:var(--s3);grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}
+  .ws li{background:var(--surface);border:1px solid var(--border);padding:var(--s4);border-radius:6px}
+  .ws b{display:block;font-family:var(--font-heading);font-size:1.125rem;font-weight:600;margin-bottom:var(--s1)}
+  .ws p{margin:0 0 var(--s2)}
+  .ws small{color:var(--ink-2);font-size:.875rem}
+  .tag{display:inline-block;background:var(--lavender);color:var(--lavender-ink);font-size:.8rem;font-weight:500;padding:2px 8px;border-radius:999px;margin-left:var(--s1);font-family:var(--font-body)}
+
+  .prog{display:grid;gap:var(--s6);grid-template-columns:repeat(auto-fit,minmax(240px,1fr));margin-top:var(--s8)}
+  .prog h3{font-size:1.375rem}
+  .roles{list-style:none;padding:0;margin:var(--s4) 0 0;display:grid;gap:var(--s2)}
+  .roles li{display:grid;grid-template-columns:2.25rem 1fr;gap:var(--s3);align-items:baseline}
+  .roles li span{font-family:var(--font-heading);font-weight:700;color:var(--accent-ink)}
+
+  .events{width:100%;border-collapse:collapse;margin-top:var(--s8);font-size:.95rem;font-variant-numeric:tabular-nums}
+  .events th,.events td{text-align:left;padding:var(--s3) var(--s2);border-bottom:1px solid var(--border);vertical-align:top}
+  .events th{font-family:var(--font-heading);font-weight:600;font-size:1rem;border-bottom:2px solid var(--ink)}
+  .events td:first-child{white-space:nowrap;color:var(--ink-2)}
+  @media (max-width:640px){
+    .events thead{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+    .events tr{display:block;padding:var(--s3) 0;border-bottom:1px solid var(--border)}
+    .events td{display:block;border:0;padding:2px 0}
+    .events td:first-child{font-weight:700;color:var(--ink)}
+  }
+  .cta{display:flex;gap:var(--s4);flex-wrap:wrap;margin-top:var(--s6)}
+  .btn{display:inline-block;padding:var(--s3) var(--s6);border-radius:6px;font-weight:700;text-decoration:none;min-height:44px;line-height:1.35}
+  .btn.primary{background:var(--gold);color:var(--navy)}
+  .btn.primary:hover{background:#F2C230}
+  .btn.secondary{border:2px solid var(--ink);color:var(--ink)}
+  .docs{margin-top:var(--s6)}
+  footer{border-top:1px solid var(--border);padding:var(--s8) 0;color:var(--ink-2);font-size:.95rem}
+  footer p{margin:0 0 var(--s2)}
+
+  /* The Manchester Way: AI Supernova band */
+  .supernova{margin:var(--s8) 0 0}
+  .supernova .cap{color:var(--ink-2);font-size:.9rem;text-transform:uppercase;letter-spacing:.08em;margin-bottom:var(--s3)}
+  .band{display:flex;flex-wrap:wrap;align-items:stretch;gap:var(--s2)}
+  .band .stage{flex:1 1 140px;background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:var(--s3) var(--s4);position:relative}
+  .band .stage b{display:block;font-family:var(--font-heading);color:var(--accent-ink);font-size:.85rem;letter-spacing:.04em}
+  .band .stage span{display:block;font-family:var(--font-heading);font-weight:700;font-size:1rem;margin-top:2px}
+  .band .core{flex:1 1 140px;background:var(--navy);color:#fff;border:1px solid var(--navy);border-radius:8px;padding:var(--s3) var(--s4);display:grid;align-content:center}
+  .band .core b{display:block;color:var(--gold);font-family:var(--font-heading);font-size:.85rem;letter-spacing:.04em}
+  .band .core span{display:block;font-family:var(--font-heading);font-weight:700;font-size:1.05rem;margin-top:2px}
+  .serve{display:grid;gap:var(--s4);grid-template-columns:repeat(auto-fit,minmax(220px,1fr));margin-top:var(--s8)}
+  .serve div{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:var(--s4)}
+  .serve h3{margin:0 0 var(--s1)}
+  .serve p{margin:0;color:var(--ink-2);font-size:.98rem}
+  .serve p+p{margin-top:var(--s2)}
+  .events td.file{white-space:normal;word-break:break-all}
+  .doc-table{margin-top:var(--s6)}
+  .doc-table th,.doc-table td{vertical-align:top}
+  .doc-table td{font-size:.92rem}
+  .doc h2{margin-top:var(--s12);font-size:clamp(1.5rem,2.6vw,2rem)}
+  .doc h2:first-child{margin-top:0}
+  .doc h3{margin-top:var(--s8);font-size:1.125rem}
+  .doc blockquote{margin:var(--s6) 0;padding:var(--s4) var(--s6);background:var(--surface);border-left:4px solid var(--gold);border-radius:6px}
+  .doc blockquote p{margin:0 0 var(--s2)}
+  .doc ul,.doc ol{padding-left:var(--s6);margin:0 0 var(--s4)}
+  .doc li{margin-bottom:var(--s2)}
+  .doc p,.doc li,.doc td,.doc th,.doc a{overflow-wrap:anywhere}
+  .doc .meta{color:var(--ink-2);margin:0 0 var(--s2)}
+  .events td:first-child{white-space:normal}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="top">
+  <div class="wrap">
+    <nav class="nav" aria-label="Site">
+      <a class="brand" href="../../"><img src="https://avatars.githubusercontent.com/u/319570462?v=4" alt="" width="44" height="44">Manchester AI Guild</a>
+    </nav>
+    <div class="hero">
+      <h1>Privacy notice</h1>
+      <div class="rule" aria-hidden="true"></div>
+      <p class="lede">What we collect, why, and your rights.</p>
+    </div>
+  </div>
+</header>
+
+<main id="main" class="doc">
+  <section aria-label="Version and status">
+    <div class="wrap measure">
+      <p class="meta">Version: v1.10</p>
+      <p class="meta">Status: Published, 2 November 2026</p>
+      <p class="meta">Review: annually</p>
+    </div>
+  </section>
+  <section aria-label="Privacy notice text">
+    <div class="wrap measure">
+<!-- body:start -->
+<h2>1. Who we are</h2>
+<p>Manchester AI Guild ("the Guild") helps Greater Manchester organisations adopt AI responsibly. The Guild is not-for-profit. We are the data controller for the personal data in this notice. A data controller decides why and how personal data is used.</p>
+<ul>
+<li><p>Legal form: Manchester AI Guild Ltd, a private company limited by guarantee (company number 17490801, incorporated 30 September 2026).</p></li>
+<li><p>Registered office: 1 Southern Road, Sale, England, M33 6HP.</p></li>
+<li><p>ICO registration: we are registered with the Information Commissioner's Office (ICO) as a data controller. Registration reference ZC266348, registered 5 October 2026, renewal due 4 October 2027. You can check this on the ICO's public register: <a href="https://ico.org.uk/ESDWebPages/Search">https://ico.org.uk/ESDWebPages/Search</a></p></li>
+<li><p>Data Protection Lead: Trevor Roberts, report@manchesteraiguild.com.</p></li>
+<li><p>Reporting contact for Code of Conduct, risk and compliance matters: Edwin Luther, report@manchesteraiguild.com.</p></li>
+</ul>
+<blockquote><p><strong>Defined terms</strong></p><p><strong>Personal data</strong>: information that identifies you, or could do so with other information we hold.</p><p><strong>Processing</strong>: anything we do with personal data, such as collecting, storing, using, sharing or deleting it.</p><p><strong>Lawful basis</strong>: the reason UK GDPR Article 6 allows us to process your data.</p></blockquote>
+<h2>2. What this notice covers</h2>
+<p>This notice covers personal data we collect through manchesteraiguild.org, at Guild events, in the Guild's community channels, and in the Guild's own governance work. That includes reports, surveys and business engagement. It does not cover other organisations we link to, such as LinkedIn, Slack or Venture Café Manchester. Those organisations have their own notices.</p>
+<h2>3. What personal data we collect and where it comes from</h2>
+<p>Almost everything we hold comes directly from you.</p>
+<table class="events doc-table">
+<thead><tr><th scope="col">Where</th><th scope="col">What</th><th scope="col">Source</th></tr></thead>
+<tbody>
+<tr><td>The join page: membership interest and newsletter</td><td>Name, email, organisation (optional), which part of The Manchester Way is holding you back, and whether you ticked the consent box</td><td>You</td></tr>
+<tr><td>The join page: workshop feedback</td><td>Which workshop, a rating from 1 to 5, an optional comment, and an optional email if you want a reply. Feedback is anonymous unless you add an email.</td><td>You</td></tr>
+<tr><td>The join page: speaker booking enquiry</td><td>Name, email, organisation, event, date (optional) and topic</td><td>You</td></tr>
+<tr><td>Bot protection on the join page</td><td>Cloudflare Turnstile checks your browser and may process your IP address. We store only a hashed (one-way) form of your IP address, for up to one hour, to limit repeat submissions. The raw IP address is not kept with your submission.</td><td>Your browser, via Cloudflare</td></tr>
+<tr><td>Email and other correspondence</td><td>What you send us, and our replies</td><td>You</td></tr>
+<tr><td>Events</td><td>Registration details held by the event host (for example Venture Café Manchester), and photographs of the room and speakers</td><td>You, the event host, the Guild photographer</td></tr>
+<tr><td>Community channels</td><td>Your Slack profile and messages. Slack's terms and privacy policy apply once you join.</td><td>You</td></tr>
+<tr><td>Code of Conduct reports and complaints</td><td>What you tell us, and our record of how we handled it</td><td>You, witnesses</td></tr>
+<tr><td>Surveys, readiness assessments and polls</td><td>Your answers, stated on each form</td><td>You</td></tr>
+<tr><td>Business engagement intake</td><td>Organisation contact, need and budget band, when an organisation asks to be matched to a practitioner</td><td>You</td></tr>
+<tr><td>Website visits</td><td>Cloudflare serves the site. It does not keep HTTP request logs for the site by default, and the Guild keeps none. The site sets no cookies. See the Cookie policy.</td><td>Your browser</td></tr>
+</tbody>
+</table>
+<p>We do not collect special-category data on purpose. If a form needs it, for example to arrange access for an event, we ask separately and with your explicit consent. We delete it after the event.</p>
+<h2>4. Why we use it and our lawful basis</h2>
+<table class="events doc-table">
+<thead><tr><th scope="col">Purpose</th><th scope="col">Data</th><th scope="col">Lawful basis (UK GDPR Article 6)</th></tr></thead>
+<tbody>
+<tr><td>To reply to you and route you to the Guild member or sponsor best placed to help</td><td>Name, email, organisation, which part of The Manchester Way</td><td>Legitimate interests, 6(1)(f): running a membership community you have asked to hear from</td></tr>
+<tr><td>To email you about Guild membership, workshops and news</td><td>Name, email</td><td>Consent, 6(1)(a), given by ticking the box on the join page. You can withdraw it at any time.</td></tr>
+<tr><td>To plan workshops</td><td>Aggregated counts of which part of The Manchester Way people pick, with no names attached</td><td>Legitimate interests, 6(1)(f)</td></tr>
+<tr><td>To improve workshops</td><td>Workshop feedback (rating, comment, optional email)</td><td>Legitimate interests, 6(1)(f)</td></tr>
+<tr><td>To reply to a speaker booking enquiry and arrange the booking</td><td>Name, email, organisation, event, date, topic</td><td>Legitimate interests, 6(1)(f), and steps at your request before a contract, 6(1)(b)</td></tr>
+<tr><td>To run membership once you have joined</td><td>Membership record (name, email, organisation, join date, role)</td><td>Contract, 6(1)(b): the Membership terms</td></tr>
+<tr><td>To investigate and resolve Code of Conduct reports and complaints</td><td>Reports, correspondence, decisions</td><td>Legitimate interests, 6(1)(f): safety of the community</td></tr>
+<tr><td>To assess readiness and improve the Guild's support</td><td>Survey answers. Results are published only in aggregate.</td><td>Consent, 6(1)(a), stated on each form</td></tr>
+<tr><td>To match an organisation to a practitioner</td><td>Business engagement intake</td><td>Legitimate interests, 6(1)(f), and pre-contract steps, 6(1)(b)</td></tr>
+<tr><td>To keep the website and form safe from bots and abuse</td><td>Turnstile signals, hashed IP address</td><td>Legitimate interests, 6(1)(f): security</td></tr>
+<tr><td>To handle rights requests and legal obligations</td><td>Correspondence and records of the request</td><td>Legal obligation, 6(1)(c), and legitimate interests, 6(1)(f)</td></tr>
+</tbody>
+</table>
+<p>We do not make decisions about you by automated means that have legal or similar effects. We do not profile you. Member and organisation data is not used to train AI models (Data governance policy, section 6).</p>
+<h2>5. Who we share it with</h2>
+<p>We do not sell personal data. We do not pass your details to sponsors or other members unless you ask us to make an introduction. We use these processors and services:</p>
+<ul>
+<li><p><strong>Cloudflare</strong>: hosts the website, runs the join form, stores submissions in a Cloudflare D1 database, and provides Turnstile bot protection.</p></li>
+<li><p><strong>Slack</strong>: the Guild's community channel. A new sign-up sends a notification to a private Guild Slack channel. It says that a sign-up happened and which part of The Manchester Way was picked. It does not include your name, email or comment.</p></li>
+<li><p><strong>LinkedIn</strong>: if you follow the Guild's page, LinkedIn processes that under its own notice.</p></li>
+<li><p><strong>Google Fonts</strong>: the site loads its typefaces from Google's servers, so Google receives your IP address with the font request.</p></li>
+<li><p><strong>Fastmail</strong>: hosts the Guild's mailboxes (hello@, and report@manchesteraiguild.com).</p></li>
+<li><p><strong>GitHub</strong>: hosts the Guild's public and private repositories. No personal data is stored in them (Data governance policy).</p></li>
+</ul>
+<p>We may also share data where the law requires it, for example with the ICO or a court.</p>
+<p>Our record of processing activities, which UK GDPR Article 30 requires, combines the tables in this notice with the Guild's technology register. Each processor is listed in the technology register with its owner.</p>
+<h2>6. International transfers</h2>
+<p>Cloudflare, Slack, LinkedIn, GitHub and Google are based in the United States. When personal data goes to a US provider certified under the UK Extension to the EU-US Data Privacy Framework, the transfer is covered by UK adequacy regulations (the UK-US data bridge, 2023). Otherwise we rely on the provider’s UK International Data Transfer Agreement or the UK Addendum. The join-form database (Cloudflare D1) is created with the Western Europe location hint. Submissions are therefore stored in Western Europe.</p>
+<h2>7. How long we keep it</h2>
+<table class="events doc-table">
+<thead><tr><th scope="col">Record</th><th scope="col">Retention</th></tr></thead>
+<tbody>
+<tr><td>Raw join-page submissions in the Cloudflare database</td><td>90 days, then purged. Within that time the details move to the membership or newsletter list.</td></tr>
+<tr><td>Membership-interest and newsletter details</td><td>24 months from your last contact with us, then deleted</td></tr>
+<tr><td>Membership records</td><td>Duration of membership plus 12 months</td></tr>
+<tr><td>Workshop feedback</td><td>12 months, then anonymised (the rating is kept; everything identifying is removed)</td></tr>
+<tr><td>Speaker booking enquiries</td><td>24 months after the enquiry or event closes</td></tr>
+<tr><td>Hashed IP counters</td><td>1 hour</td></tr>
+<tr><td>Cloudflare server logs</td><td>Not retained</td></tr>
+<tr><td>Email correspondence with members and enquirers</td><td>24 months after membership ends or the thread closes</td></tr>
+<tr><td>Complaints, Code of Conduct reports and rights-request records</td><td>3 years after the matter closes</td></tr>
+<tr><td>Survey responses</td><td>Raw responses 24 months; aggregates kept</td></tr>
+<tr><td>Business engagement intake</td><td>Duration of the engagement plus 6 years, for accounting records</td></tr>
+<tr><td>Photographs</td><td>Until consent is withdrawn</td></tr>
+<tr><td>Slack content</td><td>24 months for messages, as set by the workspace admin</td></tr>
+</tbody>
+</table>
+<p>The full list, with triggers and owners, is in the Data retention schedule.</p>
+<h2>8. Your rights</h2>
+<p>Under UK GDPR you have these rights. Using them is free. We respond within one month of receiving your request. For complex or numerous requests we may extend that by two further months (UK GDPR Article 12A, inserted by section 76 of the Data (Use and Access) Act 2025). The Information Commissioner's Office (ICO) says organisations usually have one month to respond to a subject access request.</p>
+<ul>
+<li><p><strong>To be informed</strong>: this notice.</p></li>
+<li><p><strong>Access</strong>: a copy of the personal data we hold about you, and the details in sections 4 to 7.</p></li>
+<li><p><strong>Rectification</strong>: correction of inaccurate data, or completion of incomplete data.</p></li>
+<li><p><strong>Erasure</strong>: deletion of your data when we no longer need it, when you withdraw consent, or when you object and we have no overriding reason to keep it.</p></li>
+<li><p><strong>Restriction</strong>: a pause on processing while we resolve a question about accuracy or our lawful basis.</p></li>
+<li><p><strong>Portability</strong>: the data you gave us under consent, in a machine-readable form.</p></li>
+<li><p><strong>Objection</strong>: to processing based on legitimate interests, and to direct marketing. We always stop direct marketing when you object.</p></li>
+<li><p><strong>Automated decision-making</strong>: the right not to be subject to a solely automated decision with legal or similar effect. We do not make such decisions.</p></li>
+</ul>
+<p>To use any of these rights, email the Data Protection Lead at report@manchesteraiguild.com or write to the registered office. You do not need to use any particular words. We may ask you to confirm your identity. The one-month clock pauses until we receive it. The steps we follow are in the Complaints and data rights procedure.</p>
+<h2>9. How to withdraw consent</h2>
+<p>If you ticked the box to hear from us, you can change your mind at any time. Click unsubscribe on any email we send, or email report@manchesteraiguild.com. Withdrawing consent does not affect what we did before you withdrew it. It does not remove you from the community Slack. You can leave Slack yourself at any time.</p>
+<h2>10. Security</h2>
+<p>The website is served over HTTPS only. The join form is protected by Cloudflare Turnstile, input limits and a rate limit. Submissions are stored in a Cloudflare database. Only Guild SLT members with Cloudflare access can read it. Notifications to Slack never include your name, email or free text. Secrets are held in a secrets manager, never in repositories.</p>
+<p>If we discover a personal data breach that is likely to risk your rights, we will tell the ICO without undue delay and, where feasible, within 72 hours. We will also tell you without undue delay (Incident response procedure).</p>
+<p>Keep your own account secure. Use a unique password, do not share your sign-in details, and turn on multi-factor authentication (MFA) wherever a platform offers it. We never ask you for your password.</p>
+<h2>11. Children</h2>
+<p>This website and Guild membership are for adults. We do not knowingly collect personal data from anyone under 16. For online services offered directly to children, consent is valid from age 13 (UK GDPR Article 8(1)). If you believe a child has given us data, email us and we will delete it.</p>
+<h2>12. Changes to this notice</h2>
+<p>We review this notice at least every 12 months, and whenever our processing changes. The version and date at the top show which version you are reading. We announce material changes on the website. Where we have your consent to email you, we also send an email.</p>
+<h2>13. How to complain</h2>
+<p>If you are unhappy with how we have handled your data, tell us first. Email the Data Protection Lead at report@manchesteraiguild.com and we will try to put it right. If you are not satisfied, the matter goes to Edwin Luther and then to the Guild SLT, as the Complaints and data rights procedure explains.</p>
+<p>You also have the right to complain to the Information Commissioner's Office (ICO):</p>
+<ul>
+<li><p>Online: <a href="https://ico.org.uk/make-a-complaint/data-protection-complaints/">https://ico.org.uk/make-a-complaint/data-protection-complaints/</a></p></li>
+<li><p>Phone: 0303 123 1113, or live chat on the same page</p></li>
+</ul>
+<h2>14. Roles and responsibilities</h2>
+<table class="events doc-table">
+<thead><tr><th scope="col">Role</th><th scope="col">Holder</th><th scope="col">Responsibilities</th></tr></thead>
+<tbody>
+<tr><td>Data Protection Lead</td><td>Trevor Roberts</td><td>Maintains this notice. Answers rights requests. Advises on breach notifications. Reports to the Senior Leadership Team (SLT).</td></tr>
+<tr><td>Primary responsibility</td><td>Edwin Luther, Risk &amp; Governance Director</td><td>Handles escalations. Keeps the technology register current.</td></tr>
+<tr><td>Secondary responsibility</td><td>Trevor Roberts, Data Protection Lead</td><td>Acts when the primary holder is unavailable, or where the matter concerns the primary holder.</td></tr>
+<tr><td>Senior Leadership Team (SLT)</td><td>Manchester AI Guild SLT</td><td>Approves this notice and every review of it. Receives it yearly.</td></tr>
+<tr><td>Independent QA reviewer</td><td>Any SLT member</td><td>Reviews this notice before it goes to the Senior Leadership Team (SLT). Must be a Manchester AI Guild member who did not draft it.</td></tr>
+</tbody>
+</table>
+<h2>15. Review</h2>
+<p>This notice is reviewed as often as is reasonable and, as a minimum, once every 12 months. It is reviewed sooner whenever something changes that affects it, for example when our processing changes or we add a new processor.</p>
+<p>The Senior Leadership Team (SLT) approves every review.</p>
+<p>Before a review goes to the Senior Leadership Team (SLT), a Manchester AI Guild member who did not draft this notice QA reviews it. The reviewer is never the author. The reviewer's name and the date of the QA review are recorded in the version history.</p>
+<h2>16. Related policies</h2>
+<p>Cookie policy · Data retention schedule · Complaints and data rights procedure · Data governance policy · Incident response procedure · Code of conduct</p>
+<h2>17. References and sources</h2>
+<p>Information Commissioner's Office (n.d.) <em>Make a complaint: data protection complaints</em>. [online]. Available at: <a href="https://ico.org.uk/make-a-complaint/data-protection-complaints/">https://ico.org.uk/make-a-complaint/data-protection-complaints/</a> [Accessed 2 November 2026]. Quote: "call us on 0303 123 1113 or live chat with us".</p>
+<p>Information Commissioner's Office (n.d.) <em>Search the register</em>. [online]. Available at: <a href="https://ico.org.uk/ESDWebPages/Search">https://ico.org.uk/ESDWebPages/Search</a> [Accessed 2 November 2026]. Quote: "Search for organisations and people registered with the Information Commissioner's Office".</p>
+<p><em>UK General Data Protection Regulation</em>, Article 6(1)(a). Available at: <a href="https://www.legislation.gov.uk/eur/2016/679/article/6">https://www.legislation.gov.uk/eur/2016/679/article/6</a> [Accessed 2 November 2026]. Quote: "the data subject has given consent to the processing".</p>
+<p><em>UK General Data Protection Regulation</em>, Article 12(1). Available at: <a href="https://www.legislation.gov.uk/eur/2016/679/article/12">https://www.legislation.gov.uk/eur/2016/679/article/12</a> [Accessed 2 November 2026]. Quote: "using clear and plain language".</p>
+<p><em>UK General Data Protection Regulation</em>, Article 13. Available at: <a href="https://www.legislation.gov.uk/eur/2016/679/article/13">https://www.legislation.gov.uk/eur/2016/679/article/13</a> [Accessed 2 November 2026]. Quote: "provide the data subject with all of the following information".</p>
+<p><em>UK General Data Protection Regulation</em>, Article 30(1). Available at: <a href="https://www.legislation.gov.uk/eur/2016/679/article/30">https://www.legislation.gov.uk/eur/2016/679/article/30</a> [Accessed 2 November 2026]. Quote: "shall maintain a record of processing activities under its responsibility".</p>
+<p><em>UK General Data Protection Regulation</em>, Article 33(1). Available at: <a href="https://www.legislation.gov.uk/eur/2016/679/article/33">https://www.legislation.gov.uk/eur/2016/679/article/33</a> [Accessed 2 November 2026]. Quote: "not later than 72 hours after having become aware".</p>
+<p><em>UK General Data Protection Regulation</em>, Article 34(1). Available at: <a href="https://www.legislation.gov.uk/eur/2016/679/article/34">https://www.legislation.gov.uk/eur/2016/679/article/34</a> [Accessed 2 November 2026]. Quote: "without undue delay".</p>
+<p><em>UK General Data Protection Regulation</em>, Article 8(1). Available at: <a href="https://www.legislation.gov.uk/eur/2016/679/article/8">https://www.legislation.gov.uk/eur/2016/679/article/8</a> [Accessed 2 November 2026]. Quote: "the child is at least 13 years old".</p>
+<p><em>UK General Data Protection Regulation</em>, Article 12A (inserted by the Data (Use and Access) Act 2025, section 76). Available at: <a href="https://www.legislation.gov.uk/ukpga/2025/18/section/76">https://www.legislation.gov.uk/ukpga/2025/18/section/76</a> [Accessed 2 November 2026]. Quote: "the period of one month beginning with the relevant time".</p>
+<p>Information Commissioner's Office (n.d.) <em>Getting copies of your information (subject access request)</em>. [online]. Available at: <a href="https://ico.org.uk/for-the-public/getting-copies-of-your-information-subject-access-request/">https://ico.org.uk/for-the-public/getting-copies-of-your-information-subject-access-request/</a> [Accessed 2 November 2026]. Quote: "Organisations usually have one month to respond to a SAR."</p>
+<h2>18. Version history</h2>
+<table class="events doc-table">
+<thead><tr><th scope="col">Version</th><th scope="col">Date</th><th scope="col">Author</th><th scope="col">Reason for change</th><th scope="col">Presented to SLT</th><th scope="col">Signed off</th></tr></thead>
+<tbody>
+<tr><td>v1.10</td><td>2 November 2026</td><td>Edwin Luther</td><td>Rewritten in plain English for public readers. Sentences shortened. Time limit (Article 12A) and age of consent (Article 8(1)) verified and cited. Transfer basis (UK-US data bridge or IDTA/Addendum) verified. Cloudflare storage described as Western Europe, matching the location hint. ICO complaint page and helpline cited. Sources list added.</td><td>—</td><td>—</td></tr>
+<tr><td>v1.9</td><td>12 October 2026</td><td>Edwin Luther</td><td>Not-for-profit stated as how the company operates rather than as a filed characteristic; breach timing aligned to UK GDPR Article 33; account-security and MFA expectations added; orphaned citation fragment removed.</td><td>—</td><td>—</td></tr>
+<tr><td>v1.8</td><td>12 October 2026</td><td>Edwin Luther</td><td>Retention of correspondence split from complaints and rights requests, matching the Data retention schedule. Ownership clarified: the Risk &amp; Governance Director owns the notice, the SLT approves it and the Data Protection Lead maintains it. Stale incorporation trigger and the not-for-profit fee exemption reference removed.</td><td>—</td><td>—</td></tr>
+<tr><td>v1.7</td><td>12 October 2026</td><td>Edwin Luther</td><td>Registered office corrected to the filed address; the Data Protection Officer label removed, the role being a Data Protection Lead and not a statutory DPO under UK GDPR Article 37.</td><td>—</td><td>—</td></tr>
+<tr><td>v1.6</td><td>8 October 2026</td><td>Edwin Luther</td><td>ICO registration added (ZC266348, registered 5 October 2026), replacing the not-for-profit fee exemption; legal form updated to Manchester AI Guild Ltd (company no. 17490801); registered office placeholder updated; Trevor Roberts named as DPO.</td><td>—</td><td>—</td></tr>
+<tr><td>v1.5</td><td>24 September 2026</td><td>Edwin Luther</td><td>Review cycle set to a minimum of once every 12 months, approved by the Senior Leadership Team (SLT), with QA review by a Manchester AI Guild member who did not draft the document.</td><td>—</td><td>—</td></tr>
+<tr><td>v1.4</td><td>24 September 2026</td><td>Edwin Luther</td><td>Reporting and escalation route changed to report@manchesteraiguild.com; ownership allocated to Edwin Luther, Risk &amp; Governance Director, with Trevor Roberts as secondary.</td><td>—</td><td>—</td></tr>
+<tr><td>v1.3</td><td>20 September 2026</td><td>Edwin Luther</td><td>Data Protection Officer role replaced by Data Protection Lead (to be appointed) and the dpo@ mailbox by report@manchesteraiguild.com, following #75. Article 38 clause removed from the Data Protection Lead row; the role is not a statutory DPO. Holder now kept in step with the responsibilities register.</td><td>—</td><td>—</td></tr>
+<tr><td>v1.2</td><td>17 September 2026</td><td>Edwin Luther</td><td>Independent critique applied: IP-hash wording clarified; children's age threshold explained against the UK age of 13; DPO independence (Art. 38) and the record of processing activities (Art. 30) stated. Compliance lint (scripts/policy-tools.mjs) passed with 0 errors.</td><td>—</td><td>n/a</td></tr>
+<tr><td>v1.1</td><td>17 September 2026</td><td>Edwin Luther</td><td>MAIG standard applied; merged the operations <code>privacy-policy.md</code> v0.1 rows (reports, surveys, engagement intake, no model training) into the website notice; ICO fee exemption cited to the Regulations; references and version history added.</td><td>—</td><td>—</td></tr>
+<tr><td>v1.0</td><td>16 September 2026</td><td>Edwin Luther</td><td>First website draft against the ICO privacy-information checklist; assumptions register A1–A19.</td><td>—</td><td>—</td></tr>
+</tbody>
+</table>
+<!-- body:end -->
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p><a href="../../">Manchester AI Guild</a> &middot; <a href="../../downloads/">Downloads</a> &middot; <a href="../">Policies</a></p>
+    <p>&copy; Manchester AI Guild Ltd 2026 &middot; Company no. 17490801 &middot; ICO registration ZC266348 &middot; Guild-owned.</p>
+    <p><a href="../../code-of-conduct/">Code of Conduct</a> &middot; <a href="../">Policies</a></p>
+  </div>
+</footer>
+</body>
+</html>
