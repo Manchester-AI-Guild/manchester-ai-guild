@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- Downloads page: public files only. Same look as the Guild home page. -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Downloads | Manchester AI Guild</title>
+<meta name="description" content="Free downloads for the Manchester AI Guild: two- and three-page guides, the slide template, logos and the Manchester Way band infographic.">
+<meta property="og:title" content="Downloads | Manchester AI Guild">
+<meta property="og:description" content="Guides, slides, logos and an infographic from the Manchester AI Guild.">
+<meta property="og:image" content="https://avatars.githubusercontent.com/u/319570462?v=4">
+<meta property="og:type" content="website">
+<link rel="icon" href="https://avatars.githubusercontent.com/u/319570462?v=4">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap">
+<style>
+  :root{
+    --navy:#0f1e24; --gold:#f2c52f; --cream:#f5f5ec; --lavender:#E4D9F7; --lavender-ink:#4A3B6B;
+    --bg:var(--cream); --surface:#ffffff; --border:#D9D4C4; --ink:var(--navy); --ink-2:#4B5560;
+    --accent:var(--gold); --accent-ink:#8a6700; --link:#0F4C81; --hero-bg:var(--navy); --hero-ink:#FFFFFF; --hero-muted:#C9D1D8;
+    --font-heading:"Roboto Slab","Noto Serif",Georgia,serif; --font-body:"Inter","Avenir Next",system-ui,sans-serif;
+    --s1:4px;--s2:8px;--s3:12px;--s4:16px;--s6:24px;--s8:32px;--s12:48px;--s16:64px;--s24:96px;
+    --measure:72ch; --wide:1120px;
+    color-scheme:light dark;
+  }
+  @media (prefers-color-scheme:dark){
+    :root:not([data-theme="light"]){
+      --bg:#0B171E; --surface:#12232C; --border:#2A3A44; --ink:#F4F2EA; --ink-2:#B9C2C9;
+      --accent-ink:#f2c52f; --link:#8FC7FF; --hero-bg:#0f1e24; --lavender:#3A2F55; --lavender-ink:#E4D9F7;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#0B171E; --surface:#12232C; --border:#2A3A44; --ink:#F4F2EA; --ink-2:#B9C2C9;
+    --accent-ink:#f2c52f; --link:#8FC7FF; --hero-bg:#0f1e24; --lavender:#3A2F55; --lavender-ink:#E4D9F7;
+  }
+  *,*::before,*::after{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font-body);font-size:1.0625rem;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+  ::selection{background:var(--gold);color:var(--navy)}
+  a{color:var(--link);text-decoration-thickness:1px;text-underline-offset:0.18em}
+  a:hover{text-decoration-thickness:2px}
+  :focus-visible{outline:3px solid var(--gold);outline-offset:3px;border-radius:2px}
+  h1,h2,h3{font-family:var(--font-heading);font-weight:700;line-height:1.15;margin:0 0 var(--s4);letter-spacing:-0.01em}
+  h1{font-size:clamp(2.25rem,5vw,3.75rem);letter-spacing:-0.02em}
+  h2{font-size:clamp(1.75rem,3vw,2.375rem);margin-top:0}
+  h3{font-size:1.25rem;font-weight:600}
+  p{margin:0 0 var(--s4)}
+  .wrap{width:100%;max-width:var(--wide);margin:0 auto;padding:0 var(--s4)}
+  .measure{max-width:var(--measure)}
+  .skip{position:absolute;left:var(--s4);top:-60px;background:var(--gold);color:var(--navy);padding:var(--s2) var(--s4);font-weight:700;z-index:10}
+  .skip:focus{top:var(--s4)}
+
+  header.top{background:var(--hero-bg);color:var(--hero-ink)}
+  .nav{display:flex;align-items:center;gap:var(--s4);padding:var(--s4) 0;flex-wrap:wrap}
+  .nav .brand{display:flex;align-items:center;gap:var(--s3);color:var(--hero-ink);text-decoration:none;font-family:var(--font-heading);font-weight:700;font-size:1.25rem;margin-right:auto}
+  .nav .brand img{width:44px;height:44px;border-radius:50%;background:#fff}
+  .nav ul{list-style:none;margin:0;padding:0;display:flex;gap:var(--s2) var(--s4);flex-wrap:wrap}
+  .nav ul a{color:var(--hero-muted);text-decoration:none;padding:var(--s2) 0;display:inline-block;min-height:24px}
+  .nav ul a:hover{color:var(--hero-ink);text-decoration:underline}
+  .hero{padding:var(--s12) 0 var(--s16)}
+  .hero h1{color:var(--hero-ink);max-width:18ch}
+  .hero .lede{font-size:1.25rem;color:var(--hero-muted);max-width:60ch;margin-bottom:var(--s8)}
+  .hero .rule{width:96px;height:4px;background:var(--gold);margin:var(--s6) 0}
+  .objectives{display:grid;gap:var(--s6);grid-template-columns:repeat(auto-fit,minmax(280px,1fr));margin-top:var(--s8)}
+  .objectives div{border-top:1px solid rgba(255,255,255,.25);padding-top:var(--s4)}
+  .objectives h2{color:var(--gold);font-size:1.125rem;font-weight:600;margin-bottom:var(--s2);letter-spacing:0}
+  .objectives p{color:var(--hero-ink);margin:0}
+
+  main section{padding:var(--s16) 0}
+  main section + section{border-top:1px solid var(--border)}
+  .story{background:var(--hero-bg);color:var(--hero-ink);padding:var(--s24) 0}
+  .story h2{color:var(--gold)}
+  .story p{font-family:var(--font-body);font-weight:500;font-size:1.125rem;line-height:1.55;max-width:60ch;color:var(--hero-ink)}
+  .story p.plain{font-family:var(--font-body);font-weight:400;font-size:1.0625rem;line-height:1.6;color:var(--hero-muted);max-width:66ch;margin-top:var(--s8)}
+
+  .slt-members{display:grid;gap:var(--s4) var(--s6);grid-template-columns:repeat(auto-fill,minmax(240px,1fr));margin-top:var(--s8);list-style:none;padding:0}
+  .slt-members li{display:flex;gap:var(--s3);align-items:flex-start;padding:var(--s3) 0;border-top:1px solid var(--border)}
+  .slt-members .init{flex:none;width:44px;height:44px;border-radius:50%;background:var(--navy);color:var(--gold);font-family:var(--font-heading);font-weight:700;display:grid;place-items:center;font-size:.95rem}
+  .slt-members .name{font-weight:700;display:block}
+  .slt-members .role{color:var(--ink-2);font-size:.95rem;display:block}
+  .slt-members a{font-size:.95rem}
+
+  .groups{display:grid;gap:var(--s8);margin-top:var(--s8)}
+  .group h3{font-size:1.5rem;font-weight:700;margin-bottom:var(--s1)}
+  .group > p{color:var(--ink-2);margin-bottom:var(--s4);max-width:var(--measure)}
+  .ws{list-style:none;margin:0;padding:0;display:grid;gap:var(--s3);grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}
+  .ws li{background:var(--surface);border:1px solid var(--border);padding:var(--s4);border-radius:6px}
+  .ws b{display:block;font-family:var(--font-heading);font-size:1.125rem;font-weight:600;margin-bottom:var(--s1)}
+  .ws p{margin:0 0 var(--s2)}
+  .ws small{color:var(--ink-2);font-size:.875rem}
+  .tag{display:inline-block;background:var(--lavender);color:var(--lavender-ink);font-size:.8rem;font-weight:500;padding:2px 8px;border-radius:999px;margin-left:var(--s1);font-family:var(--font-body)}
+
+  .prog{display:grid;gap:var(--s6);grid-template-columns:repeat(auto-fit,minmax(240px,1fr));margin-top:var(--s8)}
+  .prog h3{font-size:1.375rem}
+  .roles{list-style:none;padding:0;margin:var(--s4) 0 0;display:grid;gap:var(--s2)}
+  .roles li{display:grid;grid-template-columns:2.25rem 1fr;gap:var(--s3);align-items:baseline}
+  .roles li span{font-family:var(--font-heading);font-weight:700;color:var(--accent-ink)}
+
+  .events{width:100%;border-collapse:collapse;margin-top:var(--s8);font-size:.95rem;font-variant-numeric:tabular-nums}
+  .events th,.events td{text-align:left;padding:var(--s3) var(--s2);border-bottom:1px solid var(--border);vertical-align:top}
+  .events th{font-family:var(--font-heading);font-weight:600;font-size:1rem;border-bottom:2px solid var(--ink)}
+  .events td:first-child{white-space:nowrap;color:var(--ink-2)}
+  @media (max-width:640px){
+    .events thead{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+    .events tr{display:block;padding:var(--s3) 0;border-bottom:1px solid var(--border)}
+    .events td{display:block;border:0;padding:2px 0}
+    .events td:first-child{font-weight:700;color:var(--ink)}
+  }
+  .cta{display:flex;gap:var(--s4);flex-wrap:wrap;margin-top:var(--s6)}
+  .btn{display:inline-block;padding:var(--s3) var(--s6);border-radius:6px;font-weight:700;text-decoration:none;min-height:44px;line-height:1.35}
+  .btn.primary{background:var(--gold);color:var(--navy)}
+  .btn.primary:hover{background:#F2C230}
+  .btn.secondary{border:2px solid var(--ink);color:var(--ink)}
+  .docs{margin-top:var(--s6)}
+  footer{border-top:1px solid var(--border);padding:var(--s8) 0;color:var(--ink-2);font-size:.95rem}
+  footer p{margin:0 0 var(--s2)}
+
+  /* The Manchester Way: AI Supernova band */
+  .supernova{margin:var(--s8) 0 0}
+  .supernova .cap{color:var(--ink-2);font-size:.9rem;text-transform:uppercase;letter-spacing:.08em;margin-bottom:var(--s3)}
+  .band{display:flex;flex-wrap:wrap;align-items:stretch;gap:var(--s2)}
+  .band .stage{flex:1 1 140px;background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:var(--s3) var(--s4);position:relative}
+  .band .stage b{display:block;font-family:var(--font-heading);color:var(--accent-ink);font-size:.85rem;letter-spacing:.04em}
+  .band .stage span{display:block;font-family:var(--font-heading);font-weight:700;font-size:1rem;margin-top:2px}
+  .band .core{flex:1 1 140px;background:var(--navy);color:#fff;border:1px solid var(--navy);border-radius:8px;padding:var(--s3) var(--s4);display:grid;align-content:center}
+  .band .core b{display:block;color:var(--gold);font-family:var(--font-heading);font-size:.85rem;letter-spacing:.04em}
+  .band .core span{display:block;font-family:var(--font-heading);font-weight:700;font-size:1.05rem;margin-top:2px}
+  .serve{display:grid;gap:var(--s4);grid-template-columns:repeat(auto-fit,minmax(220px,1fr));margin-top:var(--s8)}
+  .serve div{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:var(--s4)}
+  .serve h3{margin:0 0 var(--s1)}
+  .serve p{margin:0;color:var(--ink-2);font-size:.98rem}
+  .serve p+p{margin-top:var(--s2)}
+  .events td.file{white-space:normal;word-break:break-all}
+</style>
+
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="top">
+  <div class="wrap">
+    <nav class="nav" aria-label="Site">
+      <a class="brand" href="../"><img src="https://avatars.githubusercontent.com/u/319570462?v=4" alt="" width="44" height="44">Manchester AI Guild</a>
+    </nav>
+    <div class="hero">
+      <h1>Downloads</h1>
+      <div class="rule" aria-hidden="true"></div>
+      <p class="lede">Files to help you use The Manchester Way: guides, slides, logos and an infographic.</p>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <section aria-labelledby="dl-h">
+    <div class="wrap">
+      <h2 id="dl-h">Files to download</h2>
+      <table class="events">
+        <thead>
+          <tr><th scope="col">File</th><th scope="col">What it is</th><th scope="col">Download</th></tr>
+        </thead>
+        <tbody>
+        <tr><td class="file"><code>sme-two-pager-manchester-way.pdf</code></td><td>A two-page overview of The Manchester Way for small businesses.</td><td><a class="btn primary" href="sme-two-pager-manchester-way.pdf" download>Download PDF (216 KB)</a></td></tr>
+        <tr><td class="file"><code>sme-three-pager-manchester-way.pdf</code></td><td>A three-page version of The Manchester Way for small businesses.</td><td><a class="btn primary" href="sme-three-pager-manchester-way.pdf" download>Download PDF (221 KB)</a></td></tr>
+        <tr><td class="file"><code>maig-slide-template.pptx</code></td><td>An editable PowerPoint template with 18 slide designs.</td><td><a class="btn primary" href="maig-slide-template.pptx" download>Download PPTX (255 KB)</a></td></tr>
+        <tr><td class="file"><code>maig-logo.png</code></td><td>The Guild emblem: a white bee on a dark hexagon.</td><td><a class="btn primary" href="maig-logo.png" download>Download PNG (96 KB)</a></td></tr>
+        <tr><td class="file"><code>maig-lockup.png</code></td><td>The Guild logo combined, for light backgrounds.</td><td><a class="btn primary" href="maig-lockup.png" download>Download PNG (73 KB)</a></td></tr>
+        <tr><td class="file"><code>maig-lockup-white.png</code></td><td>The Guild logo combined, for dark backgrounds.</td><td><a class="btn primary" href="maig-lockup-white.png" download>Download PNG (140 KB)</a></td></tr>
+        <tr><td class="file"><code>manchester-way-band.png</code></td><td>The seven core roles of The Manchester Way, shown as one picture.</td><td><a class="btn primary" href="manchester-way-band.png" download>Download PNG (786 KB)</a></td></tr>
+          <tr><td class="file">AI Cookbook - coming soon</td><td>The Guild's method in plain English. Being rebuilt.</td><td>Coming soon</td></tr>
+        </tbody>
+      </table>
+      <p class="measure docs">Need an email signature? <a href="../email-signature/">Get the Guild email signature</a>.</p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>&copy; Manchester AI Guild Ltd 2026 &middot; Company no. 17490801 &middot; ICO registration ZC266348 &middot; Guild-owned.</p>
+  </div>
+</footer>
+</body>
+</html>
