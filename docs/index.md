@@ -17,11 +17,7 @@ Manchester AI Guild exists to help founders, operators, researchers, and institu
 
 ## The Manchester Way
 
-The Manchester Way is the Manchester AI Guild's method for SMEs. It uses a band as the picture of a business. The core band is your product, your specialist expertise, your data, your systems, your commercial backing, your customers and their feedback. Each role comes with one plain question. The aim is the AI Supernova: the intent to amplify what makes your business exceptional through ethical, sustainable and human-centred AI. Keep what makes you distinctive, find where the performance goes wrong, and test one small change.
-
-The core band has seven roles, in order: lead singer / songwriter, lead guitarist, bass guitarist, sound engineer, record label, audience, and reviews, applause and repeat bookings. The [README](https://github.com/Manchester-AI-Guild/manchester-ai-guild#the-manchester-way) lists each role with its question.
-
-**AI Supernova** has positive cultural and financial impact: it pays back in people and in profit.
+The Manchester Way is the Guild's practical method for helping small businesses adopt AI: it looks at a business like a band and helps you find where to start. Guides are on the [Downloads page](https://manchester-ai-guild.github.io/manchester-ai-guild/downloads/).
 
 ## Services
 
