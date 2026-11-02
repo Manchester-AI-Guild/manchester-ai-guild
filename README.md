@@ -14,14 +14,14 @@ We bring together business, academia, government and the AI community, so that A
 
 ## Our purpose
 
-> The Manchester AI Guild is a not-for-profit built to make AI work for good in Manchester and the UK. We grow people, strengthen solution providers and connect the Manchester ecosystem to drive lasting change through the ethical use of AI.
+The Manchester AI Guild is a not-for-profit dedicated to making AI work for the benefit of Manchester and the UK.
 
-Agreed by the Senior Leadership Team (SLT) on 11 September 2026.
+We advise SMEs and institutions on their technology needs, grow people's understanding and skills, and connect to service providers. We strive to help businesses solve their challenges through impartial and practical advice, building on decades of experience and a shared knowledge base, to drive lasting change in Manchester and the UK through the responsible adoption of AI.
 
-Our two missions:
+We have two ambitions:
 
-- **Help businesses adopt AI.** Help SMEs and enterprises adopt AI to drive growth, improve efficiency and solve real business problems.
-- **Build Manchester's AI capability.** Bring business, academia, government and the AI community together to build the next generation of AI capability, solutions and talent.
+1. Help SMEs and enterprises adopt AI to drive growth, improve efficiency and solve real business problems.
+2. Bring business, academia, government and the AI community together to build the next generation of AI capability to support that growth.
 
 ## What we offer
 
