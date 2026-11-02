@@ -1,0 +1,254 @@
+<!-- Source: manchester-ai-guild-assets templates/email-signature/email-footer-builder.html - edit there first -->
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Email signature builder | Manchester AI Guild</title>
+<style>
+:root{--night:#0f1e24;--cream:#f5f5ec;--paper:#fffffc;--yellow:#f2c52f;--gold:#8a6700;--muted:#56656a;--serif:"Zilla Slab",Georgia,serif;--sans:Satoshi,"Avenir Next",Arial,sans-serif}
+*{box-sizing:border-box}
+body{margin:0;background:var(--cream);color:var(--night);font:16px/1.5 var(--sans)}
+header{background:var(--night);color:var(--cream);padding:32px 24px;border-bottom:6px solid var(--yellow)}
+header p{margin:0 auto;max-width:1100px}
+.eyebrow{font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;color:var(--yellow);font-weight:600}
+h1{font:700 clamp(1.8rem,4vw,2.8rem)/1.1 var(--serif);margin:6px auto 8px;max-width:1100px}
+main{max-width:1100px;margin:0 auto;padding:24px;display:grid;grid-template-columns:minmax(260px,340px) 1fr;gap:24px}
+@media (max-width:760px){main{grid-template-columns:1fr}}
+h2{font:700 1.3rem/1.2 var(--serif);margin:0 0 10px}
+form,.panel{background:var(--paper);border:2px solid var(--night);border-radius:6px;padding:16px}
+label{display:block;font-weight:700;font-size:.9rem;margin:12px 0 4px}
+label span{font-weight:400;color:var(--muted)}
+input,textarea{width:100%;font:inherit;padding:8px 10px;border:2px solid var(--night);border-radius:4px;background:#fff;color:var(--night)}
+input:focus-visible,textarea:focus-visible,button:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+textarea{min-height:90px;resize:vertical}
+.btns{display:flex;flex-wrap:wrap;gap:10px;margin:14px 0}
+button{font:700 1rem var(--sans);padding:10px 16px;border-radius:4px;border:2px solid var(--night);background:var(--yellow);color:var(--night);cursor:pointer}
+button.alt{background:var(--paper)}
+#status{min-height:1.5em;font-weight:700;color:var(--night)}
+#preview{background:#fff;border:1px dashed var(--muted);padding:16px;overflow-x:auto}
+ol{padding-left:20px;margin:6px 0}
+li{margin:4px 0}
+.note{background:#fff3b8;border-left:6px solid var(--gold);padding:10px 14px;border-radius:4px;margin-top:14px;font-size:.92rem}
+.steps{grid-column:1/-1;list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,1fr);gap:12px;counter-reset:step}
+@media (max-width:760px){.steps{grid-template-columns:1fr}}
+.steps li{counter-increment:step;display:flex;gap:12px;align-items:flex-start;background:var(--paper);border:2px solid var(--night);border-radius:6px;padding:12px 14px;margin:0}
+.steps li::before{content:counter(step);flex:none;display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;border-radius:50%;background:var(--yellow);border:2px solid var(--night);font:700 1.1rem var(--serif)}
+.privacy{margin:10px auto 0;max-width:1100px;font-weight:600}
+.hint{font-size:.9rem;color:var(--muted);margin:4px 0 0}
+input::placeholder,textarea::placeholder{color:var(--muted);opacity:1}
+.btns button{font-size:1.05rem;padding:12px 16px}
+</style>
+</head>
+<body>
+<header>
+  <p class="eyebrow">Manchester AI Guild &middot; Team tool</p>
+  <h1>Email signature builder</h1>
+  <p>Make your Guild email signature in three steps, then copy it into your email program or download it as a file.</p>
+  <p class="privacy">Privacy: everything runs on your own computer. Nothing you type or upload is sent anywhere or stored.</p>
+</header>
+<main>
+  <ol class="steps" aria-label="Three steps">
+    <li><div><b>Fill in your details.</b> Name, role and Guild email are required. Credentials and a photo are optional.</div></li>
+    <li><div><b>Check the preview.</b> It shows the signature exactly as it will be copied or downloaded.</div></li>
+    <li><div><b>Copy it or download it.</b> Copy and paste it into your signature settings, or download a file.</div></li>
+  </ol>
+  <form id="f" onsubmit="return false" aria-label="Your details">
+    <h2>1. Your details</h2>
+    <label for="name">Full name <span>(required)</span></label>
+    <input id="name" autocomplete="name" placeholder="e.g. Jane Smith" aria-required="true" aria-describedby="name-hint">
+    <p class="hint" id="name-hint">As you want it to appear in emails.</p>
+    <label for="role">Role <span>(required)</span></label>
+    <input id="role" placeholder="e.g. Events Manager" aria-required="true" aria-describedby="role-hint">
+    <p class="hint" id="role-hint">Your job title at the Guild.</p>
+    <label for="email">Your Guild email <span>(required)</span></label>
+    <input id="email" type="email" autocomplete="email" placeholder="e.g. jane.smith@manchesteraiguild.com" aria-required="true" aria-describedby="email-hint">
+    <p class="hint" id="email-hint">The address people should reply to.</p>
+    <label for="cred">Credentials <span>(optional, one line, separate with a dot)</span></label>
+    <textarea id="cred" placeholder="e.g. MBA · Chartered Accountant" aria-describedby="cred-hint"></textarea>
+    <p class="hint" id="cred-hint">Leave blank if you have none.</p>
+    <label for="photo">Your photo <span>(optional; cropped to a circle)</span></label>
+    <input id="photo" type="file" accept="image/*" aria-describedby="photo-hint">
+    <p class="hint" id="photo-hint">A square or portrait photo works best. Leave blank for no photo.</p>
+  </form>
+
+  <section>
+    <div class="panel">
+      <h2>2. Check the preview</h2>
+      <div id="preview"></div>
+    </div>
+    <div class="panel" style="margin-top:16px">
+      <h2>3. Copy or download</h2>
+      <p class="hint">Copy the footer and paste it into your email program, or download a file to open in a browser or import.</p>
+      <div class="btns" role="group" aria-label="Copy">
+        <button type="button" id="copyRich">Copy footer</button>
+        <button type="button" id="copyText" class="alt">Copy plain text</button>
+      </div>
+      <div class="btns" role="group" aria-label="Download">
+        <button type="button" id="dlHtml" class="alt">Download signature (.html)</button>
+        <button type="button" id="dlText" class="alt">Download plain text (.txt)</button>
+      </div>
+      <div id="status" role="status" aria-live="polite"></div>
+    </div>
+    <div class="panel" style="margin-top:16px">
+      <h2>Add it to your email</h2>
+      <ol>
+        <li><b>Gmail:</b> Settings, See all settings, Signature, Create new. Paste the copied footer, then Save changes.</li>
+        <li><b>Outlook (new):</b> Settings, Accounts, Signatures, New signature. Paste, then Save.</li>
+        <li><b>Outlook (classic):</b> File, Options, Mail, Signatures, New. Paste, then OK.</li>
+        <li>Gmail may drop the logo and photo when you paste. If so, in the signature box use Insert image to add them again, or use Outlook.</li>
+        <li>If the layout looks wrong after pasting, use Copy plain text instead.</li>
+        <li>Send yourself a test and open it on your phone.</li>
+      </ol>
+      <p class="note">Keep the wording below the line as it is. Only your name, role, email and credentials change. The legal lines are the same for everyone.</p>
+    </div>
+  </section>
+</main>
+
+<script>
+(function () {
+  var FIXED = {
+    company: "Manchester AI Guild Ltd",
+    web: "www.manchesteraiguild.org",
+    webUrl: "https://www.manchesteraiguild.org/",
+    li: "linkedin.com/company/manchester-ai-guild",
+    liUrl: "https://www.linkedin.com/company/manchester-ai-guild",
+    tag: "Build capability. Create opportunity. Grow prosperity.",
+    reg: "Manchester AI Guild Ltd. Company number 17490801. ICO registration number ZC266348.",
+    legal: "This email and any attachments are confidential and for the named recipient only. If it reached you by mistake, please tell me and delete it, and do not copy, share or rely on it. The Guild will never ask you to change bank details or make an urgent payment by email alone; if you receive a request like this, call a number you already hold for us before you act. Nothing in this email creates a contract or commitment unless a director of the Guild confirms it in writing. We check our email for viruses, but please check any attachment before opening it, as we cannot accept liability for damage caused by viruses."
+  };
+  var NIGHT = "#0f1e24", GOLD = "#8a6700", MUTED = "#56656a";
+  var LOGO = "data:image/png;base64,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";
+  var photo = "";
+
+  // Crops the chosen photo to a centred circle so it looks right in every email program.
+  document.getElementById("photo").addEventListener("change", function (ev) {
+    var file = ev.target.files[0];
+    if (!file) { photo = ""; render(); return; }
+    if (!/^image\//.test(file.type)) { say("Choose an image file."); return; }
+    var img = new Image(), url = URL.createObjectURL(file);
+    img.onload = function () {
+      var s = Math.min(img.width, img.height), c = document.createElement("canvas");
+      c.width = c.height = 240;
+      var g = c.getContext("2d");
+      g.beginPath(); g.arc(120, 120, 120, 0, Math.PI * 2); g.closePath(); g.clip();
+      g.drawImage(img, (img.width - s) / 2, (img.height - s) / 2, s, s, 0, 0, 240, 240);
+      photo = c.toDataURL("image/png");
+      URL.revokeObjectURL(url); render(); say("Photo added.");
+    };
+    img.onerror = function () { say("That image could not be read."); };
+    img.src = url;
+  });
+
+  function esc(s) {
+    return String(s).replace(/[&<>"']/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+    });
+  }
+  function val(id) { return document.getElementById(id).value.trim(); }
+  function validEmail(e) { return /^[^\s@<>"']+@[^\s@<>"']+\.[^\s@<>"']+$/.test(e); }
+
+  function build() {
+    var name = val("name"), role = val("role"), email = val("email"), cred = val("cred");
+    var sans = "font-family:Arial,Helvetica,sans-serif;", serif = "font-family:Georgia,'Times New Roman',serif;";
+    var lab = "color:" + GOLD + ";font-weight:bold;";
+    var h = '<table cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;' + sans + 'color:' + NIGHT + ';font-size:14px;line-height:1.45;width:600px;max-width:100%">';
+    h += '<tr><td style="padding:0 0 12px 0"><table cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse"><tr>';
+    if (photo) h += '<td valign="top" style="padding:0 18px 0 0;width:100px"><img src="' + photo + '" width="100" height="100" alt="" style="display:block;width:100px;height:100px;border:0"></td>';
+    h += '<td valign="top" style="padding:0">';
+    h += '<div style="' + serif + 'font-size:22px;font-weight:bold;line-height:1.2;color:' + NIGHT + '">' + esc(name) + '</div>';
+    h += '<div style="font-size:15px;font-weight:bold;color:' + GOLD + '">' + esc(role) + '</div>';
+    h += '<div style="color:' + NIGHT + '">' + esc(FIXED.company) + '</div>';
+    h += '<table cellpadding="0" cellspacing="0" border="0" style="margin:8px 0 8px 0"><tr><td width="48" height="3" bgcolor="#f2c52f" style="width:48px;height:3px;font-size:1px;line-height:3px">&nbsp;</td></tr></table>';
+    if (email) h += '<div><span style="' + lab + '">E</span>&nbsp;&nbsp;<a href="mailto:' + esc(email) + '" style="color:' + NIGHT + '">' + esc(email) + '</a></div>';
+    h += '<div><span style="' + lab + '">W</span>&nbsp;&nbsp;<a href="' + FIXED.webUrl + '" style="color:' + NIGHT + '">' + FIXED.web + '</a></div>';
+    h += '<div><span style="' + lab + '">in</span>&nbsp;&nbsp;<a href="' + FIXED.liUrl + '" style="color:' + NIGHT + '">' + FIXED.li + '</a></div>';
+    h += '</td></tr></table></td></tr>';
+    if (cred) h += '<tr><td style="padding:0 0 12px 0;font-size:12px;color:' + MUTED + '">Credentials: ' + esc(cred) + '</td></tr>';
+    h += '<tr><td style="padding:0 0 12px 0"><table cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse"><tr>';
+    h += '<td valign="middle" style="padding:0 16px 0 0"><img src="' + LOGO + '" width="240" height="60" alt="Manchester AI Guild" style="display:block;width:240px;height:60px;border:0"></td>';
+    h += '<td valign="middle" style="' + serif + 'font-style:italic;font-size:14px;white-space:nowrap;color:' + GOLD + '">' + esc(FIXED.tag) + '</td>';
+    h += '</tr></table></td></tr>';
+    h += '<tr><td style="padding:10px 0 0 0;border-top:1px solid #d9d9d2;font-size:12px;color:' + MUTED + '">' + esc(FIXED.reg) + '</td></tr>';
+    h += '<tr><td style="padding:8px 0 0 0;font-size:12px;line-height:1.45;color:' + MUTED + '">' + esc(FIXED.legal) + '</td></tr>';
+    h += '</table>';
+
+    var t = [name, role, FIXED.company, ""];
+    if (email) t.push("E  " + email);
+    t.push("W  " + FIXED.web, "in  " + FIXED.li, "");
+    if (cred) t.push("Credentials: " + cred, "");
+    t.push(FIXED.tag, FIXED.reg, "", FIXED.legal);
+    return { html: h, text: t.join("\n") };
+  }
+
+  var out = build();
+  var status = document.getElementById("status");
+  function render() {
+    out = build();
+    document.getElementById("preview").innerHTML = (val("name") || val("role") || val("email")) ? out.html : '<p class="hint">Your signature appears here when you fill in step 1.</p>';
+  }
+  function say(m) { status.textContent = m; }
+  function checks() {
+    if (!val("name") || !val("role")) { say("Enter your name and role first."); return false; }
+    if (!validEmail(val("email"))) { say("Enter a valid email address."); return false; }
+    return true;
+  }
+  document.getElementById("f").addEventListener("input", render);
+
+  document.getElementById("copyRich").addEventListener("click", function () {
+    if (!checks()) return;
+    render();
+    if (navigator.clipboard && window.ClipboardItem) {
+      navigator.clipboard.write([new ClipboardItem({
+        "text/html": new Blob([out.html], { type: "text/html" }),
+        "text/plain": new Blob([out.text], { type: "text/plain" })
+      })]).then(function () { say("Footer copied. Paste it into your signature settings."); },
+               function () { fallbackCopy(); });
+    } else { fallbackCopy(); }
+  });
+  function fallbackCopy() {
+    var r = document.createRange();
+    r.selectNode(document.getElementById("preview"));
+    var s = window.getSelection(); s.removeAllRanges(); s.addRange(r);
+    var ok = false;
+    try { ok = document.execCommand("copy"); } catch (e) {}
+    s.removeAllRanges();
+    say(ok ? "Footer copied. Paste it into your signature settings." : "Copy failed. Select the preview and copy it by hand.");
+  }
+  document.getElementById("copyText").addEventListener("click", function () {
+    if (!checks()) return;
+    render();
+    if (navigator.clipboard) {
+      navigator.clipboard.writeText(out.text).then(function () { say("Plain text copied."); }, function () { say("Copy failed."); });
+    } else { say("Copy is not available in this browser."); }
+  });
+  function fileName(ext) {
+    var base = val("name").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+    return "email-signature" + (base ? "-" + base : "") + ext;
+  }
+  // Saves text as a file in the browser. Nothing leaves the page.
+  function save(name, mime, text) {
+    var url = URL.createObjectURL(new Blob([text], { type: mime }));
+    var a = document.createElement("a");
+    a.href = url; a.download = name;
+    document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(function () { URL.revokeObjectURL(url); }, 1000);
+  }
+  document.getElementById("dlHtml").addEventListener("click", function () {
+    if (!checks()) return;
+    render();
+    var doc = ["<!doctype html>", '<html lang="en-GB">', "<head>", '<meta charset="utf-8">', "<title>Email signature</title>", "</head>", "<body>", out.html, "</body>", "</html>", ""].join("\n");
+    save(fileName(".html"), "text/html;charset=utf-8", doc);
+    say("Downloaded. Open the file in a browser to copy it, or import it where your email program allows.");
+  });
+  document.getElementById("dlText").addEventListener("click", function () {
+    if (!checks()) return;
+    render();
+    save(fileName(".txt"), "text/plain;charset=utf-8", out.text + "\n");
+    say("Plain text downloaded.");
+  });
+  render();
+})();
+</script>
+</body>
+</html>
