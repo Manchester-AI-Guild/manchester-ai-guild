@@ -26,7 +26,7 @@ Under the Ltd constitution, any surplus is reinvested in the community purpose: 
 | Legal vehicle | Private company limited by guarantee (no. 17490801) |
 | Data protection | Registered with the ICO as a data controller (ZC266348) |
 | Community served | Businesses, entrepreneurs, professionals, educational institutions and community organisations in Greater Manchester and the wider North West, particularly SMEs |
-| Revenue lines | Membership tiers (Community tier GBP 30/year; others to be set); SME Workshops; AI Consultancy; SME storytelling features and nights; publications; sponsorship; research collaborations; the Guild Treasures programme |
+| Revenue lines | Membership tiers (to be set by the SLT); SME Workshops; AI Consultancy; SME storytelling features and nights; publications; sponsorship; research collaborations; the Guild Treasures programme |
 | Use of surplus | Reinvested in SME support and the community purpose (surplus reinvested per the articles) |
 | Member delivery | Skills-match shortlist allocation; no Guild referral fee in the first review period; conflicts of interest declared |
 | Oversight | Guild Senior Leadership Team (SLT); governance, risk and data policies are versioned in the operations records |
