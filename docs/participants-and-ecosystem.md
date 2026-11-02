@@ -8,8 +8,8 @@ Proposed at the 28 Aug meeting and reviewed again at the 4 Sept SLT Meeting.
 
 | Name | SLT Role |
 |---|---|
-| Adrian Quayle | President |
-| Mihran Hovnanian | Chairman & Secretary |
+| Adrian Quayle | President & Director |
+| Mihran Hovnanian | Chairman, Secretary & Director |
 | Edwin Luther | Risk & Governance Director |
 | Simon Ellis | Engagement & Projects Lead |
 | Fernando Torres | Events & Marketing Director |
