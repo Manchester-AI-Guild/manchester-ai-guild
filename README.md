@@ -48,8 +48,8 @@ More detail: [how the Guild runs](docs/operating-model.md) and [participants and
 
 | Name | Role |
 |---|---|
-| Adrian Quayle | President |
-| Mihran Hovnanian | Chairman & Secretary |
+| Adrian Quayle | President & Director |
+| Mihran Hovnanian | Chairman, Secretary & Director |
 | Edwin Luther | Risk & Governance Director |
 | Simon Ellis | Engagement & Projects Lead |
 | Fernando Torres | Events & Marketing Director |
