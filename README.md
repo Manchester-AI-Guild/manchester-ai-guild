@@ -23,6 +23,8 @@ We have two ambitions:
 1. Help SMEs and enterprises adopt AI to drive growth, improve efficiency and solve real business problems.
 2. Bring business, academia, government and the AI community together to build the next generation of AI capability to support that growth.
 
+Make the North West a place where AI is not just talked about... it gets done. 🐝
+
 ## What we offer
 
 - **SME Workshops.** An afternoon workshop, a workshop for one company, or an open session. Self-sponsored: your business funds its own place.

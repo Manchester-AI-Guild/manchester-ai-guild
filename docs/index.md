@@ -11,6 +11,8 @@ We have two ambitions:
 1. Help SMEs and enterprises adopt AI to drive growth, improve efficiency and solve real business problems.
 2. Bring business, academia, government and the AI community together to build the next generation of AI capability to support that growth.
 
+Make the North West a place where AI is not just talked about... it gets done. 🐝
+
 ## Why now
 
 Recent advances in AI are creating major opportunity across products, operations, and productivity. They are also introducing new risk categories including hallucinations, prompt injection, compliance uncertainty, and governance drift.
