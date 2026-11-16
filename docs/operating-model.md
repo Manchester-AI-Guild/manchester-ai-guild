@@ -6,7 +6,7 @@ Status: decided by default on 16 September 2026, building on the SLT's decisions
 
 ### 1. Does the Guild act as a channel for public funding, grant support or collaborative commissioning?
 
-**Yes, where appropriate.** The Guild is a private limited company (company number 17540480), incorporated 30 September 2026, not-for-profit (SLT decision, 4 September 2026). As a not-for-profit entity, the Guild can receive grants and sponsorship, charge for services and employ people, while its constitution ensures surplus is reinvested in community benefit. The Guild may therefore apply for, receive and channel public funding, grant support or collaborative commissioning so that trusted members deliver services to SMEs, with the Guild remaining rooted in its social mission. Every such arrangement is recorded and reported to members; the Guild does not take a cut of member engagements during its first review period.
+**Yes, where appropriate.** The Guild is a private limited company (company number 17540480), incorporated 24 October 2026, not-for-profit (SLT decision, 4 September 2026). As a not-for-profit entity, the Guild can receive grants and sponsorship, charge for services and employ people, while its constitution ensures surplus is reinvested in community benefit. The Guild may therefore apply for, receive and channel public funding, grant support or collaborative commissioning so that trusted members deliver services to SMEs, with the Guild remaining rooted in its social mission. Every such arrangement is recorded and reported to members; the Guild does not take a cut of member engagements during its first review period.
 
 ### 2. How are members supported when they deliver work to SMEs?
 

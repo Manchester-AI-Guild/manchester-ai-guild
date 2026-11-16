@@ -67,6 +67,6 @@ More detail: [how the Guild runs](docs/operating-model.md) and [participants and
 
 ---
 
-Manchester AI Guild Ltd · Company number 17490801 · ICO registration ZC266348
+AI Guild Limited · Company number 17540480 · ICO registration ZC266348
 
 Manchester AI Guild is a trading name of AI Guild Limited (company number 17540480).
