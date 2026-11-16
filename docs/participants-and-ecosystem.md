@@ -11,7 +11,6 @@ Proposed at the 28 Aug meeting and reviewed again at the 4 Sept SLT Meeting.
 | Adrian Quayle | President & Director |
 | Mihran Hovnanian | Chairman, Secretary & Director |
 | Edwin Luther | Risk & Governance Director |
-| Fernando Torres | Events & Marketing Director |
 | Rufus Curnow | Communications Director |
 | Marek Kurczynski | Website & Platform |
 | Trevor Roberts | Data Protection Lead |

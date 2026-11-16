@@ -6,7 +6,7 @@ Status: decided by default on 16 September 2026, building on the SLT's decisions
 
 ### 1. Does the Guild act as a channel for public funding, grant support or collaborative commissioning?
 
-**Yes, where appropriate.** The Guild is a private company limited by guarantee (company number 17490801), incorporated 30 September 2026, not-for-profit, with no share capital (SLT decision, 4 September 2026). As a not-for-profit entity, the Guild can receive grants and sponsorship, charge for services and employ people, while its constitution ensures surplus is reinvested in community benefit. The Guild may therefore apply for, receive and channel public funding, grant support or collaborative commissioning so that trusted members deliver services to SMEs, with the Guild remaining rooted in its social mission. Every such arrangement is recorded and reported to members; the Guild does not take a cut of member engagements during its first review period.
+**Yes, where appropriate.** The Guild is a private limited company (company number 17540480), incorporated 30 September 2026, not-for-profit (SLT decision, 4 September 2026). As a not-for-profit entity, the Guild can receive grants and sponsorship, charge for services and employ people, while its constitution ensures surplus is reinvested in community benefit. The Guild may therefore apply for, receive and channel public funding, grant support or collaborative commissioning so that trusted members deliver services to SMEs, with the Guild remaining rooted in its social mission. Every such arrangement is recorded and reported to members; the Guild does not take a cut of member engagements during its first review period.
 
 ### 2. How are members supported when they deliver work to SMEs?
 
@@ -23,7 +23,7 @@ Under the Ltd constitution, any surplus is reinvested in the community purpose: 
 
 | Element | Position |
 |---|---|
-| Legal vehicle | Private company limited by guarantee (no. 17490801) |
+| Legal vehicle | Private limited company (no. 17540480) |
 | Data protection | Registered with the ICO as a data controller (ZC266348) |
 | Community served | Businesses, entrepreneurs, professionals, educational institutions and community organisations in Greater Manchester and the wider North West, particularly SMEs |
 | Revenue lines | Membership tiers (to be set by the SLT); SME Workshops; AI Consultancy; SME storytelling features and nights; publications; sponsorship; research collaborations; the Guild Treasures programme |
