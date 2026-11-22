@@ -135,6 +135,19 @@
   .doc-table{margin-top:var(--s6)}
   .doc-table th,.doc-table td{vertical-align:top}
   .doc-table td{font-size:.92rem}
+  /* The cookie table is one wide record, so labelled fields are easier to
+     scan than five narrow columns at the policy measure. */
+  .cookie-storage-table{display:block;border:1px solid var(--border);border-radius:6px;overflow:hidden}
+  .cookie-storage-table thead{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+  .cookie-storage-table tbody,.cookie-storage-table tr{display:block}
+  .cookie-storage-table tr{background:var(--surface)}
+  .cookie-storage-table td{display:grid;grid-template-columns:minmax(9rem,14rem) minmax(0,1fr);gap:var(--s4);padding:var(--s4);border:0;border-bottom:1px solid var(--border)}
+  .cookie-storage-table td:last-child{border-bottom:0}
+  .cookie-storage-table td::before{content:attr(data-label);font-family:var(--font-heading);font-weight:600;color:var(--ink)}
+  @media (max-width:480px){
+    .cookie-storage-table td{display:block}
+    .cookie-storage-table td::before{display:block;margin-bottom:var(--s1)}
+  }
   .doc h2{margin-top:var(--s12);font-size:clamp(1.5rem,2.6vw,2rem)}
   .doc h2:first-child{margin-top:0}
   .doc h3{margin-top:var(--s8);font-size:1.125rem}
@@ -188,10 +201,10 @@
 <p><strong>Pages on manchesteraiguild.org set no cookies and use no local or session storage.</strong> There is no analytics, advertising or social-media tracking script on any page.</p>
 <p>We checked this on 16 September 2026. We loaded every page (home, team, resources, join, every policy page, the Cookbook deck and the 404 page) in a fresh Google Chrome profile. We then read the cookie store and web storage. We found zero cookies and zero storage keys. The same check on the live domain found no cookies set by Cloudflare's edge either. The Guild keeps a record of this check.</p>
 <p>One mechanism can store something, and it is strictly necessary:</p>
-<table class="events doc-table">
+<table class="events doc-table cookie-storage-table">
 <thead><tr><th scope="col">Name</th><th scope="col">Set by</th><th scope="col">Purpose</th><th scope="col">Type</th><th scope="col">Duration</th></tr></thead>
 <tbody>
-<tr><td>Turnstile challenge state</td><td>Cloudflare Turnstile, only on /join</td><td>Tells human visitors from bots, so the form is not abused. It runs inside a Cloudflare frame. By default it uses browser signals and does not set a cookie on our domain. If Cloudflare's "pre-clearance" option is turned on, it may set <code>cf_clearance</code>.</td><td>Strictly necessary</td><td>Session. Pre-clearance is not enabled on the Guild's widget, so no <code>cf_clearance</code> cookie is set.</td></tr>
+<tr><td data-label="Name">Turnstile challenge state</td><td data-label="Set by">Cloudflare Turnstile, only on /join</td><td data-label="Purpose">Tells human visitors from bots, so the form is not abused. It runs inside a Cloudflare frame. By default it uses browser signals and does not set a cookie on our domain. If Cloudflare's "pre-clearance" option is turned on, it may set <code>cf_clearance</code>.</td><td data-label="Type">Strictly necessary</td><td data-label="Duration">Session. Pre-clearance is not enabled on the Guild's widget, so no <code>cf_clearance</code> cookie is set.</td></tr>
 </tbody>
 </table>
 <p>Because we use nothing beyond strictly necessary storage, the site shows no cookie banner. If we ever add analytics or embedded video, we will ask for consent first and update this policy.</p>
