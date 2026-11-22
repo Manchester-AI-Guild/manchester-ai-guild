@@ -145,6 +145,14 @@
   .serve h3{margin:0 0 var(--s1)}
   .serve p{margin:0;color:var(--ink-2);font-size:.98rem}
   .serve p+p{margin-top:var(--s2)}
+  .audience-grid{grid-template-columns:repeat(6,minmax(0,1fr))}
+  .audience-grid div{grid-column:span 2}
+  .audience-grid div:nth-child(4){grid-column:2 / span 2}
+  .audience-grid div:nth-child(5){grid-column:4 / span 2}
+  @media (max-width:760px){
+    .audience-grid{grid-template-columns:1fr}
+    .audience-grid div,.audience-grid div:nth-child(4),.audience-grid div:nth-child(5){grid-column:auto}
+  }
 </style>
 </head>
 <body>
@@ -191,6 +199,7 @@
         <li>Help SMEs and enterprises adopt AI to drive growth, improve efficiency and solve real business problems.</li>
         <li>Bring business, academia, government and the AI community together to build the next generation of AI capability to support that growth.</li>
       </ol>
+      <p class="measure"><strong>Make the North West a place where AI is not just talked about... it gets done. 🐝</strong></p>
     </div>
   </section>
 
@@ -249,7 +258,7 @@
     <div class="wrap">
       <h2 id="community-h">Who we serve</h2>
       <p class="measure">The Guild connects the people and organisations that make Manchester an AI city, and helps each of them adopt AI the Manchester Way.</p>
-      <div class="serve">
+      <div class="serve audience-grid">
         <div><h3>Businesses and SMEs</h3><p>Small and medium-sized businesses that want to adopt AI safely, starting with readiness rather than tools.</p></div>
         <div><h3>Founders and entrepreneurs</h3><p>People building AI products and companies in Greater Manchester who need connections, peers and a route to funders.</p></div>
         <div><h3>Professionals and practitioners</h3><p>Developers, data and governance specialists who want to share knowledge and work to a common standard.</p></div>
