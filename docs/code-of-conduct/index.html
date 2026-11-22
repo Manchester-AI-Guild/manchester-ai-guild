@@ -1,13 +1,13 @@
 <!doctype html>
 <html lang="en">
 <head>
-<!-- Code of conduct page: the public mirror of the Guild Code of Conduct, version 3.0. Same look as the Guild home page. -->
+<!-- Public Code of Conduct copy. Internal document-control metadata is not published here. -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Code of conduct | Manchester AI Guild</title>
-<meta name="description" content="The Manchester AI Guild Code of Conduct, version 3.0: our standards, how to report a concern, and what happens next.">
+<meta name="description" content="The Manchester AI Guild Code of Conduct: our standards, how to report a concern, and what happens next.">
 <meta property="og:title" content="Code of conduct | Manchester AI Guild">
-<meta property="og:description" content="The Manchester AI Guild Code of Conduct, version 3.0: our standards, how to report a concern, and what happens next.">
+<meta property="og:description" content="The Manchester AI Guild Code of Conduct: our standards, how to report a concern, and what happens next.">
 <meta property="og:image" content="https://avatars.githubusercontent.com/u/319570462?v=4">
 <meta property="og:type" content="website">
 <link rel="icon" href="https://avatars.githubusercontent.com/u/319570462?v=4">
@@ -166,8 +166,6 @@
 <main id="main" class="doc">
   <section aria-label="Version and status">
     <div class="wrap measure">
-      <p class="meta">Version: v3.0</p>
-      <p class="meta">Status: Published, 2 November 2026</p>
       <p class="meta">Review: annually</p>
     </div>
   </section>
@@ -216,7 +214,7 @@
 <p>Membership terms · Complaints and data rights procedure · Speaking up policy · Conflicts of interest policy · Privacy policy · Safeguarding policy · Equality, diversity and inclusion policy</p>
 <h2>10. References</h2>
 <p>Contributor Covenant (2021) <em>Contributor Covenant Code of Conduct</em>, version 2.1. [online]. Available at: <a href="https://www.contributor-covenant.org/version/2/1/code_of_conduct/">https://www.contributor-covenant.org/version/2/1/code_of_conduct/</a> [Accessed 2 November 2026]. Parts of this Code are adapted from it.</p>
-<h2>11. Version history</h2>
+<h2>11. Review record</h2>
 <table class="events doc-table">
 <thead><tr><th scope="col">Version</th><th scope="col">Date</th><th scope="col">Author</th><th scope="col">Reason for change</th><th scope="col">Presented to SLT</th><th scope="col">Signed off</th></tr></thead>
 <tbody>
@@ -247,4 +245,13 @@
   </div>
 </footer>
 </body>
+<script>
+  document.querySelectorAll('h2').forEach(function (heading) {
+    if (/Version history|Document control|Review record/i.test(heading.textContent)) {
+      var node = heading.nextElementSibling;
+      heading.remove();
+      if (node && node.tagName === 'TABLE') node.remove();
+    }
+  });
+</script>
 </html>

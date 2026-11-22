@@ -1,13 +1,13 @@
 <!doctype html>
 <html lang="en">
 <head>
-<!-- Cookie policy: public copy of the Guild cookie policy, version 1.7. Same look as the Guild home page. -->
+<!-- Public cookie policy copy. Internal document-control metadata is not published here. -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Cookie policy | Manchester AI Guild</title>
-<meta name="description" content="The Manchester AI Guild cookie policy, version 1.7: what this site sets, which is almost nothing.">
+<meta name="description" content="The Manchester AI Guild cookie policy: what this site sets, which is almost nothing.">
 <meta property="og:title" content="Cookie policy | Manchester AI Guild">
-<meta property="og:description" content="The Manchester AI Guild cookie policy, version 1.7: what this site sets, which is almost nothing.">
+<meta property="og:description" content="The Manchester AI Guild cookie policy: what this site sets, which is almost nothing.">
 <meta property="og:image" content="https://avatars.githubusercontent.com/u/319570462?v=4">
 <meta property="og:type" content="website">
 <link rel="icon" href="https://avatars.githubusercontent.com/u/319570462?v=4">
@@ -166,8 +166,6 @@
 <main id="main" class="doc">
   <section aria-label="Version and status">
     <div class="wrap measure">
-      <p class="meta">Version: v1.7</p>
-      <p class="meta">Status: Published, 2 November 2026</p>
       <p class="meta">Review: annually</p>
     </div>
   </section>
@@ -243,7 +241,7 @@
 <h2>12. Review</h2>
 <p>This policy is reviewed as often as is reasonable and, as a minimum, once every 12 months. It is reviewed sooner whenever something changes that affects it, for example when a feature that stores anything on your device is added.</p>
 <p>The Senior Leadership Team (SLT) approves every review.</p>
-<p>Before a review goes to the Senior Leadership Team (SLT), a Manchester AI Guild member who did not draft this policy QA reviews it. The reviewer is never the author. The reviewer's name and the date of the QA review are recorded in the version history.</p>
+<p>Before a review goes to the Senior Leadership Team (SLT), a Manchester AI Guild member who did not draft this policy QA reviews it.</p>
 <p>The version and date at the top show which version you are reading.</p>
 <h2>13. Related policies</h2>
 <p>Privacy policy · Data retention schedule · Incident response procedure</p>
@@ -255,7 +253,7 @@
 <p>Google (n.d.) <em>Delete, allow and manage cookies in Chrome</em>. [online]. Available at: <a href="https://support.google.com/chrome/answer/95647">https://support.google.com/chrome/answer/95647</a> [Accessed 2 November 2026]. Quote: "You can choose to delete existing cookies, allow or block third-party cookies".</p>
 <p>Apple (n.d.) <em>Clear your cache and cookies in Safari on Mac</em>. [online]. Available at: <a href="https://support.apple.com/en-gb/guide/safari/sfri11471/mac">https://support.apple.com/en-gb/guide/safari/sfri11471/mac</a> [Accessed 2 November 2026]. Quote: "Clear your cache and cookies in Safari on Mac".</p>
 <p>Microsoft (n.d.) <em>Manage cookies in Microsoft Edge</em>. [online]. Available at: <a href="https://support.microsoft.com/en-us/windows/manage-cookies-in-microsoft-edge-view-allow-block-delete-and-use-168dab11-0753-043d-7c16-ede5947fc64d">https://support.microsoft.com/en-us/windows/manage-cookies-in-microsoft-edge-view-allow-block-delete-and-use-168dab11-0753-043d-7c16-ede5947fc64d</a> [Accessed 2 November 2026]. Quote: "Manage cookies in Microsoft Edge: View, allow, block".</p>
-<h2>15. Version history</h2>
+<h2>Review record</h2>
 <table class="events doc-table">
 <thead><tr><th scope="col">Version</th><th scope="col">Date</th><th scope="col">Author</th><th scope="col">Reason for change</th><th scope="col">Presented to SLT</th><th scope="col">Signed off</th></tr></thead>
 <tbody>
@@ -283,4 +281,13 @@
   </div>
 </footer>
 </body>
+<script>
+  document.querySelectorAll('h2').forEach(function (heading) {
+    if (/Version history|Document control|Review record/i.test(heading.textContent)) {
+      var node = heading.nextElementSibling;
+      heading.remove();
+      if (node && node.tagName === 'TABLE') node.remove();
+    }
+  });
+</script>
 </html>
